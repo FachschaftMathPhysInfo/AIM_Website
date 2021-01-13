@@ -124,7 +124,7 @@
         }
 
         // Read and write JSON
-        $fn = 'groups_test.json';
+        $fn = 'groups_stub.json';
         $rjson = json_decode(file_get_contents($fn), true);
         //$keys = array_keys($rjson['groups']);
 
@@ -141,7 +141,7 @@
             // Write to file if everything went right
             $json = $rjson;
             $json['groups'][$group_id]=$arr;
-            if (file_put_contents('groups_test2.json', json_encode($json, JSON_PRETTY_PRINT)) === FALSE) {
+            if (file_put_contents($fn, json_encode($json, JSON_PRETTY_PRINT)) === FALSE) {
                 echo "Error: Database file count not be written. Please try again.";
             } else {
                 send_confirm_mail($contact, $arr);

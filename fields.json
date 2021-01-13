@@ -1,0 +1,95 @@
+{
+    "fields": {
+        "CM": {
+            "name": {
+                "de": "Kondensierte Materie",
+                "en": "Condensed Matter"
+            },
+            "desc": {
+                "en": "Condensed matter physics deals with all aspects of the macroscopic and microscopic physical properties of matter. Research at Heidelberg University includes a wide range of physical phenomena and mathematical concepts in both quantum and classical systems and ranges from fundamental many-body physics and quantum materials to materials science and modern technology. It covers fundamental questions central to our understanding of quantum mechanics, such as unconventional ordering phenomena and how complex multi-body quantum systems can be understood as well as aspects of surface science and nanomaterials."
+            },
+            "icon": "CondensedMatter.png"
+        },
+        "BIO": {
+            "name": {
+                "de": "Biophysik",
+                "en": "Biophysics"
+            },
+            "icon": "Biophysics.png"
+        },
+        "MED": {
+            "name": {
+                "de": "Medizinphysik",
+                "en": "Medical Physics"
+            },
+            "icon": "MedicalPhysics.png"
+        },
+        "UP": {
+            "name": {
+                "de": "Umweltphysik",
+                "en": "Environmental Physics"
+            },
+            "icon": "EnvironmentalPhysics.png"
+        },
+        "TI": {
+            "name": {
+                "de": "Technische Informatik",
+                "en": "Information"
+            },
+            "icon": "Information.png"
+        },
+        "AST": {
+            "name": {
+                "de": "Astrophysik",
+                "en": "Astrophysics"
+            },
+            "icon": "Astrophysics.png"
+        },
+        "MAT": {
+            "name": {
+                "de": "Mathematische Physik",
+                "en": "Mathematical Physics"
+            },
+            "icon": "MathPhysics.png"
+        },
+        "CH": {
+            "name": {
+                "de": "Physikalische Chemie",
+                "en": "Chemical Physics"
+            },
+            "icon": "PhysicalChemistry.png"
+        },
+        "AMO": {
+            "name": {
+                "de": "Atome, Moleküle, Optik",
+                "en": "Atoms, Molecules, Optics"
+            },
+            "desc": {
+                "de": "Atome sind klein",
+                "en": "Atoms are small"
+            },
+            "icon": "AtomsMeleculesPhotons.png"
+        },
+        "NUC": {
+            "name": {
+                "de": "Kernphysik",
+                "en": "Nuclear Physics"
+            },
+            "icon": "NuclearPhysics.png"
+        },
+        "PP": {
+            "name": {
+                "de": "Teilchenphysik",
+                "en": "Particle Physics"
+            },
+            "icon": "ParticlePhysics.png"
+        },
+        "COS": {
+            "name": {
+                "de": "Kosmologie",
+                "en": "Cosmology"
+            },
+            "icon": "Cosmology.png"
+        }
+    }
+}
