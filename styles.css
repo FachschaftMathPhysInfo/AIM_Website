@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Vollkorn:wght@400;600&display=swap');
+#page-content {
+    font-family: 'Open Sans', sans-serif;
+    width: 80%;
+    max-width: 1280px;
+    margin: auto;
+    color: #002648;
+    margin-top: 2em;
+}
+h1 {
+    font-family: 'Vollkorn', serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 0.2em;
+}
+h2 {
+    font-family: 'Vollkorn', serif;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 0.2em;
+}
+h3 {
+    font-family: 'Vollkorn', serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+p {
+    margin-bottom: 0.4em;
+}
+
+#header a {
+    color: #002648;
+    text-decoration: underline;
+}
+#header a:hover {
+    color: #a61916;
+    text-decoration: none;
+}
+#lang-menu {
+    text-align: center;
+    margin-bottom: 1em;
+}
+#lang-menu a {
+    color: #002648;
+    text-decoration: none;
+}
+#lang-menu a:hover {
+    color: #a61916;
+}
+.aim-title {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+#faq-table {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 1em;
+}
+#faq-table tr td {
+    padding-bottom: 0.3em;
+    padding-top: 0.3em;
+}
+#faq-table .question {
+    text-align: right;  
+    padding-right: 4em;
+}
+
+#fields {
+    margin-top: 3em;
+    margin-bottom: 5em;
+}
+.icon-container {
+    width: 132px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+div.field-icon {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 2em;
+    margin-right: 2em;
+    text-align: center;
+    width: 152px;
+}
+.icon-desc {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.field-icon a {
+    color: #002648;
+    text-decoration: none;
+}
+.field-icon a:hover {
+    color: #a61916;
+}
+
+.field-header {
+    padding-bottom: 2em;
+}
+
+.group-item {
+    font-family: 'Open Sans', sans-serif;
+    border-bottom-width: 1px;
+    border-bottom-color: #aaaaaa;
+    border-bottom-style: solid;
+    padding-bottom: 1.5em;
+    margin-bottom: 3em;
+}
+.group-name {
+    font-family: 'Vollkorn', serif;
+    font-weight: 400;
+    padding-top: 0.2em;
+    padding-bottom: 1em;
+}
+.img-container {
+    text-align: center;
+}
+
+#groups a {
+    color: #002648;
+    text-decoration: underline;
+}
+#groups a:hover {
+    text-decoration: none;
+    color: #a61916;
+}
