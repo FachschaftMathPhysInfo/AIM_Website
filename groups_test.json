@@ -1,0 +1,55 @@
+{
+    "year": "2021",
+    "eventName": "fern-ArbeitsgruppenInspitationsmesse",
+    "eventAbbr": "fAIM",
+    "groups": {
+        "SQS": {
+            "name": "Synthetic Quantum Systems",
+            "field": "AMO",
+            "contact": "oberthaler@kip.uni-heidelberg.de",
+            "profs": "Experiment: Prof. Markus Oberthaler, Jun.-Prof. Fred Jendrzejewski;<br \/>Theory: (apl.) Prof. Thomas Gasenzer, Dr. Martin G\u00e4rttner",
+            "room": "1",
+            "text": {
+                "de": "Sed voluptatem totam consequatur accusamus tempora perspiciatis pariatur. Excepturi vel odit officia inventore exercitationem minima. Odio magni eos qui. Saepe delectus debitis doloribus. Labore et veritatis dolor est voluptatem est quasi et.",
+                "en": "Quos molestias consequatur possimus laborum. Nesciunt similique itaque esse accusantium qui ea. Architecto consequatur unde ratione. Quibusdam nihil quo aut voluptate voluptas. Quidem iste ab nobis atque dolorem sapiente quia."
+            },
+            "image": "https:\/\/hgsfp.uni-heidelberg.de\/content\/en\/zubehoer\/bilder\/researchpics\/MO2.png"
+        },
+        "HTP": {
+            "name": "HydroTraP",
+            "field": "UP",
+            "contact": "aeschbach@iup.uni-heidelberg.de",
+            "profs": "Prof. Werner Aeschbach",
+            "room": "2",
+            "link": "https:\/\/google.com",
+            "text": "Ratione aut laborum tempore earum possimus eum molestias sunt. Consequatur qui numquam explicabo est natus praesentium repellat a. Est adipisci praesentium ab quibusdam. Sit deserunt voluptate ad pariatur aut neque et mollitia. Rerum voluptatem et earum aliquam.\n Accusantium ut inventore laudantium temporibus sit. Est asperiores repellat voluptate. Ipsa officiis voluptatum illo quae consequatur. Explicabo numquam reprehenderit sed eum aliquid illo quasi qui."
+        },
+        "PDV": {
+            "name": "STACY \u2013 Paleoclimate Dynamics and Variability",
+            "field": "UP",
+            "contact": "krehfeld@iup.uni-heidelberg.de",
+            "profs": "Dr. Kira Rehfeld",
+            "room": "3",
+            "link": "https:\/\/startpage.com",
+            "text": "The central aim of the group is to explore and quantify changes of climate variability in the past, the role (global) mean temperature played them, and to assess how well climate models can reflect them. We focus predominantly on the time period from the last Glacial period to the present day (~130,000 years ago to today). In our work we combine the statistical analysis of climate proxy and model data, the modeling of palaeoclimate proxy archive signal formation and climate models (from the very simple to coupled general circulation models), to improve scientific understanding of climate variability changes in a warming world.",
+            "image": "https:\/\/www.iup.uni-heidelberg.de\/sites\/default\/files\/inline-images\/STACYBanner2020_4.png"
+        },
+        "ITU": {
+            "name": "Testgruppe",
+            "field": "BIO",
+            "contact": "swwkm@sqs.de",
+            "profs": "Prof. Test",
+            "room": 5,
+            "text": "Testtext",
+            "times": [
+                "0",
+                "1",
+                "2",
+                "2",
+                "0"
+            ],
+            "total_times": "1",
+            "image": " uploads/cover_image_ITU.jpg"
+        }
+    }
+}
