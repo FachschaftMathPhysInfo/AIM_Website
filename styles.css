@@ -128,3 +128,12 @@ div.field-icon {
     text-decoration: none;
     color: #a61916;
 }
+
+
+#textfoot {
+    margin-bottom: 1em;
+}
+#textfoot p {
+    text-align: center;
+    color: #aaaaaa;
+}
