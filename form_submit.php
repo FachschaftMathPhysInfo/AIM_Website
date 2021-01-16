@@ -21,7 +21,7 @@
         use PHPMailer\PHPMailer\PHPMailer;
         use PHPMailer\PHPMailer\Exception;
         require 'vendor/autoload.php';
-        
+
         function getRandomID() {
             //$keys = array_keys($rjson['groups']);
             $characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
@@ -68,7 +68,7 @@
                 $sentMail--;
             }
             if ($sentMail >= 0) {
-                echo 'Mail erfolgreich gesendet.'
+                echo "<p>Vielen Dank für Ihre Anmeldung! Sie sollten eine Bestätigungsmail erhalten haben. Weitere Informationen senden wir Ihnen in Kürze.</p>";
             }
         }
 
@@ -98,29 +98,29 @@
 
         if (empty($_FILES["fileToUpload"]["name"]) || $_FILES["fileToUpload"]["size"] == 0) {
             // No file to upload
-            echo "No file provided. You can still send it to <a href='mailto:fachschaft@mathphys.stura.uni-heidelberg.de'>fachschaft@mathphys.stura.uni-heidelberg.de</a> later.";
+            echo "<p class='upload-message'>No file provided. You can still send it to <a href='mailto:fachschaft@mathphys.stura.uni-heidelberg.de'>fachschaft@mathphys.stura.uni-heidelberg.de</a> later.</p>";
         } else {
             // Check if file already exists
             if (file_exists($target_file)) {
-                echo "Error: File already exists.";
+                echo "<p>Error: File already exists.</p>";
                 $uploadOk = 0;
             }
             
             // Check file size
             if ($_FILES["fileToUpload"]["size"] > 50000000) {
-                echo "Error: File is too large (> 50 MB).";
+                echo "<p>Error: File is too large (> 50 MB).</p>";
                 $uploadOk = 0;
             }
 
             if ($uploadOk == 0) {
-                echo "Sorry, your file was not uploaded. Please submit the form again";
+                echo "<p>Sorry, your file was not uploaded. Please submit the form again.</p>";
             } else {
                 // Upload
                 if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
-                    echo "The file ". htmlspecialchars( basename( $_FILES["fileToUpload"]["name"])). " has been uploaded.";
+                    echo "<p class='upload-message'>Die Datei ". htmlspecialchars( basename( $_FILES["fileToUpload"]["name"])). " wurde erfolgreich hochgeladen.</p>";
                     $uploadSuccess=1;
                 } else {
-                    echo "Sorry, there was an error uploading your file.";
+                    echo "<p>Sorry, there was an error uploading your file.</p>";
                 }
             }
         }
@@ -158,7 +158,7 @@
             $json = $rjson;
             $json['groups'][$group_id]=$arr;
             if (file_put_contents($fn, json_encode($json, JSON_PRETTY_PRINT)) === FALSE) {
-                echo "Error: Database file count not be written. Please try again.";
+                echo "<p>Error: Database file count not be written. Please try again.</p>";
             } else {
                 send_confirm_mail($contact, $arr);
             }
@@ -168,6 +168,9 @@
 
         ?>
     </div>
+</div>
+<div class="is-full" id="textfoot">
+    <p>&copy; Fachschaft MathPhysInfo 2021 &middot; <a href="impressum.html">Impressum</a> &middot; <a href="mailto:aim@mathphys.stura.uni-heidelberg.de">Kontakt</a></p>
 </div>
 </div>
 </body>
