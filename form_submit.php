@@ -18,6 +18,10 @@
     </div>
     <div id="success-message">
         <?php
+        use PHPMailer\PHPMailer\PHPMailer;
+        use PHPMailer\PHPMailer\Exception;
+        require 'vendor/autoload.php';
+        
         function getRandomID() {
             //$keys = array_keys($rjson['groups']);
             $characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
@@ -39,21 +43,32 @@
         }
 
         function send_confirm_mail($contact_mail, array $arr) {
-            $message = "Sehr geehrte Damen und Herren,\n\nvielen Dank für Ihre Anmeldung zur fAIM 2020/21. Ihre Daten wurden erfolgreich in unsere Datenbank eingetragen. Weitere Informationen senden wir Ihnen in Kürze.\n\nMit freundlichen Grüßen,\nDie Fachschaft MathPhysInfo";
-            $headers = "From: Fachschaft MathPhysInfo - fAIM <aim@mathphys.stura.uni-heidelberg.de>\r\n";
-            //$headers .= "BCC: aim@mathphys.stura.uni-heidelberg.de\r\n";
-            $headers .= "Reply-To: aim@mathphys.stura.uni-heidelberg.de\r\n";
-            $headers .= "Organization: Fachschaft MathPhysInfo\r\n";
-            $headers .= "MIME-Version: 1.0\r\n";
-            $headers .= "Content-type: text/plain; charset=UTF-8\r\n";
-            $headers .= "X-Mailer: PHP". phpversion() ."\r\n";
-            $subj = "Bestätigung Ihrer fAIM-Anmeldung";
-            $subject = '=?utf-8?Q?' . quoted_printable_encode($subj) . '?=';
-            if ( mail($contact_mail,$subject,$message,$headers) ) {
-                echo "Sent Mail successfully";
+            $sentMail = 0;
+            $mail = new PHPMailer(TRUE);
+            try {
+                $mail->Encoding = 'base64';
+                $mail->CharSet = 'UTF-8';
+                $mail->addReplyTo('aim@mathphys.stura.uni-heidelberg.de', 'Fachschaft MathPhysInfo – fAIM');
+                $mail->setFrom('aim@mathphys.stura.uni-heidelberg.de', 'Fachschaft MathPhysInfo – fAIM');
+                $mail->addAddress('olmehling@yahoo.com');
+                //$mail->addBCC('aim@mathphys.stura.uni-heidelberg.de');
+                $mail->Subject = 'Bestätigung Ihrer fAIM-Anmeldung';
+                $mail->Body = "Sehr geehrte Damen und Herren,\n\nvielen Dank für Ihre Anmeldung zur fAIM 2020/21. Ihre Daten wurden erfolgreich in unsere Datenbank eingetragen. Weitere Informationen senden wir Ihnen in Kürze.\n\nMit freundlichen Grüßen,\nDie Fachschaft MathPhysInfo";
+                $mail->send();
             }
-            else {
-                echo "<br />Fehler beim Senden der Bestätigungsmail. Ansonsten sollte aber alles funktioniert haben.";
+            catch (Exception $e)
+            {
+                echo $e->errorMessage();
+                $sentMail--;
+            }
+            catch (\Exception $e)
+            {
+                /* PHP exception */
+                echo $e->getMessage();
+                $sentMail--;
+            }
+            if ($sentMail >= 0) {
+                echo 'Mail erfolgreich gesendet.'
             }
         }
 
