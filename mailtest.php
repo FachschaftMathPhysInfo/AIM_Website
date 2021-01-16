@@ -11,7 +11,7 @@ try {
     $mail->IsSMTP();
     $mail->Encoding = 'base64';
     $mail->CharSet = 'UTF-8';
-    $mail->Host = 'relay.urz.uni-heidelberg.de';
+    $mail->Host = 'relays.uni-heidelberg.de';
     //$mail->SMTPDebug  = 0; 
     $mail->SMTPSecure = 'tls';
     $mail->Port       = 587; 
