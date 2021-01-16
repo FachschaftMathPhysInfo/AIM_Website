@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Anmeldung abgeschlossen &middot; fAIM</title>
     <script src="jquery-3.5.1.min.js"></script>
     <link rel="icon" type="image/png" href="favicon.png" />
