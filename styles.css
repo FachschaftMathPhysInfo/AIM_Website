@@ -57,19 +57,12 @@ p {
     margin-bottom: 2em;
 }
 
-#faq-table {
-    width: 100%;
-    max-width: 800px;
-    margin: auto;
+.faq-divs {
     margin-bottom: 1em;
 }
-#faq-table tr td {
-    padding-bottom: 0.3em;
-    padding-top: 0.3em;
-}
-#faq-table .question {
-    text-align: right;  
-    padding-right: 4em;
+
+@media (min-width: 769px) {
+    .faq-divs .field-cont { display: flex; align-items: baseline; }
 }
 
 #fields {
