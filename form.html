@@ -35,7 +35,7 @@
     $.getJSON( "fields.json", function( data ) {
         var items = [];
         $.each( data.fields, function( key, obj ) {
-            $( "#select-field" ).append( "<option value='" + key + "'>" + obj.name.en + "</option>" );
+            $( "#select-field" ).append( "<option value='" + key + "'>" + obj.name.de + "</option>" );
         });
         //$( "<div/>", { html: items.join( "" ) }).appendTo( "#fields" );
     });
