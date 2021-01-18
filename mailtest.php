@@ -6,22 +6,23 @@ use PHPMailer\PHPMailer\Exception;
 require 'vendor/autoload.php';
 
 $mail = new PHPMailer(TRUE);
+$group_code = 'ABC';
+$arr = ["name"=>'A', "field"=>'UP', "contact"=>'mail@mail.de', "times"=>[0,1,1,1,2], "total_times"=>2];
 
 try {
     $mail->IsSMTP();
     $mail->Encoding = 'base64';
     $mail->CharSet = 'UTF-8';
     $mail->Host = 'mail.mathphys.stura.uni-heidelberg.de';
-    //$mail->SMTPDebug  = 0; 
     $mail->SMTPSecure = 'tls';
     $mail->Port       = 25; 
 
-    $mail->addReplyTo('aim@mathphys.stura.uni-heidelberg.de', 'Fachschaft MathPhysInfo – fAIM');
     $mail->setFrom('aim@mathphys.stura.uni-heidelberg.de', 'Fachschaft MathPhysInfo – fAIM');
-    $mail->addAddress('olmehling@yahoo.com');
-    //$mail->addBCC('aim@mathphys.stura.uni-heidelberg.de');
-    $mail->Subject = 'Bestätigung Ihrer fAIM-Anmeldung';
-    $mail->Body = "Sehr geehrte Damen und Herren,\n\nvielen Dank für Ihre Anmeldung zur fAIM 2020/21. Ihre Daten wurden erfolgreich in unsere Datenbank eingetragen. Weitere Informationen senden wir Ihnen in Kürze.\n\nMit freundlichen Grüßen,\nDie Fachschaft MathPhysInfo";
+    //$mail->addAddress('aim@mathphys.stura.uni-heidelberg.de', 'Fachschaft MathPhysInfo – fAIM');
+    $mail->addAddress('olmehling@yahoo.com', 'Oliver Mehling');
+    $mail->Subject = 'fAIM: Neue Anmeldung';
+    $mail->isHTML(true);
+    $mail->Body = "<p>Neue Anmeldung für die fAIM 2020/21</p><p>Gruppen-ID: " . $group_code . "<br />Zeit: ". date(DateTime::ISO8601) . "</p><p>Weitere Daten:<pre>" . print_r($arr) . "</pre></p>";
     $mail->send();
 }
 catch (Exception $e)
