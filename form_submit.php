@@ -42,7 +42,7 @@
             return null; // return null if array is empty
         }
 
-        function send_confirm_mail($contact_mail, array $arr) {
+        function send_confirm_mail($contact_mail, $group_name, $group_code) {
             $sentMail = 0;
             $mail = new PHPMailer(TRUE);
             try {
@@ -59,7 +59,7 @@
                 $mail->addAddress($contact_mail);
                 //$mail->addBCC('aim@mathphys.stura.uni-heidelberg.de');
                 $mail->Subject = 'Bestätigung Ihrer fAIM-Anmeldung';
-                $mail->Body = "Sehr geehrte Damen und Herren,\n\nvielen Dank für Ihre Anmeldung zur fAIM 2020/21. Ihre Daten wurden erfolgreich in unsere Datenbank eingetragen. Weitere Informationen senden wir Ihnen in Kürze.\n\nMit freundlichen Grüßen,\nDie Fachschaft MathPhysInfo";
+                $mail->Body = "Sehr geehrte Damen und Herren,\n\nvielen Dank für die Anmeldung Ihrer Arbeitsgruppe '" . $group_name . "' zur fAIM 2020/21. Ihre Daten wurden erfolgreich in unsere Datenbank eingetragen. Weitere Informationen senden wir Ihnen in Kürze.\n\nFalls Sie noch Änderungen vornehmen oder ein Bild/Video nachreichen möchten, geben Sie bitte das zufällig generierte Kürzel '" . $group_code . "' mit an.\n\nMit freundlichen Grüßen,\nDie Fachschaft MathPhysInfo";
                 $mail->send();
             }
             catch (Exception $e)
@@ -76,6 +76,27 @@
             if ($sentMail >= 0) {
                 echo "<p>Vielen Dank für Ihre Anmeldung! Sie sollten eine Bestätigungsmail erhalten haben. Weitere Informationen senden wir Ihnen in Kürze.</p>";
             }
+        }
+
+        function send_orga_mail(arr $arr, $group_code) {
+            $mail = new PHPMailer(TRUE);
+            try {
+                $mail->IsSMTP();
+                $mail->Encoding = 'base64';
+                $mail->CharSet = 'UTF-8';
+                $mail->Host = 'mail.mathphys.stura.uni-heidelberg.de';
+                $mail->SMTPSecure = 'tls';
+                $mail->Port       = 25; 
+
+                $mail->setFrom('aim@mathphys.stura.uni-heidelberg.de', 'Fachschaft MathPhysInfo – fAIM');
+                //$mail->addAddress('aim@mathphys.stura.uni-heidelberg.de', 'Fachschaft MathPhysInfo – fAIM');
+                $mail->addAddress('mehling@mathphys.stura.uni-heidelberg.de', 'Oliver Mehling');
+                $mail->Subject = 'fAIM: Neue Anmeldung';
+                $mail->isHTML(true);
+                $mail->Body = "<p>Neue Anmeldung für die fAIM 2020/21</p><p>Gruppen-ID: " . $group_code . "<br />Zeit: ". date(DateTime::ISO8601) . "</p><p>Weitere Daten:<pre>" . print_r($arr) . "</pre>";
+                $mail->send();
+            }
+            catch (Exception $e) { }
         }
 
         // **Read in variables**
@@ -174,7 +195,7 @@
             if (file_put_contents($fn, json_encode($json, JSON_PRETTY_PRINT)) === FALSE) {
                 echo "<p>Error: Database file count not be written. Please try again.</p>";
             } else {
-                send_confirm_mail($contact, $arr);
+                send_confirm_mail($contact, $name, $group_id);
             }
             
             //echo '<pre>'; print_r($json); echo '</pre>';
