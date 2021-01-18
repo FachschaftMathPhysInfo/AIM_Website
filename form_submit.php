@@ -196,6 +196,7 @@
                 echo "<p>Error: Database file count not be written. Please try again.</p>";
             } else {
                 send_confirm_mail($contact, $name, $group_id);
+                send_orga_mail($arr, $group_id);
             }
             
             //echo '<pre>'; print_r($json); echo '</pre>';
