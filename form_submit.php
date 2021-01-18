@@ -46,11 +46,17 @@
             $sentMail = 0;
             $mail = new PHPMailer(TRUE);
             try {
+                $mail->IsSMTP();
                 $mail->Encoding = 'base64';
                 $mail->CharSet = 'UTF-8';
+                $mail->Host = 'mail.mathphys.stura.uni-heidelberg.de';
+                //$mail->SMTPDebug  = 0; 
+                $mail->SMTPSecure = 'tls';
+                $mail->Port       = 25; 
+
                 $mail->addReplyTo('aim@mathphys.stura.uni-heidelberg.de', 'Fachschaft MathPhysInfo – fAIM');
                 $mail->setFrom('aim@mathphys.stura.uni-heidelberg.de', 'Fachschaft MathPhysInfo – fAIM');
-                $mail->addAddress('olmehling@yahoo.com');
+                $mail->addAddress($contact_mail);
                 //$mail->addBCC('aim@mathphys.stura.uni-heidelberg.de');
                 $mail->Subject = 'Bestätigung Ihrer fAIM-Anmeldung';
                 $mail->Body = "Sehr geehrte Damen und Herren,\n\nvielen Dank für Ihre Anmeldung zur fAIM 2020/21. Ihre Daten wurden erfolgreich in unsere Datenbank eingetragen. Weitere Informationen senden wir Ihnen in Kürze.\n\nMit freundlichen Grüßen,\nDie Fachschaft MathPhysInfo";
