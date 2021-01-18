@@ -78,23 +78,23 @@
             }
         }
 
-        function send_orga_mail(arr $arr, $group_code) {
-            $mail = new PHPMailer(TRUE);
+        function send_orga_mail(Array $arr, $group_code) {
+            $mail2 = new PHPMailer(TRUE);
             try {
-                $mail->IsSMTP();
-                $mail->Encoding = 'base64';
-                $mail->CharSet = 'UTF-8';
-                $mail->Host = 'mail.mathphys.stura.uni-heidelberg.de';
-                $mail->SMTPSecure = 'tls';
-                $mail->Port       = 25; 
+                $mail2->IsSMTP();
+                $mail2->Encoding = 'base64';
+                $mail2->CharSet = 'UTF-8';
+                $mail2->Host = 'mail.mathphys.stura.uni-heidelberg.de';
+                $mail2->SMTPSecure = 'tls';
+                $mail2->Port       = 25; 
 
-                $mail->setFrom('aim@mathphys.stura.uni-heidelberg.de', 'Fachschaft MathPhysInfo – fAIM');
-                //$mail->addAddress('aim@mathphys.stura.uni-heidelberg.de', 'Fachschaft MathPhysInfo – fAIM');
-                $mail->addAddress('mehling@mathphys.stura.uni-heidelberg.de', 'Oliver Mehling');
-                $mail->Subject = 'fAIM: Neue Anmeldung';
-                $mail->isHTML(true);
-                $mail->Body = "<p>Neue Anmeldung für die fAIM 2020/21</p><p>Gruppen-ID: " . $group_code . "<br />Zeit: ". date(DateTime::ISO8601) . "</p><p>Weitere Daten:<pre>" . print_r($arr) . "</pre></p>";
-                $mail->send();
+                $mail2->setFrom('aim@mathphys.stura.uni-heidelberg.de', 'Fachschaft MathPhysInfo – fAIM');
+                //$mail2->addAddress('aim@mathphys.stura.uni-heidelberg.de', 'Fachschaft MathPhysInfo – fAIM');
+                $mail2->addAddress('olmehling@yahoo.com', 'Oliver Mehling');
+                $mail2->Subject = 'fAIM: Neue Anmeldung';
+                $mail2->isHTML(true);
+                $mail2->Body = "<p>Neue Anmeldung für die fAIM 2020/21</p><p>Gruppen-ID: " . $group_code . "<br />Zeit: ". date(DateTime::ISO8601) . "</p><p>Weitere Daten:<pre>" . print_r($arr, true) . "</pre></p>";
+                $mail2->send();
             }
             catch (Exception $e) { }
         }
