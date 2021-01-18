@@ -108,31 +108,33 @@
         $target_file = $target_dir . "cover_image_" . $group_id . "." . $imageFileType;
         $uploadSuccess = 0;
 
-        if (empty($_FILES["fileToUpload"]["name"]) || $_FILES["fileToUpload"]["size"] == 0) {
-            // No file to upload
-            echo "<p class='upload-message'>Sie haben kein Bild hochgeladen oder der Upload ist fehlgeschlagen. Gerne können Sie die Datei an <a href='mailto:aim@mathphys.stura.uni-heidelberg.de'>aim@mathphys.stura.uni-heidelberg.de</a> nachreichen.</p>";
-        } else {
-            // Check if file already exists
-            if (file_exists($target_file)) {
-                echo "<p>File Upload Error: File already exists.</p>";
-                $uploadOk = 0;
-            }
-            
-            // Check file size
-            if ($_FILES["fileToUpload"]["size"] > 50000000) {
-                echo "<p>File Upload Error: File is too large (> 50 MB).</p>";
-                $uploadOk = 0;
-            }
-
-            if ($uploadOk == 0) {
-                echo "<p>Sorry, your file was not uploaded. Please submit the form again.</p>";
+        if ($uploadOk == 1) {
+            if (empty($_FILES["fileToUpload"]["name"]) || $_FILES["fileToUpload"]["size"] == 0) {
+                // No file to upload
+                echo "<p class='upload-message'>Sie haben kein Bild hochgeladen oder der Upload ist fehlgeschlagen. Gerne können Sie die Datei an <a href='mailto:aim@mathphys.stura.uni-heidelberg.de'>aim@mathphys.stura.uni-heidelberg.de</a> nachreichen.</p>";
             } else {
-                // Upload
-                if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
-                    echo "<p class='upload-message'>Die Datei ". htmlspecialchars( basename( $_FILES["fileToUpload"]["name"])). " wurde erfolgreich hochgeladen.</p>";
-                    $uploadSuccess=1;
+                // Check if file already exists
+                if (file_exists($target_file)) {
+                    echo "<p>File Upload Error: File already exists.</p>";
+                    $uploadOk = 0;
+                }
+                
+                // Check file size
+                if ($_FILES["fileToUpload"]["size"] > 50000000) {
+                    echo "<p>File Upload Error: File is too large (> 50 MB).</p>";
+                    $uploadOk = 0;
+                }
+
+                if ($uploadOk == 0) {
+                    echo "<p>Sorry, your file was not uploaded. Please submit the form again.</p>";
                 } else {
-                    echo "<p>File Upload Error: Sorry, there was an error uploading your file.</p>";
+                    // Upload
+                    if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
+                        echo "<p class='upload-message'>Die Datei ". htmlspecialchars( basename( $_FILES["fileToUpload"]["name"])). " wurde erfolgreich hochgeladen.</p>";
+                        $uploadSuccess=1;
+                    } else {
+                        echo "<p>File Upload Error: Sorry, there was an error uploading your file.</p>";
+                    }
                 }
             }
         }
