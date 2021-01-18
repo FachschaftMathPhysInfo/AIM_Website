@@ -173,7 +173,7 @@
     $( "#select-field" ).change(function() {
         var fieldID = $( "#select-field option:selected" ).val();
         //alert(fieldID);
-        $.getJSON( "groups_test.json", function( data ) {
+        $.getJSON( "groups_stub.json", function( data ) {
             var times = getTimes(data,fieldID);
             $( ".particips" ).each(function( index ) {
                 $( this ).text("("+times[index]+")");
@@ -319,7 +319,7 @@
                         <div class="column is-2-desktop is-6-mobile has-text-centered"><div id="slider"></div> </div>
                         <!-- <div class="column is-1-desktop is-1-mobile has-text-centered"><input class="input is-small" type="text" id="sliderval" value="1" size="1" readonly></div> -->
                         <div class="column"><p><span id="sliderval">1</span> Gewünschte Slots insgesamt</p></div>
-                        <input name="nslots" type="hidden" id="nslots">
+                        <input name="nslots" type="hidden" id="nslots" value="1">
                     </div>
                 </div>
             </div>

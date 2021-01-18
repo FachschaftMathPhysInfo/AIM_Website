@@ -90,7 +90,7 @@
 
                 $mail2->setFrom('aim@mathphys.stura.uni-heidelberg.de', 'Fachschaft MathPhysInfo – fAIM');
                 //$mail2->addAddress('aim@mathphys.stura.uni-heidelberg.de', 'Fachschaft MathPhysInfo – fAIM');
-                $mail2->addAddress('olmehling@yahoo.com', 'Oliver Mehling');
+                $mail2->addAddress('mehling@mathphys.stura.uni-heidelberg.de', 'Oliver Mehling');
                 $mail2->Subject = 'fAIM: Neue Anmeldung';
                 $mail2->isHTML(true);
                 $mail2->Body = "<p>Neue Anmeldung für die fAIM 2020/21</p><p>Gruppen-ID: " . $group_code . "<br />Zeit: ". date(DateTime::ISO8601) . "</p><p>Weitere Daten:<pre>" . print_r($arr, true) . "</pre></p>";
