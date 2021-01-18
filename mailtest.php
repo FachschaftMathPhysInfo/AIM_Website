@@ -22,7 +22,7 @@ try {
     $mail->addAddress('olmehling@yahoo.com', 'Oliver Mehling');
     $mail->Subject = 'fAIM: Neue Anmeldung';
     $mail->isHTML(true);
-    $mail->Body = "<p>Neue Anmeldung für die fAIM 2020/21</p><p>Gruppen-ID: " . $group_code . "<br />Zeit: ". date(DateTime::ISO8601) . "</p><p>Weitere Daten:<pre>" . print_r($arr) . "</pre></p>";
+    $mail->Body = "<p>Neue Anmeldung für die fAIM 2020/21</p><p>Gruppen-ID: " . $group_code . "<br />Zeit: ". date(DateTime::ISO8601) . "</p><p>Weitere Daten:<pre>" . print_r($arr, true) . "</pre></p>";
     $mail->send();
 }
 catch (Exception $e)
