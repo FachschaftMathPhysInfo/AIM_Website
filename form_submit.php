@@ -94,27 +94,33 @@
         }
         $total_times=$_POST['nslots'];
 
+        $uploadOk = 1;
+        // Check whether something was actually submitted
+        if("" == trim($_POST['name'])){
+            echo "<p>Bitte füllen Sie das Formular vollständig aus (<a href='form.html'>zurück</a>)</p>";
+            $uploadOk=0;
+        }
+
         // **File upload**
         $target_dir = "uploads/";
         $orig_file = basename( $_FILES["fileToUpload"]["name"]);
         $imageFileType = strtolower(pathinfo($orig_file,PATHINFO_EXTENSION));
         $target_file = $target_dir . "cover_image_" . $group_id . "." . $imageFileType;
-        $uploadOk = 1;
         $uploadSuccess = 0;
 
         if (empty($_FILES["fileToUpload"]["name"]) || $_FILES["fileToUpload"]["size"] == 0) {
             // No file to upload
-            echo "<p class='upload-message'>No file provided. You can still send it to <a href='mailto:fachschaft@mathphys.stura.uni-heidelberg.de'>fachschaft@mathphys.stura.uni-heidelberg.de</a> later.</p>";
+            echo "<p class='upload-message'>Sie haben kein Bild hochgeladen oder der Upload ist fehlgeschlagen. Gerne können Sie die Datei an <a href='mailto:aim@mathphys.stura.uni-heidelberg.de'>aim@mathphys.stura.uni-heidelberg.de</a> nachreichen.</p>";
         } else {
             // Check if file already exists
             if (file_exists($target_file)) {
-                echo "<p>Error: File already exists.</p>";
+                echo "<p>File Upload Error: File already exists.</p>";
                 $uploadOk = 0;
             }
             
             // Check file size
             if ($_FILES["fileToUpload"]["size"] > 50000000) {
-                echo "<p>Error: File is too large (> 50 MB).</p>";
+                echo "<p>File Upload Error: File is too large (> 50 MB).</p>";
                 $uploadOk = 0;
             }
 
@@ -126,7 +132,7 @@
                     echo "<p class='upload-message'>Die Datei ". htmlspecialchars( basename( $_FILES["fileToUpload"]["name"])). " wurde erfolgreich hochgeladen.</p>";
                     $uploadSuccess=1;
                 } else {
-                    echo "<p>Sorry, there was an error uploading your file.</p>";
+                    echo "<p>File Upload Error: Sorry, there was an error uploading your file.</p>";
                 }
             }
         }
