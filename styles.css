@@ -129,6 +129,9 @@ div.field-icon {
 .upload-message {
     color: #aaaaaa;
 }
+#success-message {
+    margin-bottom: 2em;
+}
 
 #textfoot {
     margin-bottom: 1em;
