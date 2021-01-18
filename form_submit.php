@@ -90,7 +90,7 @@
 
                 $mail2->setFrom('aim@mathphys.stura.uni-heidelberg.de', 'Fachschaft MathPhysInfo – fAIM');
                 //$mail2->addAddress('aim@mathphys.stura.uni-heidelberg.de', 'Fachschaft MathPhysInfo – fAIM');
-                $mail2->addAddress('mehling@mathphys.stura.uni-heidelberg.de', 'Oliver Mehling');
+                $mail2->addAddress('aim@mathphys.stura.uni-heidelberg.de', 'Fachschaft MathPhysInfo – fAIM');
                 $mail2->Subject = 'fAIM: Neue Anmeldung';
                 $mail2->isHTML(true);
                 $mail2->Body = "<p>Neue Anmeldung für die fAIM 2020/21</p><p>Gruppen-ID: " . $group_code . "<br />Zeit: ". date(DateTime::ISO8601) . "</p><p>Weitere Daten:<pre>" . print_r($arr, true) . "</pre></p>";
@@ -151,7 +151,7 @@
                 } else {
                     // Upload
                     if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
-                        echo "<p class='upload-message'>Die Datei ". htmlspecialchars( basename( $_FILES["fileToUpload"]["name"])). " wurde erfolgreich hochgeladen.</p>";
+                        echo "<!--<p class='upload-message'>Die Datei ". htmlspecialchars( basename( $_FILES["fileToUpload"]["name"])). " wurde erfolgreich hochgeladen.</p>-->";
                         $uploadSuccess=1;
                     } else {
                         echo "<p>File Upload Error: Sorry, there was an error uploading your file.</p>";
