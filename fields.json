@@ -52,12 +52,12 @@
             },
             "icon": "MathPhysics.png"
         },
-        "CH": {
+        "COM": {
             "name": {
-                "de": "Physikalische Chemie",
-                "en": "Chemical Physics"
+                "de": "Computational Physics",
+                "en": "Computational Physics"
             },
-            "icon": "PhysicalChemistry.png"
+            "icon": "ComputationalPhysics.png"
         },
         "AMO": {
             "name": {
