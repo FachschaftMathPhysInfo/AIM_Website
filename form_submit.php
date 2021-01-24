@@ -151,7 +151,7 @@
                 } else {
                     // Upload
                     if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
-                        echo "<!--<p class='upload-message'>Die Datei ". htmlspecialchars( basename( $_FILES["fileToUpload"]["name"])). " wurde erfolgreich hochgeladen.</p>-->";
+                        echo "<p class='upload-message'>Die Datei ". htmlspecialchars( basename( $_FILES["fileToUpload"]["name"])). " wurde erfolgreich hochgeladen.</p>";
                         $uploadSuccess=1;
                     } else {
                         echo "<p>File Upload Error: Sorry, there was an error uploading your file.</p>";
