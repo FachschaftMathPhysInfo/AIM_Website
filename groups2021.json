@@ -250,7 +250,7 @@
             "total_times": "4",
             "link": "https:\/\/www.lsw.uni-heidelberg.de\/projects\/exoplanets\/",
             "image": "uploads\/cover_image_WGY.png",
-            "video": "https://heibox.uni-heidelberg.de/seafhttp/files/a7b89c4f-ebb3-430e-8697-7423d82b970d/LSW_Exoplanetengruppe_Messe_2021.mp4",
+            "video": "uploads/LSW_Exoplanetengruppe_Messe_2021.mp4",
             "video_url": "https://heibox.uni-heidelberg.de/f/fa96f5ab4a4e4ce889b0/"
         },
         "RRM": {
@@ -293,7 +293,7 @@
             ],
             "total_times": "5",
             "link": "https:\/\/www.physi.uni-heidelberg.de\/Forschung\/kp\/",
-            "video": "https://heibox.uni-heidelberg.de/seafhttp/files/10584cbe-9de3-45df-ba7c-64bc06790ff0/Promo_German_full_Outtakes.mp4",
+            "video": "uploads/Promo_German_full_Outtakes.mp4",
             "video_url": "https://heibox.uni-heidelberg.de/f/f9c6028b86384952af7f/"
         },
         "LYB": {
@@ -467,7 +467,7 @@
                 "0"
             ],
             "total_times": "2",
-            "video": "https://heibox.uni-heidelberg.de/seafhttp/files/8ea5aafb-e610-4e90-ab34-82bd5d3dd3a7/mu3e_atlas_intro_final.mp4",
+            "video": "uploads/mu3e_atlas_intro_final.mp4",
             "video_url": "https://heibox.uni-heidelberg.de/f/98c23c3e89e545f1856e/"
         },
         "ADV": {
@@ -531,7 +531,7 @@
             ],
             "total_times": "2",
             "link": "http:\/\/www.kip.uni-heidelberg.de\/matterwave",
-            "video": "https://heibox.uni-heidelberg.de/seafhttp/files/ef11f86f-6095-4af9-909c-b4835e08e3b5/ATTA_Trailer.MP4",
+            "video": "uploads/ATTA_Trailer.MP4",
             "video_url": "https://heibox.uni-heidelberg.de/f/2d0b78bf8a1a43519c80/"
         },
         "ZUS": {
