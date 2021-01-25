@@ -89,6 +89,15 @@
         });
     }
 
+    function noGroupsMessage(lang) {
+        if (lang == 'de') {
+            return "noch keine Gruppen registriert";
+        }
+        else {
+            return "No groups registered so far"
+        }
+    }
+
     $( document ).ready(function() {
         var ilen;
         $.getJSON( "groups2021.json", function( datag ) {
@@ -100,7 +109,8 @@
                     fieldHeader(data,key,DEFAULT_LANG);
                     ilen = getGroupsFromField(datag,key,DEFAULT_LANG);
                     if (ilen==0) {
-                        $( "#groups" ).append('<div class="group-item"><p><i>noch keine Gruppen registriert</i></p></div>')
+                        var nogr = noGroupsMessage(DEFAULT_LANG);
+                        $( "#groups" ).append('<div class="group-item"><p><i>' + nogr + '</i></p></div>')
                     }
                 });
             });
@@ -127,7 +137,8 @@
                     fieldHeader(data,key,lang);
                     ilen = getGroupsFromField(datag,key,lang);
                     if (ilen==0) {
-                        $( "#groups" ).append('<div class="group-item"><p><i>noch keine Gruppen registriert</i></p></div>')
+                        var nogr = noGroupsMessage(lang);
+                        $( "#groups" ).append('<div class="group-item"><p><i>' + nogr + '</i></p></div>')
                     }
                 });
             });
