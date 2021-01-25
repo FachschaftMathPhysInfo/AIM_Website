@@ -1,0 +1,697 @@
+{
+    "year": "2021",
+    "eventName": "fern-ArbeitsgruppenInspitationsmesse",
+    "eventAbbr": "fAIM",
+    "groups": {
+        "HFJ": {
+            "name": "Max-Planck-Institut f\u00fcr Kernphysik, Abteilung: Teilchen- & Astroteilchenphysik\u000b",
+            "field": "PP",
+            "contact": "lindner@mpi-hd.mpg.de",
+            "profs": "Prof. Dr. Dr. h.c. Manfred Lindner",
+            "room": 1,
+            "text": {
+                "de": "Theoretische Forschungsthemen: \r\n- Neue Physik jenseits des Standardmodells\r\n- Theorie der Dunkle Materie \r\n- Neutrinotheorie\r\nForschungsarbeiten dazu: Modellierung und Analyse von theoretischen Erweiterungen des Standardmodells, alternative Erkl\u00e4rungen f\u00fcr Dunkle Materie und Neutrinomassen, neue Physik und fr\u00fches Universum, theoretische Interpretation von experimentellen Anomalien, ...\r\nExperimente zum Nachweis neuer Physik: \r\n- Dunkler Materie mit dem XENON-Experiment\r\n- Gerda\/LEGEND200: Neutrinoloser Doppelbetazerfall \r\n- STEREO: Die Suche nach neuartigen ,,sterilen\u201d Neutrinos\r\n- CONUS \u2013 koh\u00e4rente Neutrinostreuung und neue Physik\r\nForschungsarbeiten dazu umfassen das ganze Spektrum von der Detektorentwicklung, Aufbau, Messkampagnen, Datenanalyse und Physik-Interpretation, ...",
+                "en": "Theoretical research topics: \r\n- New physics beyond the Standard Model\r\n- Theories of Dark Matter \r\n- Theoretical neutrino physics \r\nResearch in these fields includes modeling and analysis of Standard Model extensions, alternative explanations of Dark Matter and of neutrino masses, new physics and the early Universe, theoretical interpretations of experimental anomalies ...\r\nExperiments for the search of new physics: \r\n- Dark Matter with the XENON-experiment\r\n- Gerda\/LEGEND200: Neutrino-less double beta decay \r\n- STEREO: Searching for a new type of ,,sterile\u201d neutrinos\r\n- CONUS \u2013 hunting new physics with coherent neutrino scattering\r\nResearch work includes here the full spectrum from detector design, construction, measurement campaigns, data analysis and interpretation, ...\r\n"
+            },
+            "times": [
+                "0",
+                "0",
+                "2",
+                "1",
+                "1"
+            ],
+            "total_times": "1",
+            "link": "https:\/\/www.mpi-hd.mpg.de\/lin\/",
+            "image": "uploads\/cover_image_HFJ.png"
+        },
+        "ZPN": {
+            "name": "Kosmologie, Strukturbildung",
+            "field": "COS",
+            "contact": "bartelmann@uni-heidelberg.de",
+            "profs": "Matthias Bartelmann",
+            "room": 2,
+            "text": {
+                "de": "Wir untersuchen die Entwicklung kosmischer Strukturen mit analytischen Methoden. Dazu verwenden wir vor allem eine neu entwickelte Theorie, die Konzepte aus der klassischen Mechanik mit solchen aus der Quantenfeldtheorie verbindet. Unser Ziel ist es, analytisch zu verstehen, wie die sp\u00e4te, nichtlineare Phase der kosmischen Strukturbildung verl\u00e4uft und warum kosmische Strukturen die universellen Eigenschaften haben, die simuliert und beobachtet werden.",
+                "en": "We study the evolution of cosmic structures with analytical methods. To do so, we use primarily a newly developed theory, which combines concepts from classical mechanics with concepts from quantum field theory. Our goal is to understand analytically how the late, non-linear phase of cosmic structure formation proceeds and why cosmic structures have the universal properties which are being simulated and observed."
+            },
+            "times": [
+                "1",
+                "1",
+                "2",
+                "0",
+                "0"
+            ],
+            "total_times": "1",
+            "link": "https:\/\/www.ita.uni-heidelberg.de\/research\/bartelmann\/",
+            "image": "uploads\/cover_image_ZPN.jpg"
+        },
+        "TNX": {
+            "name": "Theoretische Neurowissenschaften",
+            "field": "MED",
+            "contact": "manuel.brenner@zi-mannheim.de",
+            "profs": "Prof. Daniel Durstewitz",
+            "room": 3,
+            "text": {
+                "de": "Wir entwickeln moderne Machine-Learning-Algorithmen zur Datenanalyse von Zeitreihendaten aus einer statistischen Perspektive. Unser prim\u00e4res Ziel ist es, den Daten zugrundeliegende dynamische Systeme zu inferieren und damit unser Verst\u00e4ndis der Daten zu verbessern. Wir sind Teil des Zentralinstituts f\u00fcr Seelische Gesundheit in Mannheim, entsprechend liegt unser Fokus auf der Analyse von neuronalen Daten an der Schnittstelle zwischen Neurowissenschaften und psychatrischen Anwendungen.",
+                "en": "We develop novel machine learning approaches for data analysis from a theory-driven statistical perspective.\r\nOur main focus lies on time series data, from which we infer underlying dynamical systems. We are part of the Central Institute for Mental Health in Mannheim, so the aim of our work is primarily focused on understanding mental illness better and working towards developing improved treatments."
+            },
+            "times": [
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+            ],
+            "total_times": "2",
+            "link": "https:\/\/durstewitzlab.github.io\/",
+            "image": "uploads\/cover_image_TNX.png"
+        },
+        "PHT": {
+            "name": "Biophysical Engineering",
+            "field": "BIO",
+            "contact": "kerstin.goepfrich@mr.mpg.de",
+            "profs": "Kerstin G\u00f6pfrich",
+            "room": 4,
+            "text": "What is life and could it be different? Is it possible to build a living cell from scratch? While questions like these have fascinated mankind for centuries, it is exciting that science begins to develop tools to approach them. Bottom-up synthetic biology conventionally isolates and subsequently recombine biomolecules from cells. Instead of copying life as we know it, our group tries to engineer cells featuring new ways of assembly, information propagation and replication. Thereby, it will be possible to probe boundary conditions of life and, from a practical point of view, to build biomedical interfaces between natural and synthetic cells.\r\nTowards this goal, we are combining biophysical tools, including DNA origami, microfluidics, lipid vesicles, and 3D printing with experimental methods, like confocal and high-speed microscopy, atomic force microscopy and computational approaches.\r\nAre you looking for a young and friendly, supportive and hard-working research group? We are located at the Max Planck Institute for Medical Research and would be looking forward to hear from you!",
+            "times": [
+                "0",
+                "0",
+                "1",
+                "1",
+                "0"
+            ],
+            "total_times": "1",
+            "link": "https:\/\/goepfrichgroup.de\/",
+            "image": "uploads\/cover_image_PHT.png"
+        },
+        "GKW": {
+            "name": "F18 - Biophysik",
+            "field": "BIO",
+            "contact": "goetz.pilarczyk@kip.uni-heidelberg.de",
+            "profs": "Prof. Michael Hausmann",
+            "room": 5,
+            "text": {
+                "de": "Lichtoptische Hoechstaufloesung in nativen Biosystemen zur Beschreibung geometrisch-funktionaler Beziehung bei Krankheitsentwicklung und als Grundlage zur ab initio Organsynthese",
+                "en": "Light optical super resolution microscopy in native biosystems for the description of geometric functional relations in terms of disease dynamics and for template generation in organomorphic engineering"
+            },
+            "times": [
+                "1",
+                "0",
+                "0",
+                "0",
+                "0"
+            ],
+            "total_times": "1",
+            "link": "https:\/\/www.kip.uni-heidelberg.de\/biophysik\/"
+        },
+        "HJI": {
+            "name": "HydroTraP",
+            "field": "UP",
+            "contact": "aeschbach@iup.uni-heidelberg.de",
+            "profs": "Prof. Dr. Werner Aeschbach",
+            "room": 6,
+            "text": {
+                "de": "Hydrosph\u00e4rische Tracer und Proxies (HydroTraP)\r\nDie HydroTraP Gruppe verwendet verschiedene im fl\u00fcssigen Wasser sowie im Eis enthaltene Spurenelemente, Verbindungen und Isotope (Tracer) f\u00fcr die Altersdatierung, um Chronologien von Archiven sowie Erkenntnisse \u00fcber die Dynamik von Oberfl\u00e4chen- und Grundw\u00e4ssern ebenso wie von Gletschern zu gewinnen. Atmosph\u00e4rische Edelgase und Wasserisotope dienen dar\u00fcber hinaus als Indikatoren (Proxies) f\u00fcr Umweltbedingungen bei der Bildung von Wasser- und Eismassen, wie etwa damalige Temperaturen und andere Klimaparameter. HydroTraP nutzt diese Methoden f\u00fcr Beitr\u00e4ge zum Management von Wasserressourcen, zum Studium des Klimasystems und zur Rekonstruktion des Pal\u00e4oklimas. Zudem entwickeln wir weltweit f\u00fchrend neue Messtechniken und Interpretationsmethoden. ",
+                "en": "Hydrospheric Tracers and Proxies (HydroTraP)\r\nThe HydroTraP group uses various trace elements, compounds and isotopes (tracers) contained in liquid water as well as in ice for age dating, to obtain information on the chronology of archives and the dynamics of surface and subsurface waters as well as glaciers. Atmospheric noble gases and water isotopes additionally serve as proxies for environmental conditions during the formation of water and ice masses, such as past temperatures and other climate parameters. HydroTraP uses these methods to contribute to water resources management, to the study of the climate system, and for paleoclimate reconstruction. Furthermore, we are world-leading in the development of new analytical techniques and interpretation methods. "
+            },
+            "times": [
+                "2",
+                "2",
+                "1",
+                "2",
+                "1"
+            ],
+            "total_times": "2",
+            "link": "https:\/\/www.iup.uni-heidelberg.de\/de\/research\/hydrotrap",
+            "image": "uploads\/cover_image_HJI.jpg"
+        },
+        "UUD": {
+            "name": "Data Analysis and Modeling in Medicine",
+            "field": "MED",
+            "contact": "juergen.hesser@medma.uni-heidelberg.de",
+            "profs": "Prof. J\u00fcrgen Hesser",
+            "room": 8,
+            "text": {
+                "de": "Die Arbeitsgruppe besch\u00e4ftigt sich mit Themen aus der Computational Medizinischen Physik\/Medizintechnik mit dem momentanen Schwerpunkt der Modellierung und Simulation unter Verwendung von Machine Leraning (z.B. tiefen Neuronalen Netzen) und anderer numerischer Data Science Techniken. Wir arbeiten eng mit der Industrie zusammen, um diese Verfahren in die klinische Praxis zu bekommen. Beispielhafte Anwendungen sind \r\n- Brachysimulator: Strahlentherapieplanung f\u00fcr die Brachytherapie unter Ber\u00fccksichtigung der Gewebedeformation\r\n- Entwicklung einer Radiomics-Pipeline zur Pr\u00e4diktion des Therapieerfolgs beim Rektum-Karzinom\r\n- Ultraschall-Tomographie-Rekonstruktion bei Brustkrebsscreening\r\n- VR-Unterst\u00fctzung f\u00fcr Operationen in der HNO",
+                "en": "The working group deals with topics from computational medical physics \/ medical technology with the current focus on modeling and simulation using machine learning (e.g. deep neural networks) and other numerical data science techniques. We are working closely with industry to get these procedures into clinical practice. Exemplary applications are\r\n- Brachysimulator: radiation therapy planning for brachytherapy taking into account tissue deformation\r\n- Development of a radiomics pipeline to predict the success of treatment in rectal carcinoma\r\n- Ultrasound tomography reconstruction\r\n- VR support for H&N surgery"
+            },
+            "times": [
+                "0",
+                "0",
+                "1",
+                "1",
+                "0"
+            ],
+            "total_times": "2",
+            "link": "http:\/\/medphyssrv1.medma.uni-heidelberg.de\/cms\/",
+            "image": "uploads\/cover_image_UUD.jpg"
+        },
+        "WEF": {
+            "name": "AG Hausmann Komparative Genomik",
+            "field": "BIO",
+            "contact": "hilden@kip.uni-heidelberg.de",
+            "profs": "Hausmann, Hildenbrand",
+            "room": 9,
+            "text": {
+                "de": "Wir besch\u00e4ftigen uns mit Wechselwirkungen von biologischer Materie mit Strahlung, insbesondere wie biologische Systeme unter Strahlung ihre Integrit\u00e4t bewahren oder wieder herstellen k\u00f6nnen.\r\nDabei messen wir sowohl zum einen mit modernster optischer Lokalisationsmikroskopie 3D-Strukturen des Chromatins im Zellkern, als auch im Rahmen der Gesamtreaktion der Zelle Ver\u00e4nderungen der Organisation von Proteinen in der Membran und im Zellplasma.\r\nBedeutung und Auswirkung der Biophysik der DNA selbst, basierend auf ihrer Sequenz, wird im Bereich der komparativen Genomik untersucht, wo Muster von k-Worten in der DNA-Sequenz und ihre H\u00e4ufungen untereinander sowie in Relation zu genomischen Elementen verglichen werden.\r\nIm Bereich der Astrobiologie werden Bedingungen f\u00fcr Biochemie und Leben auf der Basis von Strahlung von radioaktiven Elementen bis aktiven Galaxienkernen untersucht und modelliert.\r\nEs werden drei eigenst\u00e4ndige Breakout Rooms angestrebt, jeweils einen f\u00fcr Strahlenbiophysik, einen f\u00fcr Komparative Genomik und einen f\u00fcr Astrobiologie\/Astrobiophysik.",
+                "en": "Our research is mainly focused on the interactions of biological matter with radiation, in particular how biological systems can maintain or restore their integrity under irradiation.\r\nWe use the latest optical localization microscopy to measure 3D structures of the chromatin in the cell nucleus and, as part of the overall reaction of the cell, changes in the organization of proteins in the membrane and in the cytoplasm.\r\nThe meaning and impact of the biophysics of DNA itself, based on its sequence, is examined in the area of comparative genomics, where patterns of k-words in the DNA sequence and their accumulations are compared with one another and in relation to genomic elements.\r\nIn the field of astrobiology, conditions for biochemistry and life are investigated and modeled on the basis of radiation from radioactive elements to active galaxy nuclei.\r\nThe aim is to have three independent breakout rooms, one each for radiation biophysics, for comparative genomics and for astrobiology\/astrobiophysics."
+            },
+            "times": [
+                "1",
+                "0",
+                "1",
+                "0",
+                "0"
+            ],
+            "total_times": "2",
+            "link": "http:\/\/www.kip.uni-heidelberg.de\/user\/hausmann\/",
+            "image": "uploads\/cover_image_WEF.png"
+        },
+        "ALO": {
+            "name": "AG Hausmann Astrobiologie\/Astrobiophysik",
+            "field": "BIO",
+            "contact": "hilden@kip.uni-heidelberg.de",
+            "profs": "Hausmann, Hildenbrand",
+            "room": 10,
+            "text": {
+                "de": "Wir besch\u00e4ftigen uns mit Wechselwirkungen von biologischer Materie mit Strahlung, insbesondere wie biologische Systeme unter Strahlung ihre Integrit\u00e4t bewahren oder wieder herstellen k\u00f6nnen.\r\nDabei messen wir sowohl zum einen mit modernster optischer Lokalisationsmikroskopie 3D-Strukturen des Chromatins im Zellkern, als auch im Rahmen der Gesamtreaktion der Zelle Ver\u00e4nderungen der Organisation von Proteinen in der Membran und im Zellplasma.\r\nBedeutung und Auswirkung der Biophysik der DNA selbst, basierend auf ihrer Sequenz, wird im Bereich der komparativen Genomik untersucht, wo Muster von k-Worten in der DNA-Sequenz und ihre H\u00e4ufungen untereinander sowie in Relation zu genomischen Elementen verglichen werden.\r\nIm Bereich der Astrobiologie werden Bedingungen f\u00fcr Biochemie und Leben auf der Basis von Strahlung von radioaktiven Elementen bis aktiven Galaxienkernen untersucht und modelliert.\r\nEs werden drei eigenst\u00e4ndige Breakout Rooms angestrebt, jeweils einen f\u00fcr Strahlenbiophysik, einen f\u00fcr Komparative Genomik und einen f\u00fcr Astrobiologie\/Astrobiophysik.",
+                "en": "Our research is mainly focused on the interactions of biological matter with radiation, in particular how biological systems can maintain or restore their integrity under irradiation.\r\nWe use the latest optical localization microscopy to measure 3D structures of the chromatin in the cell nucleus and, as part of the overall reaction of the cell, changes in the organization of proteins in the membrane and in the cytoplasm.\r\nThe meaning and impact of the biophysics of DNA itself, based on its sequence, is examined in the area of comparative genomics, where patterns of k-words in the DNA sequence and their accumulations are compared with one another and in relation to genomic elements.\r\nIn the field of astrobiology, conditions for biochemistry and life are investigated and modeled on the basis of radiation from radioactive elements to active galaxy nuclei.\r\nThe aim is to have three independent breakout rooms, one each for radiation biophysics, for comparative genomics and for astrobiology\/astrobiophysics."
+            },
+            "times": [
+                "0",
+                "1",
+                "0",
+                "0",
+                "0"
+            ],
+            "total_times": "1",
+            "link": "http:\/\/www.kip.uni-heidelberg.de\/user\/hausmann\/",
+            "image": "uploads\/cover_image_ALO.png"
+        },
+        "KJT": {
+            "name": "Image Analysis and Learning",
+            "field": "COM",
+            "contact": "fred.hamprecht@iwr.uni-heidelberg.de",
+            "profs": "Prof. Fred Hamprecht ",
+            "room": 11,
+            "text": {
+                "de": "Wir entwickeln auf grundlegenden Prinzipien fu\u00dfende Methoden des maschinellen Lernens, um schwierige Computer-Vision Probleme zu l\u00f6sen. Die konkreten Anwendungen auf komplexe Strukturen stammen haupts\u00e4chlich aus den Lebenswissenschaften.",
+                "en": "We develop principled machine learning methods to solve difficult computer vision problems, with applications mainly from the Life Sciences. "
+            },
+            "times": [
+                "1",
+                "1",
+                "1",
+                "1",
+                "2"
+            ],
+            "total_times": "3",
+            "link": "https:\/\/hci.iwr.uni-heidelberg.de\/ial",
+            "image": "uploads\/cover_image_KJT.jpg"
+        },
+        "RDT": {
+            "name": "Quantum Dynamics&Control (Abteilung Pfeifer, MPIK)",
+            "field": "AMO",
+            "contact": "thomas.pfeifer@mpi-hd.mpg.de",
+            "profs": "Dr. Anne Harth, Dr. Laura Cattaneo, Dr. Jos\u00e9 Crespo, Dr. Alexander Dorn, Dr. Robert Moshammer, Dr. Christian Ott, Dr. Claus Dieter Schr\u00f6ter, Prof. Dr. Thomas Pfeifer",
+            "room": 14,
+            "text": {
+                "de": "Die vielf\u00e4ltigen Projekte unserer Arbeitsgruppe drehen sich um die genaue Vermessung quantenmechanischer Struktur und Bewegung in Atomen und Molek\u00fclen.  Hierzu kommen Hochleistungslaser zum Einsatz, deren elektrische Felder mit den Coulomb-Kr\u00e4ften der Kerne auf ihre gebundenen Elektronen mit vergleichbarer St\u00e4rke konkurrieren.   Hiermit gelingt es die quantendynamischen Bewegungsabl\u00e4ufe in Atomen und Molek\u00fclen gezielt zu beeinflussen und in Zukunft vielleicht \"Laserchemie\" oder auch \"molekulare Quantenrechner\" zu erm\u00f6glichen.  Koinzidenzdetektion von Elektronen, Ionen und von Spektren extrem ultravioletter&R\u00f6ntgen-Strahlung (auch an Freie-Elektronen-Lasern, z.B. EuXFEL oder FLASH in Hamburg) erm\u00f6glichen die umfangreiche Abbildung zum besseren Verst\u00e4ndnis des \"Innenlebens\" von Atomen und Molek\u00fclen. Die Arbeitsgruppe besch\u00e4ftigt sich au\u00dferdem mit der Pr\u00e4zisionsspektroskopie hochgeladener Ionen zum Test fundamentaler Quantentheorien, zum Bau der genauesten Uhren (mit schnellsten Taktgebern), oder der \u00dcberpr\u00fcfung der Konstanz physikalischer Naturkonstanten.",
+                "en": "The diverse projects of our division evolve around the precise measurement of quantum-mechanical phenomena in atoms and molecules.  This research is powered by high-performance lasers, delivering electric fields that compete on a comparable scale with the Coulomb forces acting on electrons when bound to their nuclei.  This way, it is possible to steer quantum-dynamical processes in atoms and molecules that may enable transformative applications such as \"laser chemistry\" or \"molecular quantum computers\" in the future.  Coincidence detection of electrons, ions or spectra of extreme ultraviolet&x-ray radiation (including work at free electron lasers, e.g. EuXFEL or FLASH at Hamburg) allow snapshots of the \"inner life\" of atoms and molecules, and thus push forward our understanding.  Another focus of our division is the precision spectroscopy of highly charged ions for tests of fundamental quantum theories, for making the most precise (fastest-ticking) clocks, and towards tests of the constancy of natural constants."
+            },
+            "times": [
+                "0",
+                "1",
+                "1",
+                "1",
+                "1"
+            ],
+            "total_times": "2",
+            "link": "https:\/\/www.mpi-hd.mpg.de\/mpi\/de\/forschung\/abteilungen-und-gruppen\/quantendynamik-und-kontrolle",
+            "image": "uploads\/cover_image_LDS.png"
+        },
+        "WGY": {
+            "name": "Exoplaneten - Landessternwarte K\u00f6nigstuhl",
+            "field": "AST",
+            "contact": "a.kaminski@lsw.uni-heidelberg.de",
+            "profs": "Prof. Andreas Quirrenbach, Dr. Sabine Reffert",
+            "room": 15,
+            "text": {
+                "de": "Hoch oben \u00fcber Heidelberg untersucht die Gruppe \"Exoplaneten\" der Landessternwarte K\u00f6nigstuhl Planeten um ferne Sterne. Unser Fokus liegt dabei auf der Suche nach Planeten mit der Radialgeschwindigkeitsmethode, d.h. der Dopplerverschiebung der stellaren Spektrallinien aufgrund der Bewegung um den gemeinsamen Schwerpunkt von Stern und Planet. Dazu nutzen wir den CARMENES Spektrographen in Spanien, aber auch demn\u00e4chst Beobachtungen unseres neuen Waltz-Spektrographen hier an der Sternwarte. Au\u00dferdem nutzen wir CARMENES und andere hochaufl\u00f6sende Spektrographen f\u00fcr die Charakterisierung der Atmosph\u00e4ren von Transitplaneten mit der Methode der Transmissionspektroskopie und f\u00fcr die Best\u00e4tigung von Planetenkandidaten des TESS Satelliten.  Dar\u00fcber hinaus sind wir Teil des NACO-ISPY Projekts, dessen Ziel es ist Exoplaneten mit dem sogenannten \"High-Contrast Imaging\" direkt abzubilden.",
+                "en": "High above Heidelberg, the \"Exoplanets\" group of the Landessternwarte K\u00f6nigstuhl characterizes planets around distant stars. We focus on the search for planets using the radial velocity method (RV), i.e., the Doppler shift of the stellar spectral lines due to its motion around the common centre of gravity of star and planet.  Doing so, we use the CARMENES spectrograph in Spain, but also soon observations from our newly commissioned Waltz spectrograph here at the observatory. Further, we use CARMENES and other high-resolution spectrographs to characterize the atmospheres of transiting exoplanets with the transmission spectroscopy method and to confirm planet candidates from the TESS satellite. In addition, we are also part of the NACO-ISPY project, which aims to directly image exoplanets with so-called \"high-contrast imaging\"."
+            },
+            "times": [
+                "1",
+                "1",
+                "1",
+                "1",
+                "0"
+            ],
+            "total_times": "4",
+            "link": "https:\/\/www.lsw.uni-heidelberg.de\/projects\/exoplanets\/",
+            "image": "uploads\/cover_image_WGY.png",
+            "video": "https://heibox.uni-heidelberg.de/seafhttp/files/a7b89c4f-ebb3-430e-8697-7423d82b970d/LSW_Exoplanetengruppe_Messe_2021.mp4",
+            "video_url": "https://heibox.uni-heidelberg.de/f/fa96f5ab4a4e4ce889b0/"
+        },
+        "RRM": {
+            "name": "Limnophysik",
+            "field": "UP",
+            "contact": "Bertram.Boehrer@ufz.de",
+            "profs": "Dr. Bertram Boehrer (PD)",
+            "room": 16,
+            "text": {
+                "de": "Die Limnophysik bearbeitet physikalische Prozesse in geschichteten Gew\u00e4ssern also Seen, Talsperren u.\u00e4. Wir behandeln Themen wie extreme Gasdr\u00fccke, physikalisch chemische Eigenschaften von limnischen W\u00e4ssern, permanent geschichtete Seen und numerische Simulation von geschichteten Gew\u00e4ssern. Vieles auch von dem Hintergrund des Einflusses durch das ver\u00e4nderliche Klima. ",
+                "en": "The Limnophysics deals with physical processes in stratified waters such as Lakes, Reservoirs and similar waterbodies. We work on topics like extreme gas pressures, physco-chemical properties of limnic waters, permanently stratified lakes and numerical simulation of stratified lakes. Many of these topics gain importance under consideration of climate variability."
+            },
+            "times": [
+                "1",
+                "2",
+                "0",
+                "0",
+                "0"
+            ],
+            "total_times": "1",
+            "link": "https:\/\/www.ufz.de\/limnophysik",
+            "image": "uploads\/cover_image_RRM.jpg"
+        },
+        "SLE": {
+            "name": "ALICE Arbeitsgruppe am physikalischen Institut",
+            "field": "PP",
+            "contact": "danisch@physi.uni-heidelberg.de",
+            "profs": "Prof. Johanna Stachel",
+            "room": 17,
+            "text": {
+                "de": "Die internationale ALICE Arbeitsgruppe am physikalischen Institut Heidelberg untersucht Kernmaterie bei extremen Temperaturen und Dichten. Dazu werden Schwerionen oder Protonen bei nahezu Lichtgeschwindigkeit am Large Hadron Collider des CERN zur Kollision gebracht. In diesen Kollisionen wird das sogenannte Quark-Gluon-Plasma produziert. Unsere Gruppe ist an mehreren der Hauptdetektorsysteme des ALICE Experiments beteiligt. Unser Hauptaugenmerk liegt auf dem Transition Radiation Detector. Modernste Datenanalysemethoden, wie z.B. machine learning, werden eingesetzt um die produzierten Teilchen zu studieren. Aus diesen Untersuchungen wollen wir auf die Eigenschaften des Quark-Gluon-Plasmas schlie\u00dfen. Du kannst bei uns eine Bachelor- oder Masterarbeit in den Bereichen Datenanalyse, Ph\u00e4nomenologie oder Detektorphysik schreiben. Wir freuen uns darauf dich kennenzulernen!",
+                "en": "The international ALICE group at the physics institute in Heidelberg is studying nuclear matter under extreme conditions. For that we collide almost light speed heavy ions and protons at the Large Hadron Collider at CERN. In those collisions the so-called quark-gluon plasma is produced. Our group is involved in various of the main detector systems of the ALICE experiment. Especially we lead the efforts of the transition radiation detector. We use advanced data analysis techniques like machine learning to study the produced particles in order to reveal the properties of the quark-gluon plasma. We offer topics for bachelor and master theses in the areas of data analysis, phenomenology and detector physics. We are looking forward to meeting you!"
+            },
+            "times": [
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+            ],
+            "total_times": "5",
+            "link": "https:\/\/www.physi.uni-heidelberg.de\/Forschung\/kp\/",
+            "video": "https://heibox.uni-heidelberg.de/seafhttp/files/10584cbe-9de3-45df-ba7c-64bc06790ff0/Promo_German_full_Outtakes.mp4",
+            "video_url": "https://heibox.uni-heidelberg.de/f/f9c6028b86384952af7f/"
+        },
+        "LYB": {
+            "name": "Anwendungen von szintillierenden Fasern und Silizium Photomultipliern in der Teilchenphysik und Medizin",
+            "field": "PP",
+            "contact": "blake.leverington@uni-heidelberg.de, bachmann@physi.uni-heidelberg.de",
+            "profs": "Dr. Blake Leverington, Prof. Dr. Ulrich Uwer",
+            "room": 18,
+            "text": {
+                "de": "Die LHCb und \"Precision and Atomic Physics (PAT)' Gruppen am Physikalischen Institut entwickeln neue Teilchendetektoren die szintillierende und optische Fasern sowie SIlizium Photodetektoren f\u00fcr den Teilchennachweis verwenden. Verschiedene Anwendungen  aus der Teilchenphysik und der medizischen Physik ben\u00f6tigen Detektoren mit einer sehr guten Ortsaufl\u00f6sung. Aktuell werden Detektoren f\u00fcr das LHCb Experiment am CERN und f\u00fcr das Heidelberger Ionenstrahl Therapiezentrum entwickelt und installiert.  \r\nBachelor- und Masterstudenten sowie Doktoranden nehmen am Design, der Duchf\u00fchrung von Experimenten und der Datenanalyse der Experimente mit unterschiedlich Detektortypen teil.  Hierbei k\u00f6nnen Studenten z.B.auf  Themengebiete wie der Elektronik und FPGA Entwicklung f\u00fcr Echt-Zeit Datennahme, dem mechanischen Design von Teilchendetektoren, sowie der Datenanalyse und Simulationen mit Hilfe von Monte Carlo Methoden arbeiten. ",
+                "en": "The LHCb and \u2018Precision and Atomic Physics (PAT)\u2019 groups in the Physkaliches Institut are developing new particle detectors based on scintillating optical fibres and solid-state photodetectors for multiple applications requiring precise position information, including high energy and medical physics. Current detectors are being developed and installed at the LHCb experiment at CERN, as well as for the experimental beamline at the Heidelberg Ion-beam Therapy Clinic. There is also ongoing development of new projects. Bachelor, Master and Doctoral students participate in the design, study, development, data collection and the analysis for these various detectors. Students will learn topics such as Electronics and FPGA development for real time data processing, mechanical detector design, data analysis techniques, and  Monte Carlo simulation. "
+            },
+            "times": [
+                "1",
+                "0",
+                "0",
+                "2",
+                "2"
+            ],
+            "total_times": "1",
+            "link": "http:\/\/lhcb-public.web.cern.ch\/",
+            "image": "uploads\/cover_image_LYB.jpg"
+        },
+        "HHV": {
+            "name": "Dynamik in Kollisionen mit Atomen, Molek\u00fclen und Clustern",
+            "field": "AMO",
+            "contact": "A.Dorn@mpi-k.de",
+            "profs": "PD Dr. Alexander Dorn",
+            "room": 21,
+            "text": "St\u00f6\u00dfe zwischen Elektronen und Atomen sind in unserer Umwelt allgegenw\u00e4rtig. In unserem Labor untersuchen wir diese Ionisationsprozesse in gr\u00f6\u00dftm\u00f6glichem Detail, indem wir alle geladenen Bruchst\u00fccke - also Elektronen und Ionen - mit einem Reaktionsmikroskop impulsaufgel\u00f6st nachweisen. St\u00f6\u00dfe mit Partnern wie Wasserstoff und Helium, die aus nur wenigen Bausteinen bestehen oder ultrakalten Atomen erlauben es grundlegende physikalische Rechnungen zu testen. St\u00f6\u00dfe mit organischen Molek\u00fclen und DNA-Bausteinen sind z.B. in der Strahlentherapie relevant. Hier beobachten wir bisher unbekannte Reaktionen, die durch die Einbettung der Molek\u00fcle in ihre nat\u00fcrliche Umgebung aus Wasser verursacht werden.",
+            "times": [
+                "2",
+                "2",
+                "2",
+                "1",
+                "1"
+            ],
+            "total_times": "2",
+            "link": "https:\/\/www.mpi-hd.mpg.de\/mpi\/de\/forschung\/abteilungen-und-gruppen\/quantendynamik-und-kontrolle\/forschung\/ultrakalte-dynamik-und-kollisionen-ag-dorn",
+            "image": "uploads\/cover_image_HHV.png"
+        },
+        "SXN": {
+            "name": "Quantum Fluids",
+            "field": "AMO",
+            "contact": "chomaz@physi.uni-heidelberg.de",
+            "profs": "Jun.-Prof. Lauriane Chomaz",
+            "room": 22,
+            "text": {
+                "de": "Die Aufdeckung neuartiger Quantenph\u00e4nomene ist das Ziel des Experiments der neuen Generation, das wir aufbauen und in dem wir Dysprosium-Atome k\u00fchlen und fangen werden. Als magnetischstes Element des Periodensystems weist Dysprosium starke interatomare Dipol-Dipol-Wechselwirkungen auf. Im Gegensatz zu den Standard-Kontakt-Wechselwirkungen sind die Dipol-Wechselwirkungen langreichweitig und anisotrop, was eine interessante neue Wendung in der Physik bringt. In unserem neuen Labor werden wir uns auf die Auswirkungen solcher Wechselwirkungen in Quantenfl\u00fcssigkeiten konzentrieren, die im niederdimensionalen Raum und in einem uniformen Potential gefangen sind, da in diesen Geometrien Quantenfluktuationen und kritische Effekte besonders ausgepr\u00e4gt sind.",
+                "en": "Unveiling novel quantum phenomena is the aim of the new-generation experiment that we are building and in which we will cool and trap dysprosium atoms. Being the most magnetic element of the periodic table, dysprosium presents strong interatomic dipole-dipole interactions. Contrasting with the standard contact interactions, the dipolar interactions are long-range and anisotropic, which brings an interesting new twist in the physics. In our new lab, we will focus on the impact of such interactions in quantum fluids trapped in lower-dimensional space and in uniform potential, since, in these geometries, quantum fluctuations and critical effects are exalted."
+            },
+            "times": [
+                "2",
+                "1",
+                "1",
+                "1",
+                "2"
+            ],
+            "total_times": "2",
+            "link": "under construction... https:\/\/www.physi.uni-heidelberg.de\/Mitarbeiter\/madetails.php?id=1371",
+            "image": "uploads\/cover_image_SXN.jpg"
+        },
+        "JWS": {
+            "name": "Cosmology & Galaxy clusters",
+            "field": "COS",
+            "contact": "maturi@uni-heidelberg.de",
+            "profs": "Priv.-Doz. Dr. Matteo Maturi",
+            "room": 23,
+            "text": {
+                "de": "Galaxienhaufen sind die gr\u00f6\u00dften gravitationsgebundenen Strukturen in unserem Universum und als solche die idealen Sonden, um die Eigenschaften der mysteri\u00f6sen dunklen Materie und der dunklen Energie sowie die Eigenschaften der Schwerkraft selbst zu untersuchen. Das lernen wir in dieser Gruppe.",
+                "en": "Galaxy clusters are the largest gravitationally bound structures in our universe and as such they are the ideal probes to investigate the  properties of the mysterious dark matter and dark energy as well as the properties of gravity itself. This is what we study in this group."
+            },
+            "times": [
+                "1",
+                "1",
+                "2",
+                "0",
+                "0"
+            ],
+            "total_times": "1",
+            "link": "https:\/\/www.ita.uni-heidelberg.de\/~maturi\/projects.html",
+            "image": "uploads\/cover_image_JWS.jpeg"
+        },
+        "DTD": {
+            "name": "Geometric Algebra",
+            "field": "MAT",
+            "contact": "maarten.dekieviet@physik.uni-heidelberg.de",
+            "profs": "P.D. Maarten DeKieviet, PhD",
+            "room": 24,
+            "text": "Geometric Algebra (GA), or Clifford Algebra, is possibly the most powerful and unifying language for physics. Still, this centuries old mathematics has not made it into the standard physics curriculum. It is thanks to the pioneering work of Hestenes, Doran and others, that since a few decades GA has been systematically applied to various fields of physics. During the last decade, computer graphics and robotics have discovered the tremendous advantages of this language and push its general acceptance substantially. For physics, however, the number of problems solved with GA ist still rather limited. \r\nThis semester, for the second year in a row, I organize a seminar on GA for physics, which by now covers almost all fields of physics, starting from Classical Mechanics, through Quantum Theory, all the way to Cosmology, and even Calculus. And that, using just one simple language! That is amazing and demonstrates the unifying power of GA impressively.\r\nThe beauty of GA is not only its very elegant and simple structure, with which physics is being recapped, but, very importantly, its revealing of deeper connections, not only within one field of physics, but between diffent fields as well. \u201eWhy hasn\u2018t anyone told me that before?\u201c, is the standard reaction of students working with me on GA. \r\nThere is still a lot of work to do, but I guarentee, it\u2018s worth it. So pick your favorate field of physics and I am sure, that we will discover something new, using GA. Or let\u2018s pick up that problem that has been bothering you for so long, we will tackle it in GA! \r\nCome and join our GA task force, it will change the way you understand physics...",
+            "times": [
+                "0",
+                "0",
+                "1",
+                "0",
+                "1"
+            ],
+            "total_times": "2"
+        },
+        "PTN": {
+            "name": "GIHAS",
+            "field": "CM",
+            "contact": "maarten.dekieviet@physik.uni-heidelberg.de",
+            "profs": "P.D. Maarten DeKieviet, PhD",
+            "room": 25,
+            "text": "The GIHAS experiment focuses on the structure and dynamics in and at the outermost surface layer of advanced materials. The studies include the characterization of well-ordered thin organic films, with particular emphasis on interplay between the surface structure and the dispersion of the corresponding phonon modes. These investigations are to be performed using a \"traditional\" Helium Atom Scattering (HAS) apparatus, equipped with a high resolution Time-of-Flight (ToF) spectrometer (energy transfer ranging from 0.1 \u201310 meV).\r\n In extension to the study of ordered materials, we plan to measure charge transfer processes in disordered organic materials. The charge transfer process in organic electronics is known to be accompanied by electronic and vibronic excitations that follow dissipative decay channels which lie just below the surface. The goal is to identify these decay channels and to systematically investigate them with respect to their charge transfer efficiency. \r\nFor this purpose, a second atomic beam using 3He will be installed under grazing incidence on the existing HAS apparatus that makes use of the spin echo principle. The Grazing Incidence Helium Atom Scattering (GIHAS) spectrometer is now under construction at the CAM. The 3He beam will provide a spatial resolution that ranges from local atomic structures (10 pm) up to the morphology of larger domains (a few microns). This, in combination with the above mentioned energy resolution, makes the GIHAS experiment the world's first instrument of its kind.\r\nWe offer Bsc. and MSc. project that install and test the ToF capabilities of the Machine. In parallel, we need help by preparing the 3He Spin Echo option, which will need to be constructed and tested.",
+            "times": [
+                "1",
+                "2",
+                "0",
+                "0",
+                "0"
+            ],
+            "total_times": "2",
+            "image": "uploads\/cover_image_PTN.jpg"
+        },
+        "WRB": {
+            "name": "Correlated (&) Quantum Materials",
+            "field": "CM",
+            "contact": "klingeler@kip.uni-heidelberg.de",
+            "profs": "R\u00fcdiger Klingeler",
+            "room": 26,
+            "text": "Novel quantum materials exhibit a plethora of novel phenomena which allow further understanding the effect of quantum fluctuations in many body systems. In our materials-based approach we particularly focus on quantum ground states like unconventional superconductivity, electronic nemantic order or spin liquid states which challenge standard theory and hence enable extending our understanding of quantum many-body systems. In addition to such fundamental questions, we investigate novel materials regarding their potential usage in lithium- and sodium-ion batteries. For the various unique experimental techniques used to address these research topics, please see our wabpages.\r\n",
+            "times": [
+                "0",
+                "0",
+                "0",
+                "1",
+                "1"
+            ],
+            "total_times": "2",
+            "link": "https:\/\/www.kip.uni-heidelberg.de\/cmm",
+            "image": "uploads\/cover_image_WRB.jpg"
+        },
+        "NYH": {
+            "name": "Quantendynamik",
+            "field": "AMO",
+            "contact": "weidemueller@uni-heidelberg.de",
+            "profs": "Prof. Matthias Weidem\u00fcller, Dr. Gerhard Z\u00fcrn",
+            "room": 27,
+            "text": {
+                "de": "Unsere Quantendynamik Gruppe forscht an ultrakalten Quantengasen, Rydberg Atomen und kalten Ionen.\r\nWir untersuchen beispielsweise, ob und wie isolierte Quantensysteme thermisches Gleichgewicht erreichen, wie sich Polaronen in einem Bose-Einstein-Kondensat verhalten und wie man negativ geladenen Ionen effizient k\u00fchlen kann.     \r\nWir sind ein Team von ca. 20 Leuten und erzielen mit unseren Experimenten sehr hohe Kontrolle \u00fcber kalte Atome mit Hilfe von modernen Lasersystemen und innovativer Mikrowellentechnologie.\r\nAuf unsere Hiwis, Bachelor- und Masterstudenten warten vielf\u00e4ltige spannenende Aufgaben, wie der Aufbau von Fallen zum Fangen von Atomen oder das Design von zeitinvertierten Vielteilchen-Hamiltonian. ",
+                "en": "Our Quantum dynamics group investigates ultracold quantum gases, Rydberg atoms and cold ions.\r\nWe study for example if and how isolated quantum systems reach thermal equilibrium, how polarons behave in a Bose-Einstein-condensate and how negatively charged ions can be efficiently cooled.\r\nWe are a team of about 20 people and achieve high control over cold atoms using modern laser systems and innovative microwave technologies.\r\nHiwis, Bachelor- and Master-students can expect diverse and exciting tasks, like the setup of optical potentials to trap atoms or the design of time-reversed many-body Hamiltonians."
+            },
+            "times": [
+                "0",
+                "1",
+                "1",
+                "0",
+                "0"
+            ],
+            "total_times": "2",
+            "link": "https:\/\/www.physi.uni-heidelberg.de\/Forschung\/QD\/",
+            "image": "uploads\/cover_image_NYH.jpg"
+        },
+        "ALU": {
+            "name": "Hochenergiephysik - Mu3e & ATLAS",
+            "field": "PP",
+            "contact": "dittmeier@physi.uni-heidelberg.de",
+            "profs": "Prof. Dr. Andre Sch\u00f6ning",
+            "room": 28,
+            "text": {
+                "de": "Wir arbeiten an 2 Experimenten in der Teilchenphysik \u2013 Mu3e und ATLAS.\r\nF\u00fcr Mu3e bauen wir einen ultra-d\u00fcnnen Pixeldetektor aus hochspannungsbetriebenen monolithischen aktiven Pixelsensoren (HV-MAPS). Wir sind an der Entwicklung dieser Sensoren beteiligt und charakterisieren diese in unserem Labor sowie auf Teststrahlkampagnen. Au\u00dferdem f\u00fcgen wir die Sensoren zu Detektormodulen zusammen und k\u00fcmmern uns um deren Integration in das Experiment.\r\nF\u00fcr das ATLAS Experiment entwicklen wir einen Spurtrigger f\u00fcr das Phase II Upgrade des Experiments. Der Spurtrigger basiert auf Hardwarekomponenten \u2013 FPGAs und Assoziativspeicherchips (AM-Chips) \u2013 letzere werden extra f\u00fcr diesen Zweck entwickelt. Wir sind an der Entwicklung der Firmware f\u00fcr die FPGAs sowie an der Entwicklung und der Tests der AM-Chips beteiligt.",
+                "en": "We are working on 2 particle physics experiments - Mu3e and ATLAS.\r\nFor Mu3e, we are building an ultra-thin pixel detector from high-voltage monolithic active pixel sensors (HV-MAPS). We are involved in the development of these sensors and characterize them in our laboratory and on test beam campaigns. We also assemble the sensors into detector modules and take care of their integration into the experiment.\r\nFor the ATLAS experiment, we are developing a track trigger for the phase II upgrade of the experiment. The track trigger is based on hardware components - FPGAs and associative memory chips (AM chips) - the latter being developed specifically for this purpose. We are involved in the development of the firmware for the FPGAs and in the development and testing of the AM chips."
+            },
+            "times": [
+                "1",
+                "1",
+                "2",
+                "0",
+                "0"
+            ],
+            "total_times": "2",
+            "video": "https://heibox.uni-heidelberg.de/seafhttp/files/8ea5aafb-e610-4e90-ab34-82bd5d3dd3a7/mu3e_atlas_intro_final.mp4",
+            "video_url": "https://heibox.uni-heidelberg.de/f/98c23c3e89e545f1856e/"
+        },
+        "ADV": {
+            "name": "Palaeoclimate dynamics and variability",
+            "field": "UP",
+            "contact": "paleodyn@iup.uni-heidelberg.de",
+            "profs": "Dr. Kira Rehfeld",
+            "room": 29,
+            "text": {
+                "de": "\u00c4nderungen des Klimas an der Erdoberfl\u00e4che entstehen durch interne Dynamik und externen Antrieb. Auch die Randbedingungen des Systems ver\u00e4ndern sich fortlaufend. Wir wollen verstehen, wie dynamische und thermodynamische Prozesse zur Klimavariabilit\u00e4t beitragen. Um eine Br\u00fccke vom Wetter zum Klima und zur Geologie zu schlagen, kombinieren wir Klimamodellierung, Pal\u00e4oklimaarchive und Methoden f\u00fcr komplexe Systeme. Unsere wichtigsten Tracer f\u00fcr die Modellierung und Rekonstruktion von Klima- und Umweltdynamik sind Wasserisotopologe aus Spel\u00e4othemen (z.B. Tropfsteine) und Eisbohrkernen sowie Vegetation. So k\u00f6nnen wir testen, wie gut Klimamodelle das vergangene und gegenw\u00e4rtige Klima erfassen und wie sicher wir uns in Bezug auf Statistiken h\u00f6herer Ordnung und raum-zeitliche Muster des simulierten zuk\u00fcnftigen Klimas sein k\u00f6nnen.",
+                "en": "Changes in climate at the Earth's surface arise due to internal dynamics and external forcing. The boundary conditions of the system also continuously evolve. We aim to understand how dynamic and thermodynamic processes contribute to climate variability. To bridge from weather to climate and geology, we combine climate modeling, palaeoclimate archives, and complex systems approaches. Our key tracers for modeling and reconstructing climate and environmental dynamics are water isotopologues from speleothems and ice cores, and vegetation. This allows us to test how well climate models capture past and present climate, and how confident we can be in higher-order statistics as well as spatiotemporal patterns of simulated future climates."
+            },
+            "times": [
+                "2",
+                "1",
+                "1",
+                "1",
+                "0"
+            ],
+            "total_times": "1",
+            "link": "https:\/\/www.iup.uni-heidelberg.de\/institut\/forschung\/groups\/palaeo\/index_stacy.html",
+            "image": "uploads\/cover_image_ADV.png"
+        },
+        "QNM": {
+            "name": "Atom- und Molek\u00fclphysik am Cryogenic Storage Ring (CSR)",
+            "field": "AMO",
+            "contact": "holger.kreckel@mpi-hd.mpg.de",
+            "profs": "Holger Kreckel, Andreas Wolf, Oldrich Novotny",
+            "room": 30,
+            "text": {
+                "de": "Wir suchen motivierte Studenten und Doktoranden f\u00fcr Experimente am Cryogenic Storage Ring (CSR) des Max-Planck-Institut f\u00fcr Kernphysik in Heidelberg. Der CSR ist ein einzigartiger elektrostatischer Speicherring, der mit f\u00fcssigem Helium bei kryogenen Temperaturen betrieben werden kann. Unsere Experimente befassen sich mit fundamentalen atomaren und molekularen Prozessen. Neben astrophysikalisch motivierten Reaktionen und Elektronen-Kollisionen f\u00fchren wir zustandsspezifische Laser-Experimente durch. \r\nWir bieten die M\u00f6glichkeit an einer weltweit einzigartigen Anlage mit einem erfahrenen Team von Experimentatoren, Technikern und internationalen Wissenschaftlern zu arbeiten, und dabei breite interdisziplin\u00e4re Erfahrungen zu sammeln.\r\n",
+                "en": "We are looking for motivated candidates for student and doctoral positions at the Cryogenic Storage Ring (CSR), a unique heavy ion storage ring that operates at liquid helium temperature. The CSR is situated at the Max-Planck-Institut f\u00fcr Kernphysik in Heidelberg. Our experiments focus on atomic and molecular physics; they range from astrophysical reactions to electron collision and recombination studies. Furthermore, we employ various continuous and pulsed laser systems for photodissociation and photodetachment studies with quantum state-selected atomic and molecular ions. \r\nWe offer the possibility to join a team of experienced experimentalists, technicians and international scientists to work at a world-wide unique facility on exciting interdisciplinary projects.   \r\n"
+            },
+            "times": [
+                "1",
+                "0",
+                "1",
+                "0",
+                "0"
+            ],
+            "total_times": "2",
+            "link": "https:\/\/www.mpi-hd.mpg.de\/blaum\/storage-rings\/csr\/index.en.html         ",
+            "image": "uploads\/cover_image_QNM.jpg"
+        },
+        "VXB": {
+            "name": "Gruppe Oberthaler",
+            "field": "AMO",
+            "contact": "helmut.strobel@kip.uni-heidelberg.de",
+            "profs": "Prof. Dr. Markus Oberthaler",
+            "room": 31,
+            "text": {
+                "de": "In der Gruppe von Markus Oberthaler k\u00fchlen wir Atome bis ganz nah an den absoluten Nullpunkt. Zwei Experimente benutzen diese ultrakalten Gase als analogen Quantensimulator f\u00fcr fundamentale quantenfeldtheoretische Fragen. In einem dritten Experiment dienen quantenoptische K\u00fchlmethoden dazu, in ganz anderen Bereichen Fragen zu beantworten, so zum Beispiel: Wie alt ist eigentlich das Wasser im tiefen Ozean oder in einem See in Afrika? Kommt vorbei, dann erz\u00e4hlen wir euch gerne mehr zu diesen Themen und zu m\u00f6glichen Abschlussarbeiten in unserer Gruppe!",
+                "en": "In the group of Markus Oberthaler we cool atoms very close to absolute zero temperature. Two experiments use these ultracold gases as analog quantum simulator for fundamental questions in quantum field theory. In a third experiment, quantum optical cooling methods are used to answer questions in seemingly different research areas, for example: How old is the water in the deep ocean or in a sea in Africa? Stop by to learn more about these topics and the possibilities for a thesis in our group!"
+            },
+            "times": [
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+            ],
+            "total_times": "2",
+            "link": "http:\/\/www.kip.uni-heidelberg.de\/matterwave",
+            "video": "https://heibox.uni-heidelberg.de/seafhttp/files/ef11f86f-6095-4af9-909c-b4835e08e3b5/ATTA_Trailer.MP4",
+            "video_url": "https://heibox.uni-heidelberg.de/f/2d0b78bf8a1a43519c80/"
+        },
+        "ZUS": {
+            "name": "Heavy-ion physics with ALICE and ISOQUANT (AG Masciocchi)",
+            "field": "NUC",
+            "contact": "s.masciocchi@gsi.de",
+            "profs": "Prof. Dr. Silvia Masciocchi",
+            "room": 32,
+            "text": {
+                "de": "Wir sind eine Gruppe von Bachelor-, Master- und PhD-Studenten, die die Physik von hochenergetischen Schwerionenkollisionen untersuchen. In enger Zusammenarbeit mit der ALICE-Gruppe an der GSI in Darmstadt analysieren wir Daten von Kern-Kern-Kollisionen in ALICE und sind stark an der Entwicklung neuer Detektoren zur Teilchenverfolgung beteiligt.\r\nALICE ist eines der vier gro\u00dfen Experimente am Large Hadron Collider (LHC) des CERN, das die Physik stark wechselwirkender Materie bei extremen Energiedichten untersucht, bei denen die Bildung einer neuen Phase der Materie, des Quark-Gluon-Plasmas, erwartet wird.\r\nNeben unseren Aktivit\u00e4ten in der Datenanalyse und der Hardwareentwicklung arbeiten wir auch eng mit dem Theoretischen Institut (ITP) unserer Universit\u00e4t zusammen. Im Rahmen des Sonderforschungsbereichs ISOQUANT arbeiten wir an einer ph\u00e4nomenologischen Beschreibung von hei\u00dfer QCD-Materie, indem wir die Entwicklung von stark wechselwirkender Materie, die in ultra-relativistischen Kollisionen entsteht, mit Hilfe der Fluiddynamik beschreiben.",
+                "en": "We are a group of bachelor, master and PhD students investigating the physics of high energy heavy ion collisions. In close cooperation with the ALICE group at GSI in Darmstadt, we are analysing data from nucleus-nucleus collisions in ALICE and are strongly involved in the development of new detectors for particle tracking.\r\nALICE is one of the four big experiments at the CERN Large Hadron Collider (LHC), which is dedicated to study the physics of strongly interacting matter at extreme energy densities where the formation of a new phase of matter, the quark-gluon-plasma, is expected.\r\nApart from our activities in data analysis and hands-on hardware development, we are also working closely together with the theory department (ITP) of our university. Within the ISOQUANT Collaborative Research Centre, we are working on a phenomenology description of hot QCD matter by using fluid dynamics to describe the evolution of strongly interacting matter produced in ultra-relativistic collisions."
+            },
+            "times": [
+                "1",
+                "0",
+                "0",
+                "1",
+                "1"
+            ],
+            "total_times": "3",
+            "link": "https:\/\/www.physi.uni-heidelberg.de\/~sma\/",
+            "image": "uploads\/cover_image_ZUS.png"
+        },
+        "WAZ": {
+            "name": "LHCb Gruppe Heidelberg",
+            "field": "PP",
+            "contact": "bachmann@physi.uni-heidelberg.de",
+            "profs": "Prof. Dr. Stephanie Hansmann-Menzemer, Prof. Dr. , Prof. Dr. Ulrich Uwer",
+            "room": 33,
+            "text": {
+                "de": "Unsere Arbeitsgruppe ist Mitglied der LHCb Kollaboratioin am CERN, ein f\u00fcr die Untersuchung von Beauty und Charm-Hadronen spezialisertes Experiment. Unser Arbeitsgebiet deckt einen weiten Bereich von Aktivit\u00e4ten ab, u.a. die Analyse der experimentellen Daten, die Entwicklung von Algorithmen f\u00fcr die Rekonstruktion der Teilchenspuren sowie der Bau eines neuen Spurdetektors f\u00fcr den geplanten Update.\r\nDie physikalischen Analyse die von unserer Arbeitsgruppe durchgef\u00fchrt werden beinhalten die Untersuchung von Oszillations und CP verletzenden Ph\u00e4nomenen schwerer Mesonen, die Suche nach sehr seltenden oder im Standardmodell verbotenen Zerf\u00e4llen sowie die Untersuchung der k\u00fcrzlich von der LHCb Kollaborationen entdeckten Tetra- und Pentaquarks. ",
+                "en": "We are member of the LHCb collaboration at CERN, an experiment dedicated to investigate Beauty- and Charm-Hadrons at high precision. Our group covers a broad range of activities, including analysis of experimental data, development of track reconstruction algorithms and construction of a new tracking detector for the coming upgrade of the LHCb detector.\r\nPhysics topics covered by our group are the investigation of oscillation and CP violating phenomena of heavy mesons, the search for very rare and and forbidden particle decays as well as the study of tetra- and pentaquarks recently discovered by the LHCb collaboration."
+            },
+            "times": [
+                "0",
+                "1",
+                "1",
+                "0",
+                "0"
+            ],
+            "total_times": "1",
+            "link": "https:\/\/www.physi.uni-heidelberg.de\/Forschung\/he\/LHCb\/workgroup\/",
+            "image": "uploads\/cover_image_WAZ.jpg"
+        },
+        "RBV": {
+            "name": "Theory and Observations of Stars",
+            "field": "AST",
+            "contact": "saskia.hekker@h-its.org",
+            "profs": "Prof.dr.ir. Saskia Hekker",
+            "room": 34,
+            "text": "Stars are an important source of electromagnetic radiation in the universe allowing for studies of many phenomena, from distant galaxies to the interstellar medium, stellar structure and evolution, and extra-solar planets. Hence, our understanding of the physical processes that take place in stars underpins our knowledge in many fields of astronomy. However due to their opacity the internal structure of stars can not be viewed directly. Using the global oscillation modes exhibited by many stars together with measurements of the surface properties of stars and stellar models, i.e. asteroseismology, it is now possible to probe the layers hidden by the stellar surface and infer the stellar structure in a quasi-direct way.",
+            "times": [
+                "0",
+                "1",
+                "0",
+                "0",
+                "0"
+            ],
+            "total_times": "2",
+            "link": "https:\/\/www.h-its.org\/research\/tos\/",
+            "image": "uploads\/cover_image_RBV.jpg"
+        },
+        "QJN": {
+            "name": "Strongly Correlated Systems ",
+            "field": "COM",
+            "contact": "j.pawlowski@thphys.uni-heidelberg.de",
+            "profs": "Jan M. Pawlowski",
+            "room": 35,
+            "text": "We are working on strongly correlated systems, ranging from ultracold atoms over QCD to quantum gravity. Strong correlations in physics either originate in a large couplings and\/or large fields\/occupations and\/or large correlation lengths and\/or topological effects. \r\nThis leads to exciting phenomena such as phase transitions, competing order, spontaneous symmetry breaking, and non-trivial scaling in and out of equilibrium. \r\nAll of these systems or rather phenomena have in common, that their resolution requires non-perturbative methods. We use non-perturbative renormalisation group techniques (diagrammatic), lattice simulations (with and without machine learning) as well as semi-classical expansions. \r\n(1) QCD: phase structure of QCD and its real-time properties including non-equilibrium aspects such as transport, hydro and far-from equilibrium.    \r\n(2) Ultracold Atoms: study of the dimensional crossover and the thermodynamic limit vs finite systems, \r\nespecially the BCS-BEC crossover in fermionic systems, dynamics and real time properties. \r\n(3) Asymptotically Safe Gravity: study of the phase structure of asymptotically safe gravity with matter, stability of the system with and without matter, phenomenological consequences, quantitative reliability and Minkowski properties (real-time\/timelike)\r\n(4) Lattice, Neuromorphic Computing & Machine Learning: Here we aim at simulations of in particular QCD and ultracold atoms (sign problem), as well as the study of real-time properties (inverse problems). In the context of neuromorphic computing we are also interested in the understanding of learning processes on the neuromorphic hardware. Finally, we also work on explainable machine learning. \r\n",
+            "times": [
+                "1",
+                "1",
+                "2",
+                "0",
+                "0"
+            ],
+            "total_times": "2",
+            "link": "https:\/\/www.thphys.uni-heidelberg.de\/~pawlowski\/"
+        },
+        "ZHC": {
+            "name": "Ultracold",
+            "field": "AMO",
+            "contact": "jochim@uni-heidelberg.de",
+            "profs": "Prof. Selim Jochim, Dr. Philipp Preiss",
+            "room": 36,
+            "text": {
+                "de": "Wenn Ihr mit einzelnen Atomen spielen wollt beobachten wollt, wie ein Phasen\u00fcbergang entsteht, wenn die Anzahl der Atome vergr\u00f6\u00dfert wird, dann kommt zu uns!",
+                "en": "If you would like to play with individual atoms and see how a phase transition emerges as the the number of atoms is increased, then come to us!"
+            },
+            "times": [
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+            ],
+            "total_times": "3",
+            "link": "http:\/\/ultracold.physi.uni-heidelberg.de\/",
+            "image": "uploads\/cover_image_ZHC.jpg"
+        },
+        "VMU": {
+            "name": "Many-Body Quantum Dynamics",
+            "field": "COM",
+            "contact": "martin.gaerttner@kip.uni-heidelberg.de",
+            "profs": "PD Dr. Martin G\u00e4rttner",
+            "room": 37,
+            "text": {
+                "de": "Die Dynamik von Quanten-Vielteilchen Systemen ist auf herk\u00f6mmlichen Computern extrem schwer zu simulieren. Ein Weg um dieses Hindernis herum, welcher auf Richard Feynman zur\u00fcckgeht, ist es Computer zu verwenden, die selbst auf der Basis quantenmechanischer Gesetze funktionieren, sogenannte Quantensimulatoren. Die rasanten experimentellen Fortschritte der letzten Jahrzehnte haben diese Vision Realit\u00e4t werden lassen. Unsere Forschung besch\u00e4ftigt sich mit den Herausforderungen, die zu bew\u00e4ltigen sind damit Quantensimulationsexperimente wirklich die Grenzen unseres Verst\u00e4ndnisses von Quanten-Vielteichenphysik hinausschieben k\u00f6nnen. Eine dieser Herausforderungen ist die Suche Wegen um Probleme aus der Physik der kondensierten Materie und Hochenergiephysik mit Quantensimulatoren zu emulieren. Au\u00dferdem m\u00fcssen Quantensimulationsexperimente gegengetestet werden durch Simulationen auf herk\u00f6mmlichen Computern, wof\u00fcr wir effiziente numerische Algorithmen entwickeln. Desweiteren ist das Auslesen, also das extrahieren von relevanten Informationen aus den erzeugten Quantenzust\u00e4nden, oftmals nur eingeschr\u00e4nkt m\u00f6glich durch begrenzte Messm\u00f6glichkeiten und endliche Messstatistik. Um hier Abhilfe zu schaffen entwickeln wir effiziente Auslesemethoden die es erlauben nicht direkt messbare Gr\u00f6\u00dfen wie ungleichzeitige Korrelationen und Verschr\u00e4nkung zu extrahieren.",
+                "en": "The quantum dynamics of many-particle systems is a problem that is notoriously hard to solve numerically on conventional computers. One way of overcoming this challenge, which goes back to Richard Feynman, is to use devices that themselves function based on the laws of quantum mechanics, so called quantum simulators. Recent experimental progress in has let this vision become reality in labs around the world. Our research is centered around the challenges that arise on the way towards using quantum simulation experiments to push the borders of our understanding of many-body physics. One of these challenges is the search for ways in which quantum many-body problems that arise in other research field such as condensed matter and high energy physics can be emulated on quantum simulators. Also these quantum simulation experiments need to be benchmarked or verified by comparing to simulations on conventional computers, for which we develop efficient numerical methods. Finally, the readout, or extraction of the relevant information from the prepared quantum states is often limited due to limited detection capabilities or statistics. To alleviate this problem we develop efficient readout schemes for accessing quantities like unequal-time correlations or entanglement quantifiers."
+            },
+            "times": [
+                "1",
+                "2",
+                "2",
+                "2",
+                "2"
+            ],
+            "total_times": "1",
+            "link": "http:\/\/www.kip.uni-heidelberg.de\/user\/marting\/",
+            "image": "uploads\/cover_image_VMU.png"
+        },
+        "YQI": {
+            "name": "Abteilung Medizinische Physik in der Radiologie am Deutschen Krebsforschungszentrum (DKFZ)",
+            "field": "MED",
+            "contact": "MedPhysRadiology.theses@dkfz.de",
+            "profs": "Prof. Mark E. Ladd",
+            "room": 38,
+            "text": {
+                "de": "Fortschrittliche radiologische Bildgebung nimmt eine zentrale Rolle ein bei der Versorgung von Krebspatienten im Rahmen der Fr\u00fcherkennung, der Bestimmung des Krankheitsstadiums sowie der Therapieplanung und \u2013\u00fcberwachung. In den letzten Jahren hat die Magnetresonanz-Tomographie (MRT) in diesem Zusammenhang zunehmend an Bedeutung gewonnen. Daher ist die Entwicklung neuer MRT-Methoden der Hauptfokus der Abteilung Medizinische Physik in der Radiologie am Deutschen Krebsforschungszentrum (DKFZ). Die umfasst Hardwareentwicklung f\u00fcr Ganzk\u00f6rper-7T-MR-Bildgebung, X-Kern-Bildgebung, die Erforschung molekularer Eigenschaften von Gewebe mittels Spektroskopie und der Messung chemischen Austauschs von Protonen zwischen Molek\u00fclen (CEST), der Bestimmung von magnetischen Eigenschaften von Gewebe mittels quantitativer Suszeptibilit\u00e4tsbildgebung, der Untersuchung von Zellmembranen in vivo mittels diffusionsgewichteter Bildgebung sowie der Erzeugung hyperpolarisierter MR-Kontrastmittel. Weitere Themen sind die optische Bildgebung, die MR-gef\u00fchrte Strahlentherapie und die Kombination von Positronen-Emissions-Tomographie und MRT.\r\nBitte melden Sie sich bei Interesse bei MedPhysRadiology.theses@dkfz.de; wir werden Sie hinsichtlich der M\u00f6glichkeiten f\u00fcr Abschlussarbeiten kontaktieren.",
+                "en": "Advanced radiological imaging plays a crucial role in clinical cancer care for early detection, staging, therapy planning and follow-up. In recent years, Magnetic Resonance Imaging (MRI) has gained increasing importance for these tasks. Therefore, the development of new MRI methods is the main focus of the Department Medical Physics in Radiology at the German Cancer Research Center (DKFZ). This includes hardware development for whole-body 7T MRI, X-nuclei imaging, investigating the molecular properties of tissue using spectroscopy and Chemical Exchange Saturation Transfer (CEST) imaging, assessing magnetic properties of tissue using Quantitative Susceptibility Mapping (QSM), probing cell membranes in vivo using Diffusion-Weighted Imaging (DWI), and generating hyperpolarized MRI contrast media. Further topics are optical imaging, MR-guided radiation therapy, and the combination of Positron Emission Tomography (PET) and MRI.\r\n \r\nIf you are interested, please write to MedPhysRadiology.theses@dkfz.de and we will contact you regarding possibilities for theses."
+            },
+            "times": [
+                "1",
+                "0",
+                "1",
+                "0",
+                "1"
+            ],
+            "total_times": "3",
+            "link": "https:\/\/www.dkfz.de\/de\/medphysrad\/",
+            "image": "uploads\/cover_image_YQI.jpg"
+        },
+        "KMP": {
+            "name": "Computer Vision Group",
+            "field": "COM",
+            "contact": "ommer@uni-heidelberg.de",
+            "profs": "Prof. Bj\u00f6rn Ommer",
+            "room": 39,
+            "text": "The Computer Vision Group conducts research in the fields of machine vision and learning. Esp.:\r\nsemantic scene understanding, visual synthesis & interpretable AI, deep learning & self-supervision, deep metric & representation learning, object recognition in images and videos, and their interdisciplinary applications. ",
+            "times": [
+                "1",
+                "2",
+                "0",
+                "0",
+                "0"
+            ],
+            "total_times": "1",
+            "link": "https:\/\/hci.iwr.uni-heidelberg.de\/compvis",
+            "video": "https:\/\/compvis.github.io\/taming-transformers\/images\/taming.mp4",
+            "video_url": "https:\/\/compvis.github.io\/taming-transformers\/images\/taming.mp4"
+        }
+    }
+}
