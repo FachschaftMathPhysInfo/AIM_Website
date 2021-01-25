@@ -29,7 +29,7 @@
                 if (obj.hasOwnProperty("video")){
                     vid = "<video class='group-video' controls><source src='" + obj.video + "' type='video/mp4'><a href='" + obj.video_url + "'>Video ansehen</a></video> ";
                     if (key == 'VXB') {
-                        video2='https://heibox.uni-heidelberg.de/seafhttp/files/823f53c4-54fc-4522-ba60-2b44bf7825cd/BECBECK_Trailer.mp4';
+                        video2='uploads/BECBECK_Trailer.mp4';
                         video2_url='https://heibox.uni-heidelberg.de/f/9404b2e5f18f440d9474/';
                         vid = vid + "<video class='group-video' controls><source src='" + video2 + "' type='video/mp4'><a href='" + video2_url + "'>Video ansehen</a></video> ";
                     }
@@ -61,6 +61,22 @@
         }).appendTo( "#groups" );
 
         return items.length;
+    }
+
+    function fillSchedule(data) {
+        var items = [];
+        $.each( data, function( key, obj ) {
+            var tname;
+            var tstatus;
+            var td = '';
+            for (var i=1; i<=5; i++) {
+                tname = 'time' + i;
+                tstatus = obj[tname];
+                td = td + "<td class='schedule-" + tstatus + " " + obj.field +  "'>&nbsp;&nbsp;</td>";
+            }
+            items.push( "<tr><td class='schedule-name'>" + obj.name + "</td>" + td + "</tr>");
+        });
+        $( '#schedule' ).html(items.join(""));
     }
 
     function fieldHeader(data, fieldID, lang) {
@@ -114,6 +130,12 @@
                     }
                 });
             });
+        });
+    });
+
+    $( document ).ready(function() {
+        $.getJSON( "gruppen-zeitslots.json", function( data ) {
+            fillSchedule(data);
         });
     });
 
@@ -188,7 +210,7 @@
                 </div>
                 <div class="field-body">
                     <div class="field">
-                        <p>Online auf Zoom (der Raum wird rechtzeitig hier verlinkt werden)</p>
+                        <p>Online auf <strong>Discord</strong> (der Raum wird rechtzeitig hier verlinkt werden)</p>
                     </div>
                 </div>
             </div>
@@ -234,7 +256,7 @@
                 </div>
                 <div class="field-body">
                     <div class="field">
-                        <p>Online via Zoom (link will be posted here before the event)</p>
+                        <p>Online via <strong>Discord</strong> (link will be posted here before the event)</p>
                     </div>
                 </div>
             </div>
@@ -264,6 +286,33 @@
 </div>
 <!-- Overview of reasearch fields -->
 <div class="columns is-mobile is-multiline is-centered" id="fields">
+</div>
+<hr />
+<div class="is-two-thirds-desktop" id="table-div">
+    <table class="table is-hoverable">
+        <thead>
+          <tr>
+            <th>Arbeitsgruppe</th>
+            <th>14:00–14:45</th>
+            <th>14:45–15:30</th>
+            <th>15:30–16:15</th>
+            <th>16:15–17:00</th>
+            <th>17:00–17:45</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <th>Arbeitsgruppe</th>
+            <th>14:00–14:45</th>
+            <th>14:45–15:30</th>
+            <th>15:30–16:15</th>
+            <th>16:15–17:00</th>
+            <th>17:00–17:45</th>
+          </tr>
+        </tfoot>
+        <tbody id="schedule">
+        </tbody>
+    </table>
 </div>
 <hr />
 <!-- Boxes for each group -->

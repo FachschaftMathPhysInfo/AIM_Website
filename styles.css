@@ -122,7 +122,7 @@ div.field-icon {
     .group-img { max-height: 350px; max-width: auto; }
 }
 @media (min-width: 769px) {
-    .group-img { max-height: 350px; }
+    .group-img { max-height: 350px; max-width: auto; }
 }
 
 
@@ -148,4 +148,41 @@ div.field-icon {
 #textfoot p {
     text-align: center;
     color: #aaaaaa;
+}
+
+.schedule-1.CM {
+    background-color: #bec0d2;
+}
+.schedule-1.BIO {
+    background-color: #c5bfcf;
+}
+.schedule-1.MED {
+    background-color: #e1c4d4;
+}
+.schedule-1.UP {
+    background-color: #f2bec1;
+}
+.schedule-1.TI {
+    background-color: #f5c7bc;
+}
+.schedule-1.AST {
+    background-color: #fee4bc;
+}
+.schedule-1.MAT {
+    background-color: #bcc2d6;
+}
+.schedule-1.COM {
+    background-color: #bdcfe0;
+}
+.schedule-1.AMO {
+    background-color: #bcd6ca;
+}
+.schedule-1.NUC {
+    background-color: #c3dbc0;
+}
+.schedule-1.PP {
+    background-color: #d8e4bc;
+}
+.schedule-1.COS {
+    background-color: #eaecbc;
 }
