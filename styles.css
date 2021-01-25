@@ -150,6 +150,12 @@ div.field-icon {
     color: #aaaaaa;
 }
 
+#table-div {
+    margin-bottom: 2em;
+}
+.schedule-head {
+    background-color: #fafafa;
+}
 .schedule-1.CM {
     background-color: #bec0d2;
 }
