@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>fAIM &middot; Fachschaft MathPhysInfo</title>
     <script src="jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script> <!-- Fancybox -->
     <link rel="icon" type="image/png" href="favicon.png" />
     <link rel="stylesheet" href="bulma-0.9.1.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" /> <!-- Fancybox -->
     <link rel="stylesheet" href="styles.css">
     <script>
     var DEFAULT_LANG = "de";
@@ -21,7 +23,16 @@
                 // image
                 var img = "";
                 if (obj.hasOwnProperty("image")){
-                    img = "<img src='" + obj.image + "' />";
+                    img = "<a href='https://aim.mathphys.info/" + obj.image + "' data-fancybox><img class='group-img' src='https://aim.mathphys.info/" + obj.image + "' /></a>";
+                }
+                var vid = "";
+                if (obj.hasOwnProperty("video")){
+                    vid = "<video class='group-video' controls><source src='" + obj.video + "' type='video/mp4'><a href='" + obj.video_url + "'>Video ansehen</a></video> ";
+                    if (key == 'VXB') {
+                        video2='https://heibox.uni-heidelberg.de/seafhttp/files/823f53c4-54fc-4522-ba60-2b44bf7825cd/BECBECK_Trailer.mp4';
+                        video2_url='https://heibox.uni-heidelberg.de/f/9404b2e5f18f440d9474/';
+                        vid = vid + "<video class='group-video' controls><source src='" + video2 + "' type='video/mp4'><a href='" + video2_url + "'>Video ansehen</a></video> ";
+                    }
                 }
                 // description text
                 var text = obj.text;
@@ -37,10 +48,9 @@
                 }
                 items.push( "<div class='group-item' id='" + key + "'>"
                 + "<div class='group-title'><h3>" + obj.name + "</h3></div>"
-                + "<div class='group-name'>" + link + "</div>"
                 + "<div class='columns is-desktop'>"
-                + "<div class='column is-two-thirds-desktop text'><p>" + text + "</p></div>"
-                + "<div class='column img-container'>" + img + "</div>"
+                + "<div class='column is-two-thirds-desktop text'><div class='group-name'>" + link + "</div><p>" + text + "</p></div>"
+                + "<div class='column img-container'>" + img + vid + "</div>"
                 + "</div></div>" );
             }
         });
@@ -79,9 +89,18 @@
         });
     }
 
+    function noGroupsMessage(lang) {
+        if (lang == 'de') {
+            return "noch keine Gruppen registriert";
+        }
+        else {
+            return "No groups registered so far"
+        }
+    }
+
     $( document ).ready(function() {
         var ilen;
-        $.getJSON( "groups_test.json", function( datag ) {
+        $.getJSON( "groups2021.json", function( datag ) {
             $.getJSON( "fields.json", function( data ) {
                 setIcons(data);
                 setIconLabels(data, DEFAULT_LANG);
@@ -90,7 +109,8 @@
                     fieldHeader(data,key,DEFAULT_LANG);
                     ilen = getGroupsFromField(datag,key,DEFAULT_LANG);
                     if (ilen==0) {
-                        $( "#groups" ).append('<div class="group-item"><p><i>noch keine Gruppen registriert</i></p></div>')
+                        var nogr = noGroupsMessage(DEFAULT_LANG);
+                        $( "#groups" ).append('<div class="group-item"><p><i>' + nogr + '</i></p></div>')
                     }
                 });
             });
@@ -112,12 +132,13 @@
         $.getJSON( "fields.json", function( data ) {
             setIconLabels(data, lang);
             $( '#groups' ).html('');
-            $.getJSON( "groups_test.json", function( datag ) {
+            $.getJSON( "groups2021.json", function( datag ) {
                 $.each( data.fields, function( key, obj ) {
                     fieldHeader(data,key,lang);
                     ilen = getGroupsFromField(datag,key,lang);
                     if (ilen==0) {
-                        $( "#groups" ).append('<div class="group-item"><p><i>noch keine Gruppen registriert</i></p></div>')
+                        var nogr = noGroupsMessage(lang);
+                        $( "#groups" ).append('<div class="group-item"><p><i>' + nogr + '</i></p></div>')
                     }
                 });
             });
@@ -167,7 +188,7 @@
                 </div>
                 <div class="field-body">
                     <div class="field">
-                        <p>Online auf Zoom (der Raum wird rechtzeitig hier verlinkt werden)</p>
+                        <p>Online auf <strong>Discord</strong> (der Raum wird rechtzeitig hier verlinkt werden)</p>
                     </div>
                 </div>
             </div>
@@ -192,7 +213,7 @@
                 </div>
             </div>
         </div>
-        <p>Hier findet ihr demnächst einen Überblick über die Arbeitsgruppen, die sich für die Messe angemeldet haben. Stay tuned!</p>
+        <p>Hier findet ihr einen Überblick über die Arbeitsgruppen, die sich für die Messe angemeldet haben:</p>
     </div>
     <div id="aim-welcome-en">
         <p>We, the student representatives (<a href="https://mathphys.info">Fachschaft MathPhysInfo</a>) would like to welcome you on the website of this year's working group fair, which will take place online.</p>
@@ -213,7 +234,7 @@
                 </div>
                 <div class="field-body">
                     <div class="field">
-                        <p>Online via Zoom (link will be posted here before the event)</p>
+                        <p>Online via <strong>Discord</strong> (link will be posted here before the event)</p>
                     </div>
                 </div>
             </div>
@@ -238,15 +259,16 @@
                 </div>
             </div>
         </div>
-        <p>Here, you will be able to find an overview of all working groups which have announced their participation so far. Stay tuned!</p>
+        <p>Below, you can find an overview of all working groups which have announced their participation so far.</p>
     </div>
 </div>
 <!-- Overview of reasearch fields -->
 <div class="columns is-mobile is-multiline is-centered" id="fields">
 </div>
+<hr />
 <!-- Boxes for each group -->
-<!--<div id="groups">
-</div> -->
+<div id="groups">
+</div> 
 <div class="is-full" id="textfoot">
     <p>&copy; Fachschaft MathPhysInfo 2021 &middot; <a href="impressum.html">Impressum</a> &middot; <a href="mailto:aim@mathphys.stura.uni-heidelberg.de">Kontakt</a></p>
 </div>
