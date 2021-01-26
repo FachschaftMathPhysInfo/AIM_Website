@@ -12,8 +12,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" /> <!-- Fancybox -->
     <link rel="stylesheet" href="styles.css">
     <script>
+    var whash = window.location.hash;
     var DEFAULT_LANG = "de";
-    var PAGE_LANG = DEFAULT_LANG;
+    if (whash == "#en") {
+        DEFAULT_LANG = "en";
+    }
 
     function getGroupsFromField(data, fieldID, lang) {
         var items = [];
@@ -98,13 +101,17 @@
         }
     }
 
+    function goto(whash) {
+        location.hash = whash.slice(1);
+    }
+
     $( document ).ready(function() {
         var ilen;
         $.getJSON( "groups2021.json", function( datag ) {
             $.getJSON( "fields.json", function( data ) {
                 setIcons(data);
                 setIconLabels(data, DEFAULT_LANG);
-                setLanguage("de");
+                setLanguage(DEFAULT_LANG);
                 $.each( data.fields, function( key, obj ) {
                     fieldHeader(data,key,DEFAULT_LANG);
                     ilen = getGroupsFromField(datag,key,DEFAULT_LANG);
@@ -113,6 +120,7 @@
                         $( "#groups" ).append('<div class="group-item"><p><i>' + nogr + '</i></p></div>')
                     }
                 });
+                window.setTimeout(goto, 500, whash);
             });
         });
     });
