@@ -254,13 +254,13 @@
             "image": "uploads\/cover_image_RRM.jpg"
         },
         "SLE": {
-            "name": "ALICE Arbeitsgruppe am physikalischen Institut",
+            "name": "ALICE Arbeitsgruppe am Physikalischen Institut",
             "field": "PP",
             "contact": "danisch@physi.uni-heidelberg.de",
             "profs": "Prof. Johanna Stachel",
             "room": 17,
             "text": {
-                "de": "Die internationale ALICE Arbeitsgruppe am physikalischen Institut Heidelberg untersucht Kernmaterie bei extremen Temperaturen und Dichten. Dazu werden Schwerionen oder Protonen bei nahezu Lichtgeschwindigkeit am Large Hadron Collider des CERN zur Kollision gebracht. In diesen Kollisionen wird das sogenannte Quark-Gluon-Plasma produziert. Unsere Gruppe ist an mehreren der Hauptdetektorsysteme des ALICE Experiments beteiligt. Unser Hauptaugenmerk liegt auf dem Transition Radiation Detector. Modernste Datenanalysemethoden, wie z.B. machine learning, werden eingesetzt um die produzierten Teilchen zu studieren. Aus diesen Untersuchungen wollen wir auf die Eigenschaften des Quark-Gluon-Plasmas schlie\u00dfen. Du kannst bei uns eine Bachelor- oder Masterarbeit in den Bereichen Datenanalyse, Ph\u00e4nomenologie oder Detektorphysik schreiben. Wir freuen uns darauf dich kennenzulernen!",
+                "de": "Die internationale ALICE Arbeitsgruppe am Physikalischen Institut Heidelberg untersucht Kernmaterie bei extremen Temperaturen und Dichten. Dazu werden Schwerionen oder Protonen bei nahezu Lichtgeschwindigkeit am Large Hadron Collider des CERN zur Kollision gebracht. In diesen Kollisionen wird das sogenannte Quark-Gluon-Plasma produziert. Unsere Gruppe ist an mehreren der Hauptdetektorsysteme des ALICE Experiments beteiligt. Unser Hauptaugenmerk liegt auf dem Transition Radiation Detector. Modernste Datenanalysemethoden, wie z.B. machine learning, werden eingesetzt um die produzierten Teilchen zu studieren. Aus diesen Untersuchungen wollen wir auf die Eigenschaften des Quark-Gluon-Plasmas schlie\u00dfen. Du kannst bei uns eine Bachelor- oder Masterarbeit in den Bereichen Datenanalyse, Ph\u00e4nomenologie oder Detektorphysik schreiben. Wir freuen uns darauf dich kennenzulernen!",
                 "en": "The international ALICE group at the physics institute in Heidelberg is studying nuclear matter under extreme conditions. For that we collide almost light speed heavy ions and protons at the Large Hadron Collider at CERN. In those collisions the so-called quark-gluon plasma is produced. Our group is involved in various of the main detector systems of the ALICE experiment. Especially we lead the efforts of the transition radiation detector. We use advanced data analysis techniques like machine learning to study the produced particles in order to reveal the properties of the quark-gluon plasma. We offer topics for bachelor and master theses in the areas of data analysis, phenomenology and detector physics. We are looking forward to meeting you!"
             },
             "times": [
@@ -671,6 +671,131 @@
             "link": "https:\/\/hci.iwr.uni-heidelberg.de\/compvis",
             "video": "https:\/\/compvis.github.io\/taming-transformers\/images\/taming.mp4",
             "video_url": "https:\/\/compvis.github.io\/taming-transformers\/images\/taming.mp4"
+        },
+        "VEW": {
+            "name": "LHC Physics and New Particles",
+            "field": "PP",
+            "contact": "butter@thphys.uni-heidelberg.de",
+            "profs": "Prof. Tilman Plehn",
+            "room": 40,
+            "text": {
+                "de": "Unsere Arbeitsgruppe besch\u00e4ftigt sich mit der Phenomenologie der Teilchenphysik. Dabei interessieren wir uns insbesondere f\u00fcr </p><p>- QCD</p><p>- Physik jenseits des Standard Models inklusive dunkler Materie, </p><p>- Globale Analysen von LHC und Kosmologie Daten</p><p>- Machine learning",
+                "en": "Our group is working on particle physics phenomenology. We are particularly interested in </p><p>- QCD</p><p>- Physics beyond the Standard Model including dark matter</p><p>- Global analyses of LHC and cosmologie data</p><p>- Machine learning"
+            },
+            "times": [
+                "1",
+                "1",
+                "0",
+                "0",
+                "1"
+            ],
+            "total_times": "1",
+            "link": "https:\/\/www.thphys.uni-heidelberg.de\/~plehn\/"
+        },
+        "NND": {
+            "name": "ANP",
+            "field": "PP",
+            "contact": "koehli@physi.uni-heidelberg.de; ulrich.schmidt@physi.uni-heidelberg.de",
+            "profs": "Dr. Markus K\u00f6hli, Prof. Ulrich Schmidt",
+            "room": 41,
+            "text": {
+                "de": "Detektion von Wasser mit Hilfe kosmischer Strahlung - mit unserer Expertise in Kern- und Teilchenphysik arbeiten wir zusammen mit den Umweltwissenschaften an einem interdisziplin\u00e4ren Forschungsprojekt. Die neuartige Methode auf die wir uns konzentrieren misst die Menge an Wasserstoff in der Umgebung durch kosmische Neutronen, welche vom Boden entweder reflektiert werden oder welche darin verschwinden. Wir bieten als Projekte an, mit Hilfe von Monte Carlo Simulationsmodellen das Verst\u00e4ndnis von Transportprozessen zu verbessern, ebenso praktische Laborarbeit an Detektoren oder auch kreative L\u00f6sungen mit unserer Arduino-basierten Ausleseelektronik zu finden.</p><p>",
+                "en": "Detecting water using the cosmic radiation - with our expertise in nuclear and particle physics we are working together with environmental scientists in an interdisciplinary research project. The novel method we are focusing on measures the amount of hydrogen in the environment by cosmic-ray neutrons which are either reflected or absorbed by the ground. We offer to work on Monte-Carlo-based simulation models to understand transport processes, hands-on experience with detectors or creative solutions with our Arduino-based front-end electronics  </p><p>"
+            },
+            "times": [
+                "1",
+                "1",
+                "2",
+                "2",
+                "2"
+            ],
+            "total_times": "2",
+            "link": "https:\/\/www.physi.uni-heidelberg.de\/Forschung\/PAT\/Cosmic-Sense\/",
+            "image": "uploads\/cover_image_NND.jpg"
+        },
+        "DNW": {
+            "name": "ANP",
+            "field": "PP",
+            "contact": "ulrich.schmidt@physi.uni-heidelberg.de",
+            "profs": "Prof. Ulrich Schmidt",
+            "room": 42,
+            "text": {
+                "de": "Wir besch\u00e4ftigen uns mit der Suche nach Physik jenseits des Standardmodells mit Hilfe von Pr\u00e4zisionsexperimenten. Unsere Methoden sind Uhrenvergleichsexperimente, genauer vergleichen wir die Larmorpr\u00e4zession von 129-Xe mit 3-He. Je nach Versuchsaufbau suchen wir nach einem elektrischen Dipolmoment des 129-Xenon-Kerns (CP-Verletzung), Axionen oder einer Vorzugrichtung im Universum (Verletzung von CPT und Relativit\u00e4tstheorie). F\u00fcr den Aufbau dieser Experimente suchen wir Studierende, die Spa\u00df daran habe mit am Aufbaue eines Experiments dabei zu sein und sich in eines der folgenden Felder einzuarbeiten: Pr\u00e4zise Mechanik, analoge Messelektronik und Sensorauslese und Experimentsteuerung mit Hilfe von Mikrocontrollern.",
+                "en": "We use precision experiment to search for physics  beyond the Standard Model. Our methods are clock comparison experiments, more specific, we compare the Larmor precession of 129-XE with 3-He. Depending on the setup we search for an electric dipole moment of the 129-Xe nucleus (CP-Violation), Axions or a preferred direction in our universe (Violation of CPT and relativity theory). To setup these experiment we search for students who enjoy to part of setting up an experiment and are willing to develop skills in: Precise mechanics, analog measurement electronics and sensor readout, and experiment control using microcontrollers.</p><p>"
+            },
+            "times": [
+                "1",
+                "1",
+                "1",
+                "0",
+                "0"
+            ],
+            "total_times": "2",
+            "link": "https:\/\/www.physi.uni-heidelberg.de\/\/Forschung\/ANP\/XenonEDM\/",
+            "image": "uploads\/cover_image_DNW.jpg"
+        },
+        "XLA": {
+            "name": "AG Schaltungstechnik",
+            "field": "TI",
+            "contact": "peter.fischer@ziti.uni-heidelberg.de",
+            "profs": "Prof. Fischer",
+            "room": 43,
+            "text": {
+                "de": "In der Arbeitsgruppe werden mikroelektronische Schaltungen ('Chips') und Sensoren f\u00fcr den Nachweis von Teilchen oder Photonen entwickelt. Neben dem analogem und digitalem Schaltungsentwurf wird Firm- und Software f\u00fcr Messungen entwickelt und diese dann durchgef\u00fchrt und ausgewertet. Schwerpunkte liegen derzeit auf der Auslese von SiPM f\u00fcr PET (mit ETH, Z\u00fcrich und Stanford University), der Entwicklung von hybriden Pixeldetektoren f\u00fcr mittelenergetischen R\u00f6ntgenstrahlen (mit ESRF, Frankreich) sowie der Entwicklung mehrerer neuartiger Auslesekonzepte und Chips zum Nachweise einzelner Photonen, z.B. f\u00fcr das geplante DARWIN Experiment.",
+                "en": "The group develops microelectronic circuits ('chips') and sensors for the detection of particles or photons. After analogue and digital circuit design, test setups requiring FPGA firmware and readout software are developed. Measurements using radioactive sources of light pulses are carried out and analysed. The focus at the moment is on readout ASICs for SiPMs for PET applications (with ETH, Z\u00fcrich and Stanford University), on the design of a hybrid pixel detector system for medium energy X-rays (with ESRF, France) and on the development of various novel readout architectures and chips for the detection of single photons, for instance for the planned DARWIN experiment."
+            },
+            "times": [
+                "0",
+                "1",
+                "1",
+                "1",
+                "2"
+            ],
+            "total_times": "1",
+            "link": "https:\/\/sus.ziti.uni-heidelberg.de",
+            "image": "uploads\/cover_image_XLA.jpg"
+        },
+        "BYI": {
+            "name": "Application Specific Computing",
+            "field": "TI",
+            "contact": "strzodka@uni-heidelberg.de",
+            "profs": "Prof. Dr. Robert Strzodka",
+            "room": 44,
+            "text": {
+                "de": "Unsere Forschung zielt auf eine signifikante Verbesserung der Performanz und Genauigkeit im anwendungsspezifischen Rechnen durch eine globale Optimierung \u00fcber das gesamte Spektrum von numerischen Methoden, Algorithmen, Software Implementierung und Hardware Beschleunigung. Das Potenzial hief\u00fcr ist enorm, denn typische Anwendungen nutzen nur 0.1% der Leistungsf\u00e4higkeit heutiger Computer.",
+                "en": "Our research focuses on significant improvements of performance and accuracy in application specific computing through a global optimization across the entire spectrum of numerical methods, algorithm design, software implementation and hardware acceleration. The potential is enormous, as typical scientific applications utilize only 0.1% of the peak performance of todays computers."
+            },
+            "times": [
+                "0",
+                "0",
+                "0",
+                "1",
+                "1"
+            ],
+            "total_times": "1",
+            "link": "asc.ziti.uni-heidelberg.de",
+            "image": "uploads\/cover_image_BYI.png"
+        },
+        "ZOO": {
+            "name": "Far-from-equilibrium quantum dynamics",
+            "field": "COM",
+            "contact": "t.gasenzer@uni-heidelberg.de",
+            "profs": "Thomas Gasenzer",
+            "room": 45,
+            "text": {
+                "de": "In vieler Hinsicht ist Natur im Gleichgewicht: Kräfte, die auf ein jedes Objekt wirken, auf jedes einzelne Molekül oder Atom, halten sich gegenseitig die Waage. Was aber wäre das Gleichgewicht ohne Bewegung? Die Natur „lebt“ geradezu dadurch, dass sie aus dem Gleichgewicht gerät und sich wieder in es zurückbewegt. Der ständige Wechsel von „Stop“ und „Go“ lässt fragen, wie sich Gleichgewichtszustände überhaupt einstellen. Oder gibt es vielleicht sogar Bedingungen, unter denen der Zustand des Gleichgewichts nicht zu erreichen ist? Was passiert genau, wenn eine Tasse Kaffee abkühlt? Diese vordergründig unscheinbaren Fragen eröffnen Einblicke in bislang unbekannte Phänomene von weitreichender praktischer Bedeutung. Extrem kalte Atomgase erlauben es heute, Modellsysteme gezielt im Nicht-Gleichgewicht zu realisieren. An ihnen lassen sich präzise Messungen durchführen, deren Ergebnisse helfen können, auch andere physikalische Systeme zu verstehen. In besonders interessanten Fällen läuft die Bewegung ins Gleichgewicht extrem langsam ab, so daß dieses in realistischen Zeiträumen gar nicht erreicht wird, man denke z.B. über Glas als eine Flüssigkeit nach. Langsam zu sein ist also ganz nach unserem Geschmack - wenn auch nicht in jeder Hinsicht. Unsere Computer empfinden wir beispielsweise irgendwie immer als *zu* langsam. Dem arbeiten wir aktiv entgegen, damit wir uns dann an der Langsamkeit des Seins erfreuen können. Wir nutzen z.B. Parallel Computing auf Grafikkarten, aber auch formale, mathematische, quantenfeldtheoretische Argumentation. Und zunehmend sind wir an neuen analogen Computing Architekturen im Bereich neuromorpher Hardware interessiert, deren Nutzung wir zusammen mit unseren Kolleg*innen am Institut entwickeln. Unsere Gruppe ist am Kirchhoff-Institut inmitten experimenteller Arbeitsgruppen aktiv, der physikalische, anwendungs-orientierte Blickwinkel bestimmt unser Tun. Zur nebenstehenden Illustration: (a) Unter der ultralangsam fließenden Glasscheibe die kritisch verlangsamte Bewegung eines Suprafluids. (b) Kühlprozess eines Nicht-Suprafluids. (c) Wir lieben die Quanten und lassen gleichzeitig die Katzen am Leben. ",
+                "en": "Equilibrium is a dominating characteristic of nature: Forces acting on every object, on every molecule or atom, mutually balance each other. But in fact, nature literally \u2018lives\u2019 on overcoming equilibrium \u2013 if it did not, life as we know it would not be possible. The constant change between \u2018stop\u2019 and \u2018go\u2019 leads us to the interesting question of how equilibrium states \u2013 e.g. of gaseous or liquid matter \u2013 form, and whether they invariably form at all. What exactly happens in a cup of coffee that is cooling down? Although these questions have been on the table not only since last week, some intricate problems remain unsolved. Today, ultra-cold atomic quantum gases, prepared in the lab at temperatures very close to absolute zero, allow us to construct specific model systems that enable us to perform precision measurements of their dynamic properties. We can use them to study how an equilibrium state is reached when starting from a particular, well-defined non-equilibrium state. In especially interesting cases, this equilibration proceeds extremely slowly, so that equilibrium is de facto never reached. Thinking of an exemplary illustration of such slowness try to think of glass as a fluid. So, slow is lit - but not under any circumstances. Our computers, e.g., we find, are notoriously too slow, whatever we invest in them. So we are working on overcoming this, to enjoy and understand the slowness in nature. For this, we seek, e.g., the help of clusters of graphics processing units, but also that of formal quantum field theoretical and mathematical arguments. And we are increasingly interested in looking for new analog computing systems in the realm of neuromorphic computing devices, collaborating with the experts at the institute, who are developing these. Our group is located at the Kirchhoff-Institute, doing theory in the midst of experimental physicists and always thinking from a physical, application-oriented point of view. Illustration: (a) Superfluid showing slowing flow on glass tablet showing super slow flow (b) Cooling non-super fluid (c) We love quantum but strive to keep cats alive. "
+            },
+            "times": [
+                "0",
+                "0",
+                "0",
+                "1",
+                "1"
+            ],
+            "total_times": "2",
+            "link": "http:\/\/www.kip.uni-heidelberg.de\/gasenzer",
+            "image": "uploads\/cover_image_ZOO.jpg"
         }
     }
 }
