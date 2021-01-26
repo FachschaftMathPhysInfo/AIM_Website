@@ -147,7 +147,7 @@
             "image": "uploads\/cover_image_UUD.jpg"
         },
         "WEF": {
-            "name": "AG Hausmann Komparative Genomik",
+            "name": "AG Hausmann: Strahlenbiophysik &ndash; Komparative Genomik &ndash; Astrobiologie\/Astrobiophysik",
             "field": "BIO",
             "contact": "hilden@kip.uni-heidelberg.de",
             "profs": "Hausmann, Hildenbrand",
@@ -158,7 +158,7 @@
             },
             "times": [
                 "1",
-                "0",
+                "1",
                 "1",
                 "0",
                 "0"
@@ -166,27 +166,6 @@
             "total_times": "2",
             "link": "http:\/\/www.kip.uni-heidelberg.de\/user\/hausmann\/",
             "image": "uploads\/cover_image_WEF.png"
-        },
-        "ALO": {
-            "name": "AG Hausmann Astrobiologie\/Astrobiophysik",
-            "field": "BIO",
-            "contact": "hilden@kip.uni-heidelberg.de",
-            "profs": "Hausmann, Hildenbrand",
-            "room": 10,
-            "text": {
-                "de": "Wir besch\u00e4ftigen uns mit Wechselwirkungen von biologischer Materie mit Strahlung, insbesondere wie biologische Systeme unter Strahlung ihre Integrit\u00e4t bewahren oder wieder herstellen k\u00f6nnen.</p><p>Dabei messen wir sowohl zum einen mit modernster optischer Lokalisationsmikroskopie 3D-Strukturen des Chromatins im Zellkern, als auch im Rahmen der Gesamtreaktion der Zelle Ver\u00e4nderungen der Organisation von Proteinen in der Membran und im Zellplasma.</p><p>Bedeutung und Auswirkung der Biophysik der DNA selbst, basierend auf ihrer Sequenz, wird im Bereich der komparativen Genomik untersucht, wo Muster von k-Worten in der DNA-Sequenz und ihre H\u00e4ufungen untereinander sowie in Relation zu genomischen Elementen verglichen werden.</p><p>Im Bereich der Astrobiologie werden Bedingungen f\u00fcr Biochemie und Leben auf der Basis von Strahlung von radioaktiven Elementen bis aktiven Galaxienkernen untersucht und modelliert.</p><p>Es werden drei eigenst\u00e4ndige Breakout Rooms angestrebt, jeweils einen f\u00fcr Strahlenbiophysik, einen f\u00fcr Komparative Genomik und einen f\u00fcr Astrobiologie\/Astrobiophysik.",
-                "en": "Our research is mainly focused on the interactions of biological matter with radiation, in particular how biological systems can maintain or restore their integrity under irradiation.</p><p>We use the latest optical localization microscopy to measure 3D structures of the chromatin in the cell nucleus and, as part of the overall reaction of the cell, changes in the organization of proteins in the membrane and in the cytoplasm.</p><p>The meaning and impact of the biophysics of DNA itself, based on its sequence, is examined in the area of comparative genomics, where patterns of k-words in the DNA sequence and their accumulations are compared with one another and in relation to genomic elements.</p><p>In the field of astrobiology, conditions for biochemistry and life are investigated and modeled on the basis of radiation from radioactive elements to active galaxy nuclei.</p><p>The aim is to have three independent breakout rooms, one each for radiation biophysics, for comparative genomics and for astrobiology\/astrobiophysics."
-            },
-            "times": [
-                "0",
-                "1",
-                "0",
-                "0",
-                "0"
-            ],
-            "total_times": "1",
-            "link": "http:\/\/www.kip.uni-heidelberg.de\/user\/hausmann\/",
-            "image": "uploads\/cover_image_ALO.png"
         },
         "KJT": {
             "name": "Image Analysis and Learning",
@@ -353,7 +332,7 @@
                 "2"
             ],
             "total_times": "2",
-            "link": "under construction... https:\/\/www.physi.uni-heidelberg.de\/Mitarbeiter\/madetails.php?id=1371",
+            "link": "https:\/\/www.physi.uni-heidelberg.de\/Mitarbeiter\/madetails.php?id=1371",
             "image": "uploads\/cover_image_SXN.jpg"
         },
         "JWS": {
