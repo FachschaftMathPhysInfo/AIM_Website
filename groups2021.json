@@ -532,7 +532,9 @@
             ],
             "total_times": "3",
             "link": "https:\/\/www.physi.uni-heidelberg.de\/~sma\/",
-            "image": "uploads\/cover_image_ZUS.png"
+            "image": "uploads\/cover_image_ZUS.png",
+            "video": "https://aim.mathphys.info/uploads/GroupVideo.mp4",
+            "video_url": "https://heibox.uni-heidelberg.de/f/e0b5eb19dc9f4d2ebdaa/"
         },
         "WAZ": {
             "name": "LHCb Gruppe Heidelberg",
