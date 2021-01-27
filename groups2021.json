@@ -597,7 +597,7 @@
             "profs": "Prof. Selim Jochim, Dr. Philipp Preiss",
             "room": 36,
             "text": {
-                "de": "Wenn Ihr mit einzelnen Atomen spielen wollt beobachten wollt, wie ein Phasen\u00fcbergang entsteht, wenn die Anzahl der Atome vergr\u00f6\u00dfert wird, dann kommt zu uns!",
+                "de": "Wenn Ihr mit einzelnen Atomen spielen wollt, beobachten wollt, wie ein Phasen\u00fcbergang entsteht, wenn die Anzahl der Atome vergr\u00f6\u00dfert wird, dann kommt zu uns!",
                 "en": "If you would like to play with individual atoms and see how a phase transition emerges as the the number of atoms is increased, then come to us!"
             },
             "times": [
@@ -773,7 +773,7 @@
                 "1"
             ],
             "total_times": "1",
-            "link": "asc.ziti.uni-heidelberg.de",
+            "link": "https://asc.ziti.uni-heidelberg.de",
             "image": "uploads\/cover_image_BYI.png"
         },
         "ZOO": {
