@@ -257,10 +257,10 @@
             "name": "ALICE Arbeitsgruppe am Physikalischen Institut",
             "field": "PP",
             "contact": "danisch@physi.uni-heidelberg.de",
-            "profs": "Prof. Johanna Stachel",
+            "profs": "Prof. Dr. Johanna Stachel, Prof. Dr. Klaus Reygers",
             "room": 17,
             "text": {
-                "de": "Die internationale ALICE Arbeitsgruppe am Physikalischen Institut Heidelberg untersucht Kernmaterie bei extremen Temperaturen und Dichten. Dazu werden Schwerionen oder Protonen bei nahezu Lichtgeschwindigkeit am Large Hadron Collider des CERN zur Kollision gebracht. In diesen Kollisionen wird das sogenannte Quark-Gluon-Plasma produziert. Unsere Gruppe ist an mehreren der Hauptdetektorsysteme des ALICE Experiments beteiligt. Unser Hauptaugenmerk liegt auf dem Transition Radiation Detector. Modernste Datenanalysemethoden, wie z.B. machine learning, werden eingesetzt um die produzierten Teilchen zu studieren. Aus diesen Untersuchungen wollen wir auf die Eigenschaften des Quark-Gluon-Plasmas schlie\u00dfen. Du kannst bei uns eine Bachelor- oder Masterarbeit in den Bereichen Datenanalyse, Ph\u00e4nomenologie oder Detektorphysik schreiben. Wir freuen uns darauf dich kennenzulernen!",
+                "de": "Die internationale ALICE Arbeitsgruppe am Physikalischen Institut Heidelberg untersucht Kernmaterie bei extremen Temperaturen und Dichten. Dazu werden Schwerionen oder Protonen bei nahezu Lichtgeschwindigkeit am Large Hadron Collider des CERN zur Kollision gebracht. In diesen Kollisionen wird das sogenannte Quark-Gluon-Plasma produziert. Unsere Gruppe ist an mehreren der Hauptdetektorsysteme des ALICE Experiments beteiligt. Unser Hauptaugenmerk liegt auf dem Transition Radiation Detector. Modernste Datenanalysemethoden, wie z.B. machine learning, werden eingesetzt um die produzierten Teilchen zu studieren. Aus diesen Untersuchungen wollen wir auf die Eigenschaften des Quark-Gluon-Plasmas schließen. Du kannst bei uns eine Bachelor- oder Masterarbeit in den Bereichen Datenanalyse, Phänomenologie (im Rahmen des SFB ISOQUANT) oder Detektorphysik schreiben. Wir freuen uns darauf Dich kennenzulernen!",
                 "en": "The international ALICE group at the physics institute in Heidelberg is studying nuclear matter under extreme conditions. For that we collide almost light speed heavy ions and protons at the Large Hadron Collider at CERN. In those collisions the so-called quark-gluon plasma is produced. Our group is involved in various of the main detector systems of the ALICE experiment. Especially we lead the efforts of the transition radiation detector. We use advanced data analysis techniques like machine learning to study the produced particles in order to reveal the properties of the quark-gluon plasma. We offer topics for bachelor and master theses in the areas of data analysis, phenomenology and detector physics. We are looking forward to meeting you!"
             },
             "times": [
@@ -538,10 +538,10 @@
             "name": "LHCb Gruppe Heidelberg",
             "field": "PP",
             "contact": "bachmann@physi.uni-heidelberg.de",
-            "profs": "Prof. Dr. Stephanie Hansmann-Menzemer, Prof. Dr. , Prof. Dr. Ulrich Uwer",
+            "profs": "Prof. Dr. Stephanie Hansmann-Menzemer, Prof. Dr. Ulrich Uwer",
             "room": 33,
             "text": {
-                "de": "Unsere Arbeitsgruppe ist Mitglied der LHCb Kollaboratioin am CERN, ein f\u00fcr die Untersuchung von Beauty und Charm-Hadronen spezialisertes Experiment. Unser Arbeitsgebiet deckt einen weiten Bereich von Aktivit\u00e4ten ab, u.a. die Analyse der experimentellen Daten, die Entwicklung von Algorithmen f\u00fcr die Rekonstruktion der Teilchenspuren sowie der Bau eines neuen Spurdetektors f\u00fcr den geplanten Update.</p><p>Die physikalischen Analyse die von unserer Arbeitsgruppe durchgef\u00fchrt werden beinhalten die Untersuchung von Oszillations und CP verletzenden Ph\u00e4nomenen schwerer Mesonen, die Suche nach sehr seltenden oder im Standardmodell verbotenen Zerf\u00e4llen sowie die Untersuchung der k\u00fcrzlich von der LHCb Kollaborationen entdeckten Tetra- und Pentaquarks. ",
+                "de": "Unsere Arbeitsgruppe ist Mitglied der LHCb Kollaboratio am CERN, ein auf die Untersuchung von Beauty und Charm-Hadronen spezialisertes Experiment. Unser Arbeitsgebiet deckt einen weiten Bereich von Aktivitäten ab, u.a. die Analyse der experimentellen Daten, die Entwicklung von Algorithmen für die Rekonstruktion der Teilchenspuren sowie der Bau eines neuen Spurdetektors für den geplanten Upgrade.</p><p> Die physikalischen Analysen die von unserer Arbeitsgruppe durchgeführt werden beinhalten die Untersuchung von Oszillations- und CP verletzenden Phänomenen schwerer Hadronen, die Suche nach sehr seltenen oder im Standardmodell verbotenen Zerfällen sowie die Untersuchung der kürzlich von der LHCb Kollaboration entdeckten Tetra- und Pentaquarks.",
                 "en": "We are member of the LHCb collaboration at CERN, an experiment dedicated to investigate Beauty- and Charm-Hadrons at high precision. Our group covers a broad range of activities, including analysis of experimental data, development of track reconstruction algorithms and construction of a new tracking detector for the coming upgrade of the LHCb detector.</p><p>Physics topics covered by our group are the investigation of oscillation and CP violating phenomena of heavy mesons, the search for very rare and and forbidden particle decays as well as the study of tetra- and pentaquarks recently discovered by the LHCb collaboration."
             },
             "times": [
@@ -796,6 +796,146 @@
             "total_times": "2",
             "link": "http:\/\/www.kip.uni-heidelberg.de\/gasenzer",
             "image": "uploads\/cover_image_ZOO.jpg"
+        },
+        "ANT": {
+            "name": "cosmostatistics",
+            "field": "AST",
+            "contact": "bjoern.malte.schaefer@uni-heidelberg.de",
+            "profs": "Bjoern Malte Schaefer",
+            "room": 46,
+            "text": {
+                "de": "Die Bildung und Entwicklung von Strukturen im Universum ist eine Reflektion der Naturgesetze, vor allem der Schwerkraft. Wir untersuchen, wie Tests fuer die gravitative Wechselwirkung konstruiert werden koennen und ob Abweichungen von den Vorhersagen der allgemeinen Relativitaetstheorie gefunden werden koennen durch die Analyse der Verteilung von Materie auf den groessten Skalen.",
+                "en": "The formation and evolution of structures in the Universe is a reflection of the laws of physics, most notably those of gravity. We investigate how gravity can be tested and if deviations from general relativity can be found by analysing the distribution of matter on the largest scales."
+            },
+            "times": [
+                "0",
+                "0",
+                "1",
+                "1",
+                "0"
+            ],
+            "total_times": "2",
+            "link": "https:\/\/www.ita.uni-heidelberg.de\/~spirou\/",
+            "image": "uploads\/cover_image_ANT.jpg"
+        },
+        "XLK": {
+            "name": "Nanomaterials for Optoelectronics",
+            "field": "CM",
+            "contact": "zaumseil@uni-heidelberg.de",
+            "profs": "Prof. Jana Zaumseil",
+            "room": 47,
+            "text": "Our research is mainly focused on the synthesis, functionalization, characterization and application of nanomaterials (mostly carbon nanotubes) and organic semiconductors for optoelectronic devices. We are particularly interested in charge transport, excitation transfer and light-matter interaction (especially strong coupling: exciton-poalritons) in these materials. We use a wide range of experimental techniques from chemical synthesis, optical spectroscopy (e.g. fluorescence spectroscopy, Raman microscopy etc.), surface characterization (e.g. atomic force microscopy), device fabrication (e.g. under inert conditions, by aerosol jet printing etc.) to electrical and optical device characterization (transport measurements, electroluminescence etc.) also at crygenic temperatures.",
+            "times": [
+                "2",
+                "0",
+                "0",
+                "0",
+                "1"
+            ],
+            "total_times": "2",
+            "link": "https:\/\/www.pci.uni-heidelberg.de\/apc\/zaumseil\/index.html",
+            "image": "uploads\/cover_image_XLK.png"
+        },
+        "VUM": {
+            "name": "CBM ",
+            "field": "NUC",
+            "contact": "herrmann@physi.uni-heidelberg.de",
+            "profs": "Prof. Norbert Herrmann",
+            "room": 48,
+            "text": {
+                "de": "Die AG entwickelt und baut das Flugzeit - Detektorsystem f\u00fcr das zuk\u00fcnftige FAIR Experiment CBM (Compressed Baryonic Matter) mit dem das QCD Phasendiagramm bei hohen Baryonendichten untersucht werden soll. Die geplanten MRPC -Z\u00e4hler haben eine Zeitaufl\u00e4sung von besser als 60 ps und m\u00fcssen hohe Raten erlauben. Dies wird experimentell untersucht und entwickelt.",
+                "en": "Our local working group at  PI in Heidelberg develops and coordinates the contruction of the Time - of - Flight system of the future FAIR experiment CBM (Compressed Baryonic Matter) that will allow to study the QCD phase diagram in the region of high baryon densities. This form of matter is expected to exist in the core of heavy neutron stars. Our contribution is the characterization and operation of a system of MRPC counters that have to have a time resolution of better that 60ps over an area of 100 m2. This performance is being verified in several test experiments."
+            },
+            "times": [
+                "1",
+                "1",
+                "2",
+                "2",
+                "2"
+            ],
+            "total_times": "2",
+            "link": "https:\/\/www.cbm.gsi.de",
+            "image": "uploads\/cover_image_VUM.jpg"
+        },
+        "GLT": {
+            "name": "Star Formation and Dynamics of the Interstellar Medium",
+            "field": "AST",
+            "contact": "klessen@uni-heidelberg.de",
+            "profs": "Prof. Ralf Klessen",
+            "room": 49,
+            "text": {
+                "de": "Wir besch\u00e4ftigen uns mit verschiedenen Aspekten der Sternentstehung in der Milchstra\u00dfe und im fr\u00fchen Universum. Wir untersuchen interstellare Turbulenz und die Entstehung und Entwicklung von Galaktischen Gaswolken. Dar\u00fcber hinaus besch\u00e4ftigen wir uns mit der Frage nach dem Ursprung kosmischer Magnetfelder, und wir versuchen die dynamische Entwicklung der Milchstra\u00dfe und anderer Galaxien zu verstehen. Da unsere Arbeit sehr stark numerisch gepr\u00e4gt ist, besch\u00e4ftigen wir uns auch mit der Entwicklung und Verbesserung numerischer Algorithmen. ",
+                "en": "We work on different aspects of star formation in the Galaxy as well as in the early universe. We study interstellar turbulence and formation and evolution of molecular clouds. In addition, we are interested in understanding the origin of cosmic magnetic fields by studying dynamo processes. We are also investigate in the dynamical evolution of the Milky Way and other galaxies. As our work relies heavily on computer simulations, we also work on developing and improving numerical methods for astrophysics. "
+            },
+            "times": [
+                "1",
+                "0",
+                "0",
+                "0",
+                "0"
+            ],
+            "total_times": "1",
+            "link": "https:\/\/www.ita.uni-heidelberg.de\/research\/klessen\/index.shtml?lang=en",
+            "image": "uploads\/cover_image_GLT.jpeg"
+        },
+        "AXC": {
+            "name": "Low Temperature Detector for Astroparticle Physics ",
+            "field": "PP",
+            "contact": "Loredana.Gastaldo@kip.uni-heidelberg.de",
+            "profs": "JProf. Dr. Loredana Gastaldo",
+            "room": 50,
+            "text": "The people in the \"Low temperature detector for Astroparticle Physics\" are mainly interested in the development of detector systems based on the technology of low temperature metallic magnetic calorimeters (MMCs) to be applied in experiments designed to better understand the properties of neutrinos and for the search of axions. The two major experiments we are bringing forwards are the ECHo (Electron Capture in Ho-163) experiment and the development of the focal plane detector system for IAXO (International AXion Observatory). The ECHo experiment is running at KIP while IAXO will be installed at DESY-Hamburg. \r\nFor ECHo, we develope and characterize detector arrays, run measurements and develop analysis tools for data reduction and spectral shape analysis. For IAXO, we are working on the optimization of a low background MMC detector system. In addition, we like to test new ideas for experiments and perform R&D for the optimal detectors. \r\nWe are always happy to welcome Bachelor and Master students interested in detector development and understanding of data!",
+            "times": [
+                "1",
+                "1",
+                "2",
+                "0",
+                "0"
+            ],
+            "total_times": "2",
+            "image": "uploads\/cover_image_AXC.png"
+        },
+        "MZW": {
+            "name": "Condensed Matter at Low Temperatures",
+            "field": "CM",
+            "contact": "Andreas.Fleischmann@kip.uni-heidelberg.de",
+            "profs": "C. Enss, A. Reiser, A. Fleischmann",
+            "room": 51,
+            "text": {
+                "de": "The presence of disorder strongly influences the dynamics of non-equilibrium quantum systems and leads to a multitude of unique phenomena which are investigated at extremely low temperatures with new methods. The focus is on physical realizations of such systems like amorphous solids, disordered crystals and spin glasses. Fundamental questions regarding the interplay of disorder and many-particle interaction, the microscopic nature of low-lying states, the relaxation and decoherence channels, the dissipative dynamics, as well as the occurrence of complex collective modes are studied. Current projects focus on the surprising influence of nuclear degrees of freedom on the dynamics of atomic tunneling systems in structural disordered system like multicomponent glasses and polymers. In particular, the non-linear response and phase coherence of such systems are investigated.",
+                "en": "The presence of disorder strongly influences the dynamics of non-equilibrium quantum systems and leads to a multitude of unique phenomena which are investigated at extremely low temperatures with new methods. The focus is on physical realizations of such systems like amorphous solids, disordered crystals and spin glasses. Fundamental questions regarding the interplay of disorder and many-particle interaction, the microscopic nature of low-lying states, the relaxation and decoherence channels, the dissipative dynamics, as well as the occurrence of complex collective modes are studied. Current projects focus on the surprising influence of nuclear degrees of freedom on the dynamics of atomic tunneling systems in structural disordered system like multicomponent glasses and polymers. In particular, the non-linear response and phase coherence of such systems are investigated."
+            },
+            "times": [
+                "2",
+                "2",
+                "1",
+                "1",
+                "1"
+            ],
+            "total_times": "4",
+            "link": "https:\/\/www.kip.uni-heidelberg.de\/glaeser\/ ",
+            "image": "uploads\/cover_image_MZW.png"
+        },
+        "UTK": {
+            "name": "Quantum Sensors",
+            "field": "CM",
+            "contact": "Andreas.Fleischmann@kip.uni-heidelberg.de",
+            "profs": "C. Enss, A. Fleischmann, L. Gastaldo",
+            "room": 52,
+            "text": {
+                "de": "Quantum sensors based on cryogenic microcalorimeters have reached a state of development in recent years that makes them a key technology for the detection of single photons and particles in many fields of physics and for a variety of applications. Metallic magnetic calorimeters (MMCs) are a special variant of such detectors that are able to measure the energy of single X-ray and gamma-ray photons with an accuracy better than one part per four thousand, while maintaining good quantum efficiency and spectral linearity. This makes them an ideal tool for ultra-high precision spectroscopy in a very wide energy range. Applications include X-ray astronomy, measurement of Lamb shifts of highly charged ions, nuclear forensics and quantum metrology. In addition, the MMCs developed in Heidelberg play a key role in particle physics experiments, such as the ECHo project, which aims to determine the neutrino mass via the electron capture spectrum of 163Ho, and AMoRE, which is searching for the neutrino-less double-beta decay of 100Mo.\r\n\r\nWork on MMCs includes detector design, development of the necessary microfabrication processes, design of the cryogenic environment, detector fabrication and characterization, and development of the necessary readout electronics. For the latter, superconducting electronics is a key component designed and produced for optimal adaptation to MMCs. In order to meet the demands for high spectral resolution, SQUID amplifiers with noise temperatures close to the quantum limit are necessary. Microwave SQUID multiplexers are developed for reading out large MMC detector arrays with several hundred pixels.",
+                "en": "Quantum sensors based on cryogenic microcalorimeters have reached a state of development in recent years that makes them a key technology for the detection of single photons and particles in many fields of physics and for a variety of applications. Metallic magnetic calorimeters (MMCs) are a special variant of such detectors that are able to measure the energy of single X-ray and gamma-ray photons with an accuracy better than one part per four thousand, while maintaining good quantum efficiency and spectral linearity. This makes them an ideal tool for ultra-high precision spectroscopy in a very wide energy range. Applications include X-ray astronomy, measurement of Lamb shifts of highly charged ions, nuclear forensics and quantum metrology. In addition, the MMCs developed in Heidelberg play a key role in particle physics experiments, such as the ECHo project, which aims to determine the neutrino mass via the electron capture spectrum of 163Ho, and AMoRE, which is searching for the neutrino-less double-beta decay of 100Mo.\r\n\r\nWork on MMCs includes detector design, development of the necessary microfabrication processes, design of the cryogenic environment, detector fabrication and characterization, and development of the necessary readout electronics. For the latter, superconducting electronics is a key component designed and produced for optimal adaptation to MMCs. In order to meet the demands for high spectral resolution, SQUID amplifiers with noise temperatures close to the quantum limit are necessary. Microwave SQUID multiplexers are developed for reading out large MMC detector arrays with several hundred pixels."
+            },
+            "times": [
+                "2",
+                "2",
+                "1",
+                "1",
+                "1"
+            ],
+            "total_times": "4",
+            "link": "https:\/\/www.kip.uni-heidelberg.de\/tt-detektoren\/",
+            "image": "uploads\/cover_image_UTK.png"
         }
     }
 }
