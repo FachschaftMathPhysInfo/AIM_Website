@@ -2,325 +2,88 @@
 <html>
 <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="Die fern-ArbeitsgruppenInspirationsMesse (fAIM) der Fachschaft MathPhysInfo" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>fAIM &middot; Fachschaft MathPhysInfo</title>
     <script src="jquery-3.5.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script> <!-- Fancybox -->
+    <style>
+    #impressum {
+        margin-bottom: 2em;
+    }
+    #impress-1 {
+        margin-bottom: 1em;
+    }
+    .navbar-brand .navbar-item img {
+        max-height: 2rem;
+        margin-right: 1.5em;
+        margin-left: 1.5em;
+    }
+    </style>
     <link rel="icon" type="image/png" href="favicon.png" />
     <link rel="stylesheet" href="bulma-0.9.1.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" /> <!-- Fancybox -->
     <link rel="stylesheet" href="styles.css">
-    <script>
-    var DEFAULT_LANG = "de";
-    var PAGE_LANG = DEFAULT_LANG;
-
-    function getGroupsFromField(data, fieldID, lang) {
-        var items = [];
-        // get properties from JSON file
-        $.each( data.groups, function( key, obj ) {
-            if (obj.field == fieldID) {
-                // image
-                var img = "";
-                if (obj.hasOwnProperty("image")){
-                    img = "<a href='https://aim.mathphys.info/" + obj.image + "' data-fancybox><img class='group-img' src='https://aim.mathphys.info/" + obj.image + "' /></a>";
-                }
-                var vid = "";
-                if (obj.hasOwnProperty("video")){
-                    vid = "<video class='group-video' controls><source src='" + obj.video + "' type='video/mp4'><a href='" + obj.video_url + "'>Video ansehen</a></video> ";
-                    if (key == 'VXB') {
-                        video2='uploads/BECBECK_Trailer.mp4';
-                        video2_url='https://heibox.uni-heidelberg.de/f/9404b2e5f18f440d9474/';
-                        vid = vid + "<video class='group-video' controls><source src='" + video2 + "' type='video/mp4'><a href='" + video2_url + "'>Video ansehen</a></video> ";
-                    }
-                }
-                // description text
-                var text = obj.text;
-                if (text.hasOwnProperty(lang)) {
-                    text = text[lang];
-                } else if (text.hasOwnProperty(DEFAULT_LANG)) {
-                    text = text[DEFAULT_LANG]; // set to default language
-                }
-                // url to group website
-                var link = obj.profs;
-                if (obj.hasOwnProperty("link")){
-                    link = "<a href='" + obj.link + "' target='_" + key + "'>" + obj.profs + "</a>";
-                }
-                items.push( "<div class='group-item' id='" + key + "'>"
-                + "<div class='group-title'><h3>" + obj.name + "</h3></div>"
-                + "<div class='columns is-desktop'>"
-                + "<div class='column is-two-thirds-desktop text'><div class='group-name'>" + link + "</div><p>" + text + "</p></div>"
-                + "<div class='column img-container'>" + img + vid + "</div>"
-                + "</div></div>" );
-            }
-        });
-        // append object to ul
-        $( "<ul/>", {
-            "class": "my-new-list",
-            html: items.join( "" )
-        }).appendTo( "#groups" );
-
-        return items.length;
-    }
-
-    function fillSchedule(data) {
-        var items = [];
-        $.each( data, function( key, obj ) {
-            var tname;
-            var tstatus;
-            var td = '';
-            for (var i=1; i<=5; i++) {
-                tname = 'time' + i;
-                tstatus = obj[tname];
-                td = td + "<td class='schedule-" + tstatus + " " + obj.field +  "'>&nbsp;&nbsp;</td>";
-            }
-            items.push( "<tr><td class='schedule-name'>" + obj.name + "</td>" + td + "</tr>");
-        });
-        $( '#schedule' ).html(items.join(""));
-    }
-
-    function fieldHeader(data, fieldID, lang) {
-        var obj = data.fields[fieldID];
-        $( "#groups" ).append(
-            "<div class='columns field-header'>"
-            + "<div class='column is-narrow'><div class='icon-container'><img src='icons/" + obj.icon + "' width='131px'/></div></div>"
-            + "<div class='column'><h2 id='" + fieldID + "'>" + obj.name[lang] + "</h2><p>&nbsp;</p></div>"
-            + "</div>"
-        );
-    }
-
-    function setIcons(data) {
-        var items = [];
-        $.each( data.fields, function( key, obj ) {
-            items.push( "<div class='column is-narrow field-icon' id='icon-" + key + "'>"
-            + "<a href='#" + key + "'><div class='icon-container'><img src='icons/" + obj.icon + "' width='131px' /></div>"
-            + "<p class='icon-desc'></p></a></div>" );
-        });
-        $( "#fields" ).append(items.join( "" ));
-    }
-
-    function setIconLabels(data, lang) {
-        $.each( data.fields, function( key, obj ) {
-            $( "#icon-" + key + " p.icon-desc" ).text(obj.name[lang]);
-        });
-    }
-
-    function noGroupsMessage(lang) {
-        if (lang == 'de') {
-            return "noch keine Gruppen registriert";
-        }
-        else {
-            return "No groups registered so far"
-        }
-    }
-
-    $( document ).ready(function() {
-        var ilen;
-        $.getJSON( "groups2021.json", function( datag ) {
-            $.getJSON( "fields.json", function( data ) {
-                setIcons(data);
-                setIconLabels(data, DEFAULT_LANG);
-                setLanguage("de");
-                $.each( data.fields, function( key, obj ) {
-                    fieldHeader(data,key,DEFAULT_LANG);
-                    ilen = getGroupsFromField(datag,key,DEFAULT_LANG);
-                    if (ilen==0) {
-                        var nogr = noGroupsMessage(DEFAULT_LANG);
-                        $( "#groups" ).append('<div class="group-item"><p><i>' + nogr + '</i></p></div>')
-                    }
-                });
-            });
-        });
-    });
-
-    $( document ).ready(function() {
-        $.getJSON( "gruppen-zeitslots.json", function( data ) {
-            fillSchedule(data);
-        });
-    });
-
-    function setLanguage(lang) {
-        if (lang == "de") {
-            $( "#aim-welcome-en" ).css('display','none');
-            $( "#aim-title-en" ).css('display','none');
-            $( "#aim-welcome-de" ).css('display','block');
-            $( "#aim-title-de" ).css('display','block');            
-        } else if (lang == "en") {
-            $( "#aim-welcome-de" ).css('display','none');
-            $( "#aim-title-de" ).css('display','none');
-            $( "#aim-welcome-en" ).css('display','block');
-            $( "#aim-title-en" ).css('display','block');
-        }
-        $.getJSON( "fields.json", function( data ) {
-            setIconLabels(data, lang);
-            $( '#groups' ).html('');
-            $.getJSON( "groups2021.json", function( datag ) {
-                $.each( data.fields, function( key, obj ) {
-                    fieldHeader(data,key,lang);
-                    ilen = getGroupsFromField(datag,key,lang);
-                    if (ilen==0) {
-                        var nogr = noGroupsMessage(lang);
-                        $( "#groups" ).append('<div class="group-item"><p><i>' + nogr + '</i></p></div>')
-                    }
-                });
-            });
-        });
-    }
-    </script>
 </head>
 <body>
+<nav class="navbar has-shadow" role="navigation" aria-label="main navigation" id="navb">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="https://aim.mathphys.info/">
+        <img src="weblogo.png">
+        </a>
+    
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="faim-navbar-menu">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+    
+    <div id="faim-navbar-menu" class="navbar-menu is-fixed">
+        <div class="navbar-start">
+        <a class="navbar-item is-secondary" href="index.html">
+            Übersicht
+        </a>
+        <a class="navbar-item is-secondary" href="zeitplan.html">
+            Zeitplan
+        </a>
+        </div>
+    
+        <div class="navbar-end">
+        <a class="navbar-item is-secondary" href="impressum.html">
+            Impressum
+        </a>
+        <a class="navbar-item is-secondary" href="kontakt.html">
+            Kontakt
+        </a>
+        <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" id="lang-de">
+            <img src="de.svg" width="18px" /> &nbsp; Deutsch
+            </a>
+    
+            <div class="navbar-dropdown is-right">
+            <a class="navbar-item" id="lang-en">
+                <img src="en.svg" width="18px" /> &nbsp; <span style="color: #666666;">English</span>
+            </a>
+            </div>
+        </div>
+        </div>
+    </div>
+</nav>
+
 <div id="page-content">
-<!-- Header -->
-<div id="header">
-    <div id="lang-menu">
-        <p><a id="lang-de"><img src="de.svg" width="18px" /> Deutsch</a> &middot; <a id="lang-en"><img src="en.svg" width="22px" /> English</a></p>
-        <script>
-            $( "a#lang-de" ).click(function() {
-                setLanguage("de");
-            });
-            $( "a#lang-en" ).click(function() {
-                setLanguage("en");
-            });
-        </script>
+    <h1>Impressum</h1>
+    <div class="is-full" id="impressum">
+        <p id="impress-1">Fachschaften Mathematik, Physik, Informatik<br />
+        der Verfassten Studierendenschaft der Universität Heidelberg<br />
+        Im Neuenheimer Feld 205<br />
+        69120 Heidelberg<br />
+        Tel. +49 6221 54-14999<br />
+        Fax +49 6221 54-16114999<br />
+        aim@mathphys.stura.uni-heidelberg.de</p>
+
+        <p>Die Fachschaften Mathematik, Physik und Informatik sind Teil der Verfassten Studierendenschaft der Universität Heidelberg – Körperschaft des öffentlichen Rechts. <a href="https://www.stura.uni-heidelberg.de/impressum/">Ausführliches Impressum hier</a>. Sie wird durch den <a href="https://www.stura.uni-heidelberg.de/vs-strukturen/referatekonferenz-refkonf/vorsitz/">Vorsitz der Studierendenschaft</a> gesetzlich vertreten.</p>
     </div>
-    <div id="aim-title-de" class="aim-title">
-        <h1>Herzlich Willkommen bei der fAIM!</h1>
-        <h3>fern-Arbeitsgruppen&shy;Inspitations&shy;Messe</h3>
+    <div class="is-full" id="textfoot">
+        <p>&copy; Fachschaft MathPhysInfo 2021 &middot; <a href="impressum.html">Impressum</a> &middot; <a href="kontakt.html">Kontakt</a></p>
     </div>
-    <div id="aim-title-en" class="aim-title">
-        <h1>Welcome to fAIM!</h1>
-        <h3>Online Working Group Fair</h3>
-    </div>
-    <div id="aim-welcome-de">
-        <p>Wir, die <a href="https://mathphys.info">Fachschaft MathPhysInfo</a>, möchten euch herzlich auf der Website der fern-Arbeitsgruppen&shy;Inspitations&shy;Messe (fAIM) begrüßen.</p>
-        <div class="faq-divs">
-            <div class="field is-horizontal field-cont">
-                <div class="field-label is-normal">
-                    <label class="label">Wann?</label>
-                </div>
-                <div class="field-body">
-                    <div class="field">
-                        <p>Donnerstag, 28. Januar 2021, ab 14:00 Uhr</p>
-                    </div>
-                </div>
-            </div>
-            <div class="field is-horizontal field-cont">
-                <div class="field-label is-normal">
-                    <label class="label">Wo?</label>
-                </div>
-                <div class="field-body">
-                    <div class="field">
-                        <p>Online auf <strong>Discord</strong> (der Raum wird rechtzeitig hier verlinkt werden)</p>
-                    </div>
-                </div>
-            </div>
-            <div class="field is-horizontal field-cont">
-                <div class="field-label is-normal">
-                    <label class="label">Für wen?</label>
-                </div>
-                <div class="field-body">
-                    <div class="field">
-                        <p>Für <b>alle</b> Studierenden der Fächer Physik und Technische Informatik,<br />egal ob im 1. Semester oder kurz vor der Masterarbeit!</p>
-                    </div>
-                </div>
-            </div>
-            <div class="field is-horizontal field-cont">
-                <div class="field-label is-normal">
-                    <label class="label">Anmeldung?</label>
-                </div>
-                <div class="field-body">
-                    <div class="field">
-                        <p>Für Studierende nicht notwendig!</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <p>Hier findet ihr einen Überblick über die Arbeitsgruppen, die sich für die Messe angemeldet haben:</p>
-    </div>
-    <div id="aim-welcome-en">
-        <p>We, the student representatives (<a href="https://mathphys.info">Fachschaft MathPhysInfo</a>) would like to welcome you on the website of this year's working group fair, which will take place online.</p>
-        <div class="faq-divs">
-            <div class="field is-horizontal field-cont">
-                <div class="field-label is-normal">
-                    <label class="label">When?</label>
-                </div>
-                <div class="field-body">
-                    <div class="field">
-                        <p>Thursday, January 28, 2021, starting at 2&nbsp;p.m.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="field is-horizontal field-cont">
-                <div class="field-label is-normal">
-                    <label class="label">Where?</label>
-                </div>
-                <div class="field-body">
-                    <div class="field">
-                        <p>Online via <strong>Discord</strong> (link will be posted here before the event)</p>
-                    </div>
-                </div>
-            </div>
-            <div class="field is-horizontal field-cont">
-                <div class="field-label is-normal">
-                    <label class="label">For whom?</label>
-                </div>
-                <div class="field-body">
-                    <div class="field">
-                        <p>All students from Physics and Computer Engineering are welcome!</p>
-                    </div>
-                </div>
-            </div>
-            <div class="field is-horizontal field-cont">
-                <div class="field-label is-normal">
-                    <label class="label">Registration?</label>
-                </div>
-                <div class="field-body">
-                    <div class="field">
-                        <p>Not necessary! (for students)</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <p>Below, you can find an overview of all working groups which have announced their participation so far.</p>
-    </div>
-</div>
-<!-- Overview of reasearch fields -->
-<div class="columns is-mobile is-multiline is-centered" id="fields">
-</div>
-<hr />
-<div class="is-two-thirds-desktop" id="table-div">
-    <table class="table is-hoverable">
-        <thead>
-          <tr>
-            <th>Arbeitsgruppe</th>
-            <th>14:00–14:45</th>
-            <th>14:45–15:30</th>
-            <th>15:30–16:15</th>
-            <th>16:15–17:00</th>
-            <th>17:00–17:45</th>
-          </tr>
-        </thead>
-        <tfoot>
-          <tr>
-            <th>Arbeitsgruppe</th>
-            <th>14:00–14:45</th>
-            <th>14:45–15:30</th>
-            <th>15:30–16:15</th>
-            <th>16:15–17:00</th>
-            <th>17:00–17:45</th>
-          </tr>
-        </tfoot>
-        <tbody id="schedule">
-        </tbody>
-    </table>
-</div>
-<hr />
-<!-- Boxes for each group -->
-<div id="groups">
-</div> 
-<div class="is-full" id="textfoot">
-    <p>&copy; Fachschaft MathPhysInfo 2021 &middot; <a href="impressum.html">Impressum</a> &middot; <a href="mailto:aim@mathphys.stura.uni-heidelberg.de">Kontakt</a></p>
-</div>
 </div>
 </body>
 </html>
