@@ -130,12 +130,16 @@
             $( "#aim-welcome-en" ).css('display','none');
             $( "#aim-title-en" ).css('display','none');
             $( "#aim-welcome-de" ).css('display','block');
-            $( "#aim-title-de" ).css('display','block');            
+            $( "#aim-title-de" ).css('display','block');  
+            //$( "#lang-men" ).html('<a class="navbar-link" id="lang-de"><img src="de.svg" width="18px" /> &nbsp; Deutsch</a>'
+            //+ '<div class="navbar-dropdown is-right"><a class="navbar-item" id="lang-en"><img src="en.svg" width="18px" /> &nbsp; English</a></div>');          
         } else if (lang == "en") {
             $( "#aim-welcome-de" ).css('display','none');
             $( "#aim-title-de" ).css('display','none');
             $( "#aim-welcome-en" ).css('display','block');
             $( "#aim-title-en" ).css('display','block');
+            //$( "#lang-men" ).html('<a class="navbar-link" id="lang-en"><img src="en.svg" width="18px" /> &nbsp; English</a>'
+            //+ '<div class="navbar-dropdown is-right"><a class="navbar-item" id="lang-de"><img src="de.svg" width="18px" /> &nbsp; Deutsch</a></div>');
         }
         $.getJSON( "fields.json", function( data ) {
             setIconLabels(data, lang);
@@ -155,10 +159,78 @@
     </script>
 </head>
 <body>
+<!-- Navigation bar (Deutsch) -->
+<nav class="navbar has-shadow" role="navigation" aria-label="main navigation" id="navb">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="https://aim.mathphys.info/">
+        <img src="weblogo.png">
+        </a>
+    
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="faim-navbar-menu">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+    
+    <div id="faim-navbar-menu" class="navbar-menu is-fixed">
+        <div class="navbar-start">
+        <a class="navbar-item is-secondary" href="index.html">
+            Übersicht
+        </a>
+        <a class="navbar-item is-secondary" href="zeitplan.html">
+            Zeitplan
+        </a>
+        <a class="navbar-item is-secondary" href="discord.php">
+            Zum Discord-Server
+        </a>
+        </div>
+    
+        <div class="navbar-end">
+        <a class="navbar-item is-secondary" href="impressum.html">
+            Impressum
+        </a>
+        <a class="navbar-item is-secondary" href="kontakt.html">
+            Kontakt
+        </a>
+        <a class="navbar-item is-secondary" id="lang-de">
+            <img src="de.svg" width="18px" /> &nbsp; Deutsch
+        </a>
+        <a class="navbar-item is-secondary" id="lang-en">
+            <img src="en.svg" width="18px" /> &nbsp; English
+        </a>
+        <!--<div class="navbar-item has-dropdown is-hoverable" id="lang-men">
+            <a class="navbar-link" id="lang-de">
+            <img src="de.svg" width="18px" /> &nbsp; Deutsch
+            </a>
+    
+            <div class="navbar-dropdown is-right">
+            <a class="navbar-item" id="lang-en">
+                <img src="en.svg" width="18px" /> &nbsp; <span style="color: #666666;">English</span>
+            </a>
+            </div>
+        </div>-->
+        </div>
+    </div>
+</nav>
+
+<script>
+    $('.navbar-burger').click(function() {
+        $('#faim-navbar-menu, .navbar-burger').toggleClass('is-active');
+    });
+
+    $( "a#lang-de" ).click(function() {
+        setLanguage("de");
+    });
+    $( "a#lang-en" ).click(function() {
+        setLanguage("en");
+    });
+</script>
+
 <div id="page-content">
 <!-- Header -->
 <div id="header">
-    <div id="lang-menu">
+    <!-- <div id="lang-menu">
         <p><a id="lang-de"><img src="de.svg" width="18px" /> Deutsch</a> &middot; <a id="lang-en"><img src="en.svg" width="22px" /> English</a></p>
         <script>
             $( "a#lang-de" ).click(function() {
@@ -168,7 +240,7 @@
                 setLanguage("en");
             });
         </script>
-    </div>
+    </div> -->
     <div id="aim-title-de" class="aim-title">
         <h1>Herzlich Willkommen bei der fAIM!</h1>
         <h3>fern-Arbeitsgruppen&shy;Inspitations&shy;Messe</h3>
