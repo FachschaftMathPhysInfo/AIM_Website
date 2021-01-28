@@ -938,6 +938,48 @@
             "total_times": "4",
             "link": "https:\/\/www.kip.uni-heidelberg.de\/tt-detektoren\/",
             "image": "uploads\/cover_image_UTK.png"
+        },,
+        "IMZ": {
+            "name": "Electron Beam Ion Trap (AG Crespo)",
+            "field": "AMO",
+            "contact": "crespojr@mpi-hd.mpg.de",
+            "profs": "Jos\u00e9 R. Crespo L\u00f3pez-Urrutia",
+            "room": 53,
+            "text": {
+                "de": "Im Inneren von Sternen, rund um galaktische Kerne und Schwarze L\u00f6cher herrschen Temperaturen von vielen Millionen Kelvin. Galaxienhaufen sind eingeschlossen in einem extrem verd\u00fcnnten, aber ebenso hei\u00dfen Plasmamedium; beides, Galaxien und Plasma, werden von der Gravitation der vorhandenen Dunklen Materie zusammengehalten. Atome befinden sich darin in sehr hohen positiven Ionisationszust\u00e4nden, k\u00f6nnen jedoch mit ihren noch gebundenen Elektronen effizient Strahlung absorbieren und emittieren. Die spektralen Linien solch \u201ehochgeladener Ionen\u201c sind f\u00fcr die Astrophysik sehr wichtig, weil sie aus dem hei\u00dfen Universum stammen. Wir erzeugen im Labor derartige Ionen, speichern sie \u00fcber lange Zeiten, und untersuchen ihre Spektren vom R\u00f6ntgenbereich bis zum Sichtbaren. Au\u00dferdem k\u00f6nnen wir sie mit Lasern und R\u00f6ntgenlasern anregen, oder bis nahe dem absoluten Nullpunkt der Temperatur k\u00fchlen. Wir entwickeln Experimente und Techniken, die \u00fcber einen Temperaturbereich von 12 Gr\u00f6\u00dfenordnungen die Gesetze der Physik bis an ihre Grenzen auf den Pr\u00fcfstand stellen:\r\n\r\nWo ist Atomtheorie verbesserbar? Werden astrophysikalische Daten genau verstanden? K\u00f6nnen wir Atomuhren bauen, die mit hochenergetischen Photonen arbeiten, wo Atome versagen, aber hochgeladene Ionen nicht? Sind fundamentale Konstanten der Natur vollkommen konstant?",
+                "en": "In the interior of stars, around galactic cores and black holes, temperatures of millions of Kelvins are prevailing. Galaxy clusters are enclosed in an extremely dilute, but similarly hot plasma medium; both galaxies and plasma are held together by the gravitational action of the present Dark Matter. In these environments, atoms are in very high positive ionization states, but can absorb and emit radiation with their remaining bound electrons. The spectral lines of such \u201chighly charged ions\u201d are very import in astrophysics, because they come from the hot Universe. In our laboratory, we produce such ions, store them for long time spans, and investigate their spectra from the x-ray to the visible range. Furthermore, we can excite them with lasers and x-ray lasers, or can cool them down to temperatures close to absolute zero. We are developing experiments and techniques to scrutinize the laws of physics to their limits over a temperature range of 12 orders of magnitude:\r\n\r\nWhere can atomic structure theory be improved? Do we understand astrophysical data correctly? Is it possible to design atomic clocks based on highly energetic photons, where atoms fail but highly charged ions do not? Are fundamental constants of nature perfectly constant?"
+            },
+            "times": [
+                "1",
+                "1",
+                "1",
+                "0",
+                "0"
+            ],
+            "total_times": "2",
+            "link": "https:\/\/www.mpi-hd.mpg.de\/mpi\/de\/forschung\/abteilungen-und-gruppen\/quantendynamik-und-kontrolle\/forschung\/dynamik-hochgeladener-ionen-ag-crespo",
+            "image": "uploads\/cover_image_IMZ.png"
+        },
+        "YVM": {
+            "name": "Electronic Vision(s) - Neuromorphic Computing",
+            "field": "COM",
+            "contact": "schemmel@kip.uni-heidelberg.de",
+            "profs": "Dr. Johannes Schemmel",
+            "room": 54,
+            "text": {
+                "de": "In der Electronic Vision(s)-Gruppe untersuchen und implementieren wir neue Konzepte der Informationsverarbeitung in hochparallelen, gemischt analog-digitalen, selbst entworfenen Mikrochips. Unter anderen leiteten wir das Projekt BrainScaleS, das eine der Grundlagen f\u00fcr das Human Brain Project (HBP) bildet. Im Rahmen des BrainScaleS-Projekts haben wir Pionierarbeit bei der Integration neuromorpher Systeme auf Silizium-Wafer-Ebene und bei der Verbreitung der Meta-Programmiersprache PyNN geleistet - einer Programmiersprache, die eine vereinheitlichte Benutzung neuronaler Simulatoren in Software und Hardware erm\u00f6glicht.\r\n\r\nUnsere aktuellen neuromorphen Chips enthalten spike-basierte, analog implementierte Neuronen und Synapsen mit einer hochparallelen Anbindung an die SIMD-Erweiterung eines selbst entworfenen, Power-ISA basierten Mikroprozessors. Diese Architektur erlaubt eine softwarebasierte, fexible Implementierung von Lern- und Plastizit\u00e4tsmechanismen zum Training des neuronalen Netzes.\r\n\r\nWir haben immer wieder interessante Arbeiten in den verschiedenen Arbeitsbereichen der Gruppe zu vergeben - das reicht von der Hardware-Entwicklung, \u00fcber die Low-Level und User-Software-Entwicklung bis hin zu Experimentellen neurowissenschaftlichen Arbeiten auf der Hardware, und auch theoretischen Arbeiten im Bereich der Neurowissenschaften. Kommt vorbei, wir erz\u00e4hlen euch gerne mehr! (<a href='https://heibox.uni-heidelberg.de/f/14199ee4cc5642339063/'>Poster</a>)",
+                "en": "In the Electronic Vision(s) group, we investigate and implement new concepts of information processing in highly parallel, mixed analog-digital, self-designed microchips. Among others, we led the BrainScaleS project, which is one of the foundations for the Human Brain Project (HBP). In the BrainScaleS project, we pioneered the integration of neuromorphic systems at the silicon wafer level and the dissemination of the PyNN meta-programming language - a programming language that enables unified use of neural simulators in software and hardware.\r\n\r\nOur current neuromorphic chips incorporate spike-based, analog-implemented neurons and synapses with highly parallel interfacing to the SIMD extension of a self-designed, Power-ISA-based microprocessor. This architecture allows software-based, fexible implementation of learning and plasticity mechanisms to train the neural network.\r\n\r\nWe always have interesting thesis topics in the different work areas of the group - this ranges from hardware development, low-level and user software development to experimental neuroscience work on hardware, and also theoretical work in the field of neuroscience. Come by, we'll be happy to tell you more! (<a href='https://heibox.uni-heidelberg.de/f/14199ee4cc5642339063/'>Poster</a>)"
+            },
+            "times": [
+                "0",
+                "1",
+                "1",
+                "0",
+                "0"
+            ],
+            "total_times": "2",
+            "link": "https:\/\/www.kip.uni-heidelberg.de\/vision\/",
+            "image": "uploads\/cover_image_YVM.jpg"
         }
     }
 }
