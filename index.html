@@ -131,15 +131,11 @@
             $( "#aim-title-en" ).css('display','none');
             $( "#aim-welcome-de" ).css('display','block');
             $( "#aim-title-de" ).css('display','block');  
-            //$( "#lang-men" ).html('<a class="navbar-link" id="lang-de"><img src="de.svg" width="18px" /> &nbsp; Deutsch</a>'
-            //+ '<div class="navbar-dropdown is-right"><a class="navbar-item" id="lang-en"><img src="en.svg" width="18px" /> &nbsp; English</a></div>');          
         } else if (lang == "en") {
             $( "#aim-welcome-de" ).css('display','none');
             $( "#aim-title-de" ).css('display','none');
             $( "#aim-welcome-en" ).css('display','block');
             $( "#aim-title-en" ).css('display','block');
-            //$( "#lang-men" ).html('<a class="navbar-link" id="lang-en"><img src="en.svg" width="18px" /> &nbsp; English</a>'
-            //+ '<div class="navbar-dropdown is-right"><a class="navbar-item" id="lang-de"><img src="de.svg" width="18px" /> &nbsp; Deutsch</a></div>');
         }
         $.getJSON( "fields.json", function( data ) {
             setIconLabels(data, lang);
@@ -159,7 +155,7 @@
     </script>
 </head>
 <body>
-<!-- Navigation bar (Deutsch) -->
+<!-- Navigation bar -->
 <nav class="navbar has-shadow" role="navigation" aria-label="main navigation" id="navb">
     <div class="navbar-brand">
         <a class="navbar-item" href="https://aim.mathphys.info/">
@@ -199,17 +195,6 @@
         <a class="navbar-item is-secondary" id="lang-en">
             <img src="en.svg" width="18px" /> &nbsp; English
         </a>
-        <!--<div class="navbar-item has-dropdown is-hoverable" id="lang-men">
-            <a class="navbar-link" id="lang-de">
-            <img src="de.svg" width="18px" /> &nbsp; Deutsch
-            </a>
-    
-            <div class="navbar-dropdown is-right">
-            <a class="navbar-item" id="lang-en">
-                <img src="en.svg" width="18px" /> &nbsp; <span style="color: #666666;">English</span>
-            </a>
-            </div>
-        </div>-->
         </div>
     </div>
 </nav>
@@ -230,17 +215,6 @@
 <div id="page-content">
 <!-- Header -->
 <div id="header">
-    <!-- <div id="lang-menu">
-        <p><a id="lang-de"><img src="de.svg" width="18px" /> Deutsch</a> &middot; <a id="lang-en"><img src="en.svg" width="22px" /> English</a></p>
-        <script>
-            $( "a#lang-de" ).click(function() {
-                setLanguage("de");
-            });
-            $( "a#lang-en" ).click(function() {
-                setLanguage("en");
-            });
-        </script>
-    </div> -->
     <div id="aim-title-de" class="aim-title">
         <h1>Herzlich Willkommen bei der fAIM!</h1>
         <h3>fern-Arbeitsgruppen&shy;Inspitations&shy;Messe</h3>

@@ -17,12 +17,75 @@
         list-style: square;
         padding-left: 2em;
     }
+    #lang-en {
+        background-color:#fcfcfc;
+    }
+    #fadeout-en {
+        color:#aaaaaa;
+    }
     </style>
     <link rel="icon" type="image/png" href="favicon.png" />
     <link rel="stylesheet" href="bulma-0.9.1.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<!-- Navigation bar -->
+<nav class="navbar has-shadow" role="navigation" aria-label="main navigation" id="navb">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="https://aim.mathphys.info/">
+        <img src="weblogo.png">
+        </a>
+    
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="faim-navbar-menu">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+    
+    <div id="faim-navbar-menu" class="navbar-menu is-fixed">
+        <div class="navbar-start">
+        <a class="navbar-item is-secondary" href="index.html">
+            Übersicht
+        </a>
+        <a class="navbar-item is-secondary" href="zeitplan.html">
+            Zeitplan
+        </a>
+        <a class="navbar-item is-secondary" href="discord.php">
+            Zum Discord-Server
+        </a>
+        </div>
+    
+        <div class="navbar-end">
+        <a class="navbar-item is-secondary" href="impressum.html">
+            Impressum
+        </a>
+        <a class="navbar-item is-secondary" href="kontakt.html">
+            Kontakt
+        </a>
+        <a class="navbar-item is-secondary" id="lang-de">
+            <img src="de.svg" width="18px" /> &nbsp; Deutsch
+        </a>
+        <a class="navbar-item is-secondary" id="lang-en">
+            <img src="en.svg" width="18px" /> &nbsp; <span id="fadeout-en">English</span>
+        </a>
+        </div>
+    </div>
+</nav>
+
+<script>
+    $('.navbar-burger').click(function() {
+        $('#faim-navbar-menu, .navbar-burger').toggleClass('is-active');
+    });
+
+    $( "a#lang-de" ).click(function() {
+        setLanguage("de");
+    });
+    $( "a#lang-en" ).click(function() {
+        setLanguage("en");
+    });
+</script>
+
 <div id="page-content">
     <h1>Kontakt</h1>
     <div class="is-full" id="kontakt">

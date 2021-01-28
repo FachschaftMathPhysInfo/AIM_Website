@@ -73,20 +73,66 @@
     </script>
 </head>
 <body>
+<!-- Navigation bar -->
+<nav class="navbar has-shadow" role="navigation" aria-label="main navigation" id="navb">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="https://aim.mathphys.info/">
+        <img src="weblogo.png">
+        </a>
+    
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="faim-navbar-menu">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+    
+    <div id="faim-navbar-menu" class="navbar-menu is-fixed">
+        <div class="navbar-start">
+        <a class="navbar-item is-secondary" href="index.html">
+            Übersicht
+        </a>
+        <a class="navbar-item is-secondary" href="zeitplan.html">
+            Zeitplan
+        </a>
+        <a class="navbar-item is-secondary" href="discord.php">
+            Zum Discord-Server
+        </a>
+        </div>
+    
+        <div class="navbar-end">
+        <a class="navbar-item is-secondary" href="impressum.html">
+            Impressum
+        </a>
+        <a class="navbar-item is-secondary" href="kontakt.html">
+            Kontakt
+        </a>
+        <a class="navbar-item is-secondary" id="lang-de">
+            <img src="de.svg" width="18px" /> &nbsp; Deutsch
+        </a>
+        <a class="navbar-item is-secondary" id="lang-en">
+            <img src="en.svg" width="18px" /> &nbsp; English
+        </a>
+        </div>
+    </div>
+</nav>
+
+<script>
+    $('.navbar-burger').click(function() {
+        $('#faim-navbar-menu, .navbar-burger').toggleClass('is-active');
+    });
+
+    $( "a#lang-de" ).click(function() {
+        setLanguage("de");
+    });
+    $( "a#lang-en" ).click(function() {
+        setLanguage("en");
+    });
+</script>
+
 <div id="page-content">
 <!-- Header -->
 <div id="header">
-    <div id="lang-menu">
-        <p><a id="lang-de"><img src="de.svg" width="18px" /> Deutsch</a> &middot; <a id="lang-en"><img src="en.svg" width="22px" /> English</a></p>
-        <script>
-            $( "a#lang-de" ).click(function() {
-                setLanguage("de");
-            });
-            $( "a#lang-en" ).click(function() {
-                setLanguage("en");
-            });
-        </script>
-    </div>
     <div id="aim-title-de" class="aim-title">
         <h1>Zeitplan</h1>
     </div>
@@ -121,12 +167,8 @@
         </tbody>
     </table>
 </div>
-<div id="aim-welcome-de">
-    <p>Im Laufe der nächsten Tage werden aller Voraussicht nach noch weitere Gruppen hinzukommen, schaut also gerne kurz vor der Messe noch einmal vorbei!</p>
-</div>
-<div id="aim-welcome-en">
-    <p>Further groups might be added during the next days.</p>    
-</div>
+<div id="aim-welcome-de"></div>
+<div id="aim-welcome-en"></div>
 <div style="margin-top:2em;"></div>
 <div class="is-full" id="textfoot">
     <p>&copy; Fachschaft MathPhysInfo 2021 &middot; <a href="impressum.html">Impressum</a> &middot; <a href="kontakt.html">Kontakt</a></p>
