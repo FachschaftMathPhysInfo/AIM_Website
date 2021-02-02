@@ -1,4 +1,4 @@
 <?php
-header('Location: https://discord.gg/TMrtMQZwCy');
+echo 'Dieser Link ist nicht mehr verfügbar.';
 exit;
 ?>
