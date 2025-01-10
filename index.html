@@ -17,7 +17,21 @@
     if (whash == "#en") {
         DEFAULT_LANG = "en";
     }
+    function displayTotalGroupCount(data, lang) {
+    // Count the total number of groups
+    const totalGroups = Object.keys(data.groups).length;
 
+    // Determine the message based on the language
+    let message = "";
+    if (lang === "de") {
+        message = `Hier findet ihr Übersicht von den mehr als ${totalGroups} teilnehmenden Gruppen!`;
+    } else {
+        message = `Here is an overview of the more than ${totalGroups} participating groups!`;
+    }
+
+    // Display the count in the #group-count element
+    $("#group-count").text(message);
+}
     function getGroupsFromField(data, fieldID, lang) {
         var items = [];
         // get properties from JSON file
@@ -107,8 +121,9 @@
     $( document ).ready(function() {
         var ilen;
         $.getJSON( "groups2025.json", function( datag ) {
-            console.log(datag);
             $.getJSON( "fields.json", function( data ) {
+                // Display the total group count
+                displayTotalGroupCount(datag, DEFAULT_LANG);
                 setIcons(data);
                 setIconLabels(data, DEFAULT_LANG);
                 setLanguage(DEFAULT_LANG);
@@ -254,10 +269,7 @@
                 </div>
             </div>
         </div>
-        <p>Hier findet ihr einen Überblick über die Arbeitsgruppen, die sich für die Messe angemeldet haben:</p>
-        <div id="group-count-container">
-            <p id="group-count"></p> <!-- This will display the count of participating groups -->
-        </div>
+        <p><div id="group-count"></div></p>
     </div>
     <div id="aim-welcome-en">
         <p>We, the physics student council (<a href="https://mathphys.info">Fachschaft MathPhysInfo</a>) would like to welcome you on the website of this year's working group inspiration fair.</p>
