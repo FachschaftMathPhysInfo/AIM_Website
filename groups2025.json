@@ -1,0 +1,547 @@
+{
+    "year": "2021",
+    "eventName": "fern-ArbeitsgruppenInspitationsmesse",
+    "eventAbbr": "fAIM",
+    "groups": {
+        "Funktionelle und Molekulare Emissionstomographie / Functional & Molecular Emission Computed Tomography": {
+            "name": "Funktionelle und Molekulare Emissionstomographie / Functional & Molecular Emission Computed Tomography",
+            "field": "MED",
+            "profs": "Dr. Jörg Peter, Prof. Mark E. Ladd",
+            "text": {
+                "de": "Our research group is set up to improve and enhance the diagnostic value of emission tomographic imaging systems as specifically related to cancer. These include the nuclear medicine imaging modalities positron emission tomography (PET) and single photon emission computed tomography (SPECT) both for clinical and for preclinical applications. With a focus on preclinical imaging in small animals these also include the optical modalities bioluminescence imaging (BLI) as well as fluorescence mediated imaging (FMI) and fluorescence diffusion optical tomography (DOT).\n\nTopics are related to\n    Multimodal emission imaging systems involving FMT, BLI, CT, SPECT\n    Synchromodal emission imaging systems involving FMT, BLI, MRI, PET\n    Simulation tools for multimodal imaging systems involving keV and eV photons\n    Synergistic image reconstruction strategies involving keV and eV photons\n    Deep neural network strategies involving keV and eV photons\n    Monolithic PET detector units for pre-clinical and whole-body PET\n    Plenoptic imaging systems for in vivo FMT, BLI, DOT\n    Anthropomorphic and zoomorphic phantoms with integrated tumor tissues\n"
+            },
+            "image": "./images/1OeX8oW8Yf6OZ9FwriU_3o3EJcjBP2cqD.jpg",
+            "link": "https://www.dkfz.de/en/medphysrad/ect/index.html"
+        },
+        "Biological Information Processing Group (AG Pahle)": {
+            "name": "Biological Information Processing Group (AG Pahle)",
+            "field": "BIO",
+            "profs": "Dr. Jürgen Pahle",
+            "text": {
+                "de": "The main aim of our research is to analyse how living systems take up, process, store and transfer information. To achieve this aim, we are active in different areas. First, we are building (kinetic) models of biological systems, for instance, models that describe how oscillations in the second messenger Ca2+ arise, how they are modulated, and how these dynamics lead to specific regulation of different downstream calcium-dependent proteins. We investigate how reliable these systems are by explicitly considering intrinsic fluctuations in particle numbers and utilising stochastic simulations methods. Second, we adapt and apply ideas from information theory and AI/machine learning to address biological research questions. For instance, we study how biological memory is employed in E. coli chemotaxis or the adaptive immune system, and how this effects the functioning of these systems. Third, we are working on method development. This includes extending the widely-used software COPASI (www.copasi.org) for the modelling and simulation of biochemical systems as part of the COPASI developer team, or the development of packages for the R programming environment that allows users to set up systems biology workflows, such as CoRC (jpahle.github.io/CoRC)."
+            },
+            "image": "./images/1hTtd0O7RhbEzxcDwEnYHMYV3XWkk5-Jy.jpg",
+            "link": "https://lab.pahle.org"
+        },
+        "Electronic Visions": {
+            "name": "Electronic Visions",
+            "field": "BIO",
+            "profs": "Prof. Johannes Schemmel",
+            "text": {
+                "de": "In der Electronic Vision(s)-Gruppe untersuchen und implementieren wir neue Konzepte der Informationsverarbeitung in hochparallelen, gemischt analog-digitalen, selbst entworfenen Mikrochips. Unter anderem sind wir Teil der europäischen Forschungsinfrastruktur EBRAINS und bieten dort den Zugriff auf unsere beschleunigten analog-neuromorphen Hardwaresysteme der weltweiten Forschungsgemeinschaft an. Im Rahmen des BrainScaleS-Projekts haben wir Pionierarbeit bei der Integration neuromorpher Systeme auf Silizium-Wafer-Ebene geleistet. Unsere aktuellen neuromorphen Chips enthalten spike-basierte, analog implementierte Neuronen und Synapsen mit einer hochparallelen Anbindung an die SIMD-Erweiterung eines selbst entworfenen, Power-ISA basierten Mikroprozessors. Diese Architektur erlaubt eine softwarebasierte, fexible Implementierung von Lern- und Plastizitätsmechanismen zum Training des neuronalen Netzes. Durch einen breiten Konfigurationsraum bieten diese Chips neben dem Untersuchen biologischer Fragestellungen auch die Möglichkeit durch das maschinelle Lernen inspiriertes ereignisbasierte Algorithmen zu entwickeln und zu verwenden.\nWir haben immer wieder interessante Arbeiten in den verschiedenen Arbeitsbereichen der Gruppe zu vergeben - das reicht von der Hardware-Entwicklung, über die Low-Level und User-Software-Entwicklung bis hin zu Experimentellen neurowissenschaftlichen Arbeiten auf der Hardware, und auch theoretischen Arbeiten im Bereich der Neurowissenschaften und des maschinellen Lernens. Kommt vorbei, wir erzählen euch gerne mehr!"
+            },
+            "image": "./images/1iBrRTY79umR7qq_HNxDROFPfFfLXZ1tr.jpg",
+            "link": "https://www.kip.uni-heidelberg.de/vision/"
+        },
+        "DurstewitzLab": {
+            "name": "DurstewitzLab",
+            "field": "COM",
+            "profs": "Prof. Dr. Daniel Durstewitz",
+            "text": {
+                "de": "We work on models and training algorithms for dynamical systems reconstruction (DSR) and time series analysis, and their theoretical/ mathematical underpinnings (work supported by different DFG individual grants and within Excellence Cluster Structures).\n\nOur major theoretical workhorse is dynamical systems theory, a general and beautiful mathematical framework for analyzing any (natural or engineered) process that evolves in time and space, and that in science we usually describe by systems of differential or recursive equations. By dynamical systems reconstruction we mean deep learning algorithms that infer a generative model of the dynamical processes, or governing equations, that underlie the data observed. In a sense, the idea is to automatize the scientific discovery process: Rather than relying on cycles of human insight and intuition for conceiving mathematical models of the world and iterative refinement after experimental testing, our idea is to derive such models directly and automatically from observed time series and other sources of data. See https://durstewitzlab.github.io/ for details."
+            },
+            "image": "./images/1pogfr_dS9eCcIHfjLWzcCS_Fg3Diyb_U.jpg",
+            "link": " https://durstewitzlab.github.io/"
+        },
+        "Ultrafast Liquid Crystal Dynamics (ULCD)": {
+            "name": "Ultrafast Liquid Crystal Dynamics (ULCD)",
+            "field": "AMO",
+            "profs": "Dr. Laura Cattaneo",
+            "text": {
+                "de": "Flüssigkristalle sind Meta-Phasen-Materialien, geordnet wie Feststoffe, aber flüssig wie Flüssigkeiten.\nTrotz der enormen Entwicklungen in der Flüssigkristalltechnologie und der Beobachtung der Flüssigkristalldynamik im Sub-Pikosekundenbereich ist das Verständnis dieser Dynamik noch lückenhaft. \nIn unserer Gruppe wollen wir diese anspruchsvolle Untersuchung mit Hilfe modernster Pumpsonden-Techniken in einem breiten Wellenlängenbereich angehen, der von THz, wo kollektive Molekülschwingungen stattfinden, bis zu UV, wo Elektronenanregungen stattfinden, von Pico- bis zu Attosekunden reicht.\nInsbesondere nutzen wir den Prozess der High Harmonic Generation, um die gekoppelte Elektronenkerndynamik über verschiedene Phasen hinweg zu untersuchen, d. h. über verschiedene Grade von Ordnung (fest) und Unordnung (flüssig)."
+            },
+            "image": "./images/1Z7csHyeW8tWp9NGv9MDKPHpm10QwD3sU.jpg",
+            "link": "https://www.mpi-hd.mpg.de/mpi/de/forschung/abteilungen-und-gruppen/unabhaengige-forschungsgruppen/ulcd"
+        },
+        "cosmostatistics": {
+            "name": "cosmostatistics",
+            "field": "COS",
+            "profs": "Bjoern  Malte Schaefer",
+            "text": {
+                "de": "We work on fundamental physics, specifically on cosmology, the formation and evolution of the cosmic large-scale structure, gravitational lensing and CMB-anisotropies as a probe of fundamental physics, Bayesian inference and information geometry"
+            },
+            "image": "./images/1JzbKAGJ9nPzHuqK8QyvsHZqG54UhU1kG.jpg",
+            "link": "https://www.ita.uni-heidelberg.de/~spirou/"
+        },
+        "MathPhys of gauge-field theory and applications": {
+            "name": "MathPhys of gauge-field theory and applications",
+            "field": "MAT",
+            "profs": "PD Dr Ralf Hofmann",
+            "text": {
+                "de": "We research how a 4D effective, thermal quantum field theory emerges from a classical Euclidean field theory with gauge symmetry SU(2) or SU(3). Ramifications include: emergence of mass, gap equations, physical role of topological charge, grasp of critical behavior in continuous phase transitions, probes in analytic number theory, convergence of effective loop expansions, and elementary particles as quantum solitons. We also investigate implications for Cosmology/Astrophysics towards the Fuzzy Dark Matter paradigm (small-scale structure), Dark Energy, the Cosmic Microwave Background, the high-redshift Cosmological Model, and Cosmological Phase Transitions. Additional group members are: Janning Meinert (PhD student; U HD, U Wuppertal), Jan Bartels (MA student; U HD), Ananta Effendie (MA student; U Hamburg, U HD), Immo Dede (MA student; U Hamburg, U HD)"
+            },
+            "image": "./images/1714gY7eordC9ibxeuOHCdbZInZeF3oKv.jpg",
+            "link": "https://www.thphys.uni-heidelberg.de/~hofmann/"
+        },
+        "Molecular and Cellular Modeling - HITS": {
+            "name": "Molecular and Cellular Modeling - HITS",
+            "field": "COM",
+            "profs": "Prof. Rebecca Wade",
+            "text": {
+                "de": "The Molecular and Cellular Modeling group develops and applies computer-aided methods to model, simulate and predict how biomolecules interact. The focus is on the interactions of proteins. The methods make use of three-dimensional macromolecular structures and combine simulation approaches based on physicochemical principles with those of chemo- and bio-informatics and machine learning."
+            },
+            "image": "./images/1a_Thckmc9dEDV8cw4JNrj2_RM8E6XS1x.jpg",
+            "link": "https://www.h-its.org/research/mcm/"
+        },
+        "Relativistische Schwerionenphysik und kalte Quantengase": {
+            "name": "Relativistische Schwerionenphysik und kalte Quantengase",
+            "field": "PP",
+            "profs": "Prof. Georg Wolschin",
+            "text": {
+                "de": "We work on non equilibrium-statistical models that can be applied to relativistic heavy-ion physics, as well as to thermalization processes in ultracold atoms, and also in cosmology."
+            },
+            "image": "./images/1BI9XTNbrGPUjmbfBawsIgA-ggjoxGQq7.jpg",
+            "link": "wolschin.uni-hd.de"
+        },
+        "Max Planck Insitute for Astronomy": {
+            "name": "Max Planck Insitute for Astronomy",
+            "field": "AST",
+            "profs": "Prof. Laura Kreidberg",
+            "text": {
+                "de": "The Max Planck Institute for Astronomy on Königstuhl in Heidelberg consists of three departments: atmospheric physics of exoplanets (APEx), galaxies and cosmology (GC), and planet and start formation (PSF). A variety of research groups exist, and we are looking for motivated students that would like to join us for internships or thesis projects.."
+            },
+            "image": "./images/1W8qCdzJT3-_uVNJpugDiKtN-XSzq-zna.jpg",
+            "link": "http://mpia.de"
+        },
+        "Quantum fluids": {
+            "name": "Quantum fluids",
+            "field": "AMO",
+            "profs": "Lauriane Chomaz",
+            "text": {
+                "de": "Our group explores the behaviour of quantum fluids using ultracold assemblies of atoms. We work on an experiment with a Bose-Einstein condensate of dysprosium atoms. These atoms have a high magnetic moment, creating strong anisotropic dipolar interactions. It allows to create new phases with cold atoms, like droplets and supersolids. Our goal is to explore the phase diagram of supersolids and  phase transitions. We also want to study what happens in the 2D regime."
+            },
+            "image": "./images/1qEZeqIXS6MF3THCuI0IN4JnbMKZpefEk.jpg",
+            "link": "https://www.physi.uni-heidelberg.de/Forschung/QF/index.php?show=home"
+        },
+        "Micro, Nano, Moleacular Systems Lab": {
+            "name": "Micro, Nano, Moleacular Systems Lab",
+            "field": "BIO",
+            "profs": "Peer Fischer",
+            "text": {
+                "de": "Our group has broad interests in the interaction of acoustic, optical, electric, and magnetic fields with matter at small length scales. We work on new 3-D fabrication methods, self-assembly, actuation, and propulsion. We have observed a number of fundamental effects and are developing new experimental techniques and instruments."
+            },
+            "image": null,
+            "link": "https://www.imseam.uni-heidelberg.de/en/fischer"
+        },
+        "Computational Galaxy Formation and Evolution": {
+            "name": "Computational Galaxy Formation and Evolution",
+            "field": "AST",
+            "profs": "Dylan Nelson",
+            "text": {
+                "de": "Unsere Arbeitsgruppe ist auf die theoretische Erforschung der Galaxienentstehung und -entwicklung spezialisiert. Wir entwickeln und führen numerische Simulationen durch, um besser zu verstehen, wie sich Galaxien seit dem Urknall formen und weiterentwickeln. Ein zentraler Schwerpunkt unserer Arbeit liegt auf der Dynamik von Gas innerhalb und zwischen Galaxien, das den kosmischen Baryonenkreislauf, das zirkumgalaktische Medium und energetische Rückkopplungsprozesse prägt. Neben der Untersuchung dieser grundlegenden Prozesse arbeiten wir an der Entwicklung innovativer numerischer Methoden, um ihre Simulation und Analyse zu verbessern."
+            },
+            "image": "./images/1yQHLRBgurrrIWu0WJSADJ6QucAIJ39Fh.jpg",
+            "link": "https://www.ita.uni-heidelberg.de/~dnelson/"
+        },
+        "Translational Molecular Imaging": {
+            "name": "Translational Molecular Imaging",
+            "field": "MED",
+            "profs": "Leif Schröder",
+            "text": {
+                "de": "Research of the Translational Molecular Imaging Division focuses on the development of\nadvanced NMR techniques like spin hyperpolarization and saturation transfer techniques in exchange-coupled spin systems. These serve to design targeted imaging reporters for translating novel detection techniques into diagnostic applications in oncology. We aim to visualize key molecular changes in cancer onset and progression and capitalize on the strong interdisciplinary magnetic resonance tradition in Heidelberg. Our interdisciplinary team comprises members from a diverse background and strives to combine key techniques from physics, biochemical engineering, and molecular biology to develop the next generation of ultra-sensitive imaging reporters. We also investigate biomaterials science aspects of established contrast agents with respect to their biosafety and the understanding of their biochemical fate."
+            },
+            "image": "./images/1Ld6os30iIQ9kBiqkpvCoEbZiBK6wx9Dq.jpg",
+            "link": "https://www.dkfz.de/en/translationale-molekulare-bildgebung/index.php"
+        },
+        "Biomedical Physics in Radiation Oncology": {
+            "name": "Biomedical Physics in Radiation Oncology",
+            "field": "MED",
+            "profs": "Joao Seco",
+            "text": {
+                "de": "Ultra-high-dose-rate (UHDR) radiotherapy, or FLASH-RT, is a novel technology involving the use of ultra-fast delivery of radiotherapy treatment at dose-rates that are several orders of magnitude higher than the conventional radiotherapy (CONV) in clinical practice (FLASH>=40Gy/s and CONV~0.1Gy/s). FLASH radiotherapy demonstrates a striking biological sparing effect of normal tissues while keeping similar anti-tumor efficacy, termed the “FLASH effect”. The molecular mechanism behind the FLASH effect is still unknown. \n\nThe current research interests of the division are: 1) to investigate the mechanism behind the FLASH effect and SFRT, 2) to investigate the mechanism of radiation triggered DNA damage via reactive oxygen species (ROS), 3) to develop novel imaging technologies to reduce the Bragg peak positioning \"uncertainties\" for ion-beam radiotherapy, using Helium beam imaging and prompt gamma spectroscopy."
+            },
+            "image": "./images/1pFwvrmuy3kNZuhR6HwfXqUIipOFQRWPn.jpg",
+            "link": "https://www.dkfz.de/en/medizinische-physik-radioonkologie/index.php"
+        },
+        "AG Schaltungstechnik (ZITI)": {
+            "name": "AG Schaltungstechnik (ZITI)",
+            "field": "TI",
+            "profs": "Peter Fischer",
+            "text": {
+                "de": "The group develops electronic microchips and systems for the detection of charged particles, X-rays and optical photons with applications in particle physics (ATLAS, BelleII, DARWIN), synchrotron physics (EuXFEL, ESRF, Diamond), Medical Physics (PET) and optical computing."
+            },
+            "image": "./images/17mgucNXPjKfQEiK4AMbsrue4Nk3x2fKx.jpg",
+            "link": "https://sus.ziti.uni-heidelberg.de/Forschung"
+        },
+        "Division of Intelligent Medical Systems, DKFZ": {
+            "name": "Division of Intelligent Medical Systems, DKFZ",
+            "field": "COM",
+            "profs": "Prof. Lena Maier-Hein",
+            "text": {
+                "de": "Artificial intelligence (AI) is set to revolutionize various areas of everyday life. In healthcare, however, its integration into routine procedures and impact on patients are still limited. The mission of the Division of Intelligent Medical Systems is to tackle the unique challenges of medical imaging AI to generate lasting patient benefit. A particular focus of our research lies in the surgical application domain. Currently, patient outcome is heavily influenced by the surgical team's experience, with many potential complications being avoidable. To address such major socioeconomic problems and consistently elevate patient outcome beyond current standards, our multidisciplinary team works on intelligent medical systems in close collaboration with clinicians. Specific goals lie in the development of novel AI-enabled imaging techniques and trustworthy surgical AI systems that are ready for real-world clinical application. Key methodological challenges are related to the generalization of AI methods across devices, patient populations and hospitals, high data variability in an inherently sparse data regime, multimodal data integration, incorporation of prior knowledge into models, and the meaningful validation of AI systems under real-world clinical conditions."
+            },
+            "image": "./images/1vBMeVcpuEGC_UTUO15Vx1eg5cKkxhHf5.jpg",
+            "link": "https://www.dkfz.de/en/imsy/index.php"
+        },
+        "Translation Research for Ion Beam Therapy": {
+            "name": "Translation Research for Ion Beam Therapy",
+            "field": "MED",
+            "profs": "Dr. José Vedelago",
+            "text": {
+                "de": "Our research group mainly focuses on assessing the secondary radiation during proton and light ion beam therapy for cancer treatment. This is particularly relevant for pediatric and pregnant patients since the associated risks of secondary cancer are more relevant compared to other patients. Our primary research partner is the Heidelberg Ion Beam Therapy Center (HIT) at the Heidelberg University Hospital (UKHD).\nThe research activities we work on span from Monte Carlo simulations for characterizing secondary neutron production during ion beam therapy to the advancement of neutron dosimetry techniques by using Fluorescent Nuclear Track Detectors (FNTDs), with a focus on high-energy neutrons."
+            },
+            "image": "./images/11s-1aDVvhG-clDDdrfEv13j0L_ZM0eI-.jpg",
+            "link": "https://www.dkfz.de/en/medphys/ion_beam_therapy/index.html"
+        },
+        "Scientific AI": {
+            "name": "Scientific AI",
+            "field": "COM",
+            "profs": "Professor Fred Hamprecht",
+            "text": {
+                "de": "Our main focus is geometric machine learning in quantum chemistry. Predicting molecular properties is important for a huge range of problems, from biochemistry to drug development.\n\nThe most universal approach to such predictions relies on quantum mechanics. We aim to dramatically speed up these quantum calculations using machine learning methods that respect the fundamental symmetries of the problem."
+            },
+            "image": "./images/1fZU1gnEKYeQKlOEkcwAaGpP214CfiaPg.jpg",
+            "link": "https://sciai-lab.org/"
+        },
+        "Theory and Observations of Stars (TOS)": {
+            "name": "Theory and Observations of Stars (TOS)",
+            "field": "AST",
+            "profs": "Saskia Hekker",
+            "text": {
+                "de": "Theory and Observations of Stars (TOS)\n\nFor a long time, the structure of stars was only inferred from surface observations. Today, methods like asteroseismology allow scientists to “look inside” stars and infer their internal structure.\n\nWhat is Asteroseismology? \nAsteroseismology is the study of the internal structures of stars through their intrinsic global oscillations.\nWaves travel through the star, allowing us to trace the internal conditions and uncover information hidden beneath the opaque stellar surface.\n\nOur Research Focus\nWe aim to better understand the physical processes that take place in stars and how these processes change as a function of stellar evolution. \n- We focus on unraveling the physical conditions and processes at play in low-mass main-sequence stars, subgiants, and red-giant stars.\n- Our goal is to uncover the physical origins behind the different oscillation spectra observed in these stars.\n- We work in a holistic way using different kinds of observations (spectroscopy, photometry, asteroseismology, astrometry and when available interferometry) and stellar models (theory).\n\n"
+            },
+            "image": "./images/19t6QmjNyu895vYa__zdztlnqBItD_uVT.jpg",
+            "link": "https://www.h-its.org/research/tos/"
+        },
+        "Computer Assisted Clinical Medicine": {
+            "name": "Computer Assisted Clinical Medicine",
+            "field": "MED",
+            "profs": "Prof. Dr. Frank Zöllner",
+            "text": {
+                "de": "The Chair in Computer Assisted Clinical Medicine (CKM) at the Mannheim Institute for Intelligent Systems in Medicine (MIISM) conducts cutting-edge research in clinical and pre-clinical medical imaging and medical image processing to enhance diagnostics and patient treatment.\n\nCKM possesses extensive expertise in MR sequence development, specializing in quantitative functional and physiological imaging techniques, including perfusion, diffusion, oxygenation, and relaxometry, as well as x-nuclei imaging. Our team develops advanced image reconstruction techniques for MRI and CT/CBCT, alongside medical image processing methods that utilize machine learning to extract imaging biomarkers."
+            },
+            "image": null,
+            "link": "https://www.umm.uni-heidelberg.de/miism/computer-assisted-clinical-medicine/"
+        },
+        "Exoplaneten": {
+            "name": "Exoplaneten",
+            "field": "AST",
+            "profs": "Andreas Quirrenbach, Sabine Reffert",
+            "text": {
+                "de": "Suche nach Extrasolaren Planeten mit Hilfe von Radialgeschwindigkeiten und Transits."
+            },
+            "image": "./images/136FnFSI6Rn-HpGZDI4DPEB4oLilq42xy.jpg",
+            "link": "https://www.lsw.uni-heidelberg.de/projects/exoplanets/"
+        },
+        "Stimuli-responsive Nano-materials / Computational Chemistry Group": {
+            "name": "Stimuli-responsive Nano-materials / Computational Chemistry Group",
+            "field": "COM",
+            "profs": "Prof. Dr. Saeed Amirjalayer",
+            "text": {
+                "de": "The functionality of natural and human-made materials depends on atomic-scale processes, which molecular engineering can control to fine-tune properties, enabling materials to adapt reversibly and precisely to external stimuli and their environment. Located at the interface of chemistry, physics, and materials science, our research group aims to address fundamental challenges in this field by deriving novel concepts to encode information at the atomic scale, decode it on-demand in response to external inputs, and translate it into targeted functionality.\n To this end, our group develops advanced computational methods to bridge different time and length scales, which are crucial for a comprehensive understanding of hierarchical nanomaterials. By combining theoretical chemistry with machine learning and evolutionary algorithms, we conduct multi-scale investigations to predict, rationalize, and screen responsive and adaptive functional materials.\n"
+            },
+            "image": "./images/1-_5iZjyaTwGlYiNRC8OOkUZYBGqF_pOS.jpg",
+            "link": "https://www.samirjalayer.de"
+        },
+        "Collision induced molecular dynamics": {
+            "name": "Collision induced molecular dynamics",
+            "field": "AMO",
+            "profs": "Alexander Dorn",
+            "text": {
+                "de": "Dynamics and fragmentation of atoms, molecules or clusters is induced by electron collisions or by photoabsorbtion. Experimentally we collect all electrons and ions emerging from such reactions and analyse their momentum vectors in order to get detailed understanding and to test theoretical calculations. "
+            },
+            "image": "./images/1YvaORScYgsV4HJi0yegZD5IIts1t4a9l.jpg",
+            "link": "https://www.mpi-hd.mpg.de/mpi/en/research/scientific-divisions-and-groups/quantum-dynamicscontrol/research/ultra-cold-dynamics-and-collisions-ag-dorn"
+        },
+        "Artificial Intelligence for Programming (AIP)": {
+            "name": "Artificial Intelligence for Programming (AIP)",
+            "field": "COM",
+            "profs": "Prof. Dr. Artur Andrzejak",
+            "text": {
+                "de": "Our research and teaching activities focus on the challenges of software development and maintenance, in particular efficient programming and software reliability. We apply methods from Artificial Intelligence and Machine Learning and combine them with classical software engineering techniques including static and dynamic code analysis, code transformations and code generation.\n\nOur research interests and currently active projects are described by the following topics: AI-Supported Programming, Knowledge Editing for LLMs, Code Generation and DSLs, and Software reliability. Check out our group's website for more information."
+            },
+            "image": null,
+            "link": "https://aip.ifi.uni-heidelberg.de/home"
+        },
+        "Machine learning & observational cosmology": {
+            "name": "Machine learning & observational cosmology",
+            "field": "AST",
+            "profs": "Dr. Caroline Heneka",
+            "text": {
+                "de": "How did our Universe look over 12 billion years ago, when the very first galaxies began to form? How can we map the structure of the Universe, from its current state back to the early epoch of reionization and beyond? Our research tackles these fundamental questions by bridging modern machine learning and artificial intelligence with large-scale intensity mapping across multiple wavelengths. We employ simulations specifically designed for intensity mapping, alongside cutting-edge model analysis, forecasting, parameter estimation, and advanced deep learning techniques. Our ultimate goal is to achieve a unified understanding of the astrophysical processes and cosmological phenomena that shaped the Universe during its earliest epochs."
+            },
+            "image": "./images/1tmkqb68wI3k62_16YqWBvtVVMsPnwsZb.jpg",
+            "link": "https://caroline-heneka.de/"
+        },
+        "Molecular Processes at Interfaces": {
+            "name": "Molecular Processes at Interfaces",
+            "field": "AMO",
+            "profs": "Prof. Dr. Petra Tegeder",
+            "text": {
+                "de": "Our research focuses on unraveling the mechanisms behind electronically and thermally induced elementary processes in molecular ensembles at surfaces and interfaces. To investigate these phenomena, we employ a suite of advanced spectroscopic techniques, including time- and angle-resolved two-photon photoemission (2PPE), high-resolution electron energy loss spectroscopy (HREELS), core-level spectroscopy, and nonlinear optical methods such as vibrational sum-frequency generation (SFG), second harmonic generation (SHG), and two-photon absorption (2PA).\nA central aspect of our work lies in the exploration of organic materials designed for use in optoelectronic and electronic devices. We study the energetic landscape of molecular electronic states (both occupied and unoccupied) alongside charge carrier dynamics and energetics at the interfaces between organic molecules and metal or semiconducting surfaces. By understanding these parameters, we aim to elucidate their impact on the efficiency of electronic and optoelectronic processes, such as those occurring in organic solar cells and light-emitting diodes, and to contribute to the development of more efficient technologies in these fields."
+            },
+            "image": "./images/1cszWrDYMdtUpHtAJ1LF6M8T9a33w36Yr.jpg",
+            "link": "https://www.uni-heidelberg.de/fakultaeten/chemgeo/pci/tegeder/"
+        },
+        "Optical Quantum Systems": {
+            "name": "Optical Quantum Systems",
+            "field": "AMO",
+            "profs": "Prof. Dr. Julian Schmitt",
+            "text": {
+                "de": "In der neuen Forschungsgruppe von Julian Schmitt am KIP fangen wir Photonen in nanostrukturierten optischen Mikroresonatoren und bringen diese mit Hilfe von Farbstoffmolekülen ins thermische Gleichgewicht. So können wir kollektive Quanteneffekte, wie die Bose-Einstein Kondensation, oder die Physik von Phasenübergängen in optischen Quantengasen bei Raumtemperatur beobachten. Zwei unserer Experimente beschäftigen sich mit der Untersuchung topologischer Eigenschaften des Lichts in periodischen Gitterstrukturen – eine Art variabler Kristall aus Licht. In zwei neuen Experimenten sollen nun komplexere Netzwerke von Lichtkondensaten als physikalische Rechner für Optimierungsprobleme und zur Realisierung von Supraflüssigkeiten aus Licht entwickelt werden. Kommt vorbei, wenn ihr mehr darüber erfahren möchtet!"
+            },
+            "image": "./images/1uCccyzttyehWlk45sZtXHowWJU36ZuLr.jpg",
+            "link": "https://www.kip.uni-heidelberg.de/optiQS/"
+        },
+        "Cryogenic Storage Ring (CSR)": {
+            "name": "Cryogenic Storage Ring (CSR)",
+            "field": "AMO",
+            "profs": "Holger Kreckel & Oldrich Novotny",
+            "text": {
+                "de": "Wir suchen motivierte Student*innen und Doktorand*innen für Experimente am Cryogenic Storage Ring (CSR) des Max-Planck-Instituts für Kernphysik in Heidelberg. Der CSR ist ein einzigartiger elektrostatischer Speicherring, der mit flüssigem Helium bei kryogenen Temperaturen betrieben werden kann. Unsere Experimente befassen sich mit fundamentalen atomaren und molekularen Prozessen. Neben astrophysikalisch motivierten Reaktionen und Elektronen-Kollisionen führen wir zustandsspezifische Laser-Experimente durch. \nWir bieten die Möglichkeit an einer weltweit einzigartigen Anlage mit einem erfahrenen Team von Experimentator*innen, Techniker*innen und internationalen Wissenschaftler*innen zu arbeiten, und dabei breite interdisziplinäre Erfahrungen zu sammeln."
+            },
+            "image": "./images/1pXBaYyKRBHJ9Qy4YbnYeSp2PiH85UxNs.jpg",
+            "link": "https://www.mpi-hd.mpg.de/mpi/de/forschung/abteilungen-und-gruppen/gespeicherte-und-gekuehlte-ionen/forschung/csr"
+        },
+        "Diffusion-Weighted Magnetic Resonance Imaging": {
+            "name": "Diffusion-Weighted Magnetic Resonance Imaging",
+            "field": "MED",
+            "profs": "PD Dr. Tristan A. Kuder",
+            "text": {
+                "de": "Using magnetic resonance imaging (MRI), the diffusion process of water molecules in biological tissue can be observed. Since the diffusional motion is restricted by barriers such as cell membranes, the measured diffusion coefficients are indirectly related to the cellular structure. Therefore, diffusion weighted imaging (DWI) is extensively used to gain insights into the structure of biological tissues, especially in the area of tumor and stroke diagnosis or to reconstruct white matter tracts in the human brain.\n\nThe DWI research group is concerned with the development of new diffusion-based imaging contrasts to improve insight into cellular structure for enhanced lesion detection and classification.\n\nResearch Topics:\n\nDiffusion Kurtosis Imaging\nDiffusion Pore Imaging\nq-Space Trajectory Imaging\nDevelopment of Local Gradient Coils\nHyperpolarisation of Xenon-129\nDevelopment of Measurement Objects (Phantoms)"
+            },
+            "image": "./images/1qdTOjTCQytm1qWJZpAKuAj0dLKao4top.jpg",
+            "link": "https://www.dkfz.de/en/medphysrad/workinggroups/dwi/dwi.html"
+        },
+        "Experimentelle Teilchenphysik - ATLAS": {
+            "name": "Experimentelle Teilchenphysik - ATLAS",
+            "field": "PP",
+            "profs": "Prof. Dr. Hans-Christian Schultz-Coulon",
+            "text": {
+                "de": "Unsere Gruppe arbeitet am ATLAS-Experiments am Large Hadron Collider (LHC) des CERN. Dabei sind wir zum einen an der Entwicklung des Triggersystems beteiligt: Mittels eigens in unserer Gruppe entwickelter Hardware werden innerhalb von wenigen Mikrosekunden aus den bis zu 40 Millionen Kollisionsereignissen pro Sekunde die relevanten für die Auslese ausgewählt. Gleichzeitig beschäftigen wir uns auch mit der Analyse der aufgenommenen Daten: Mit ihnen führen wir präzise Messungen von Vorhersagen des Standardmodells der Teilchenphysik durch und suchen nach neuer Physik jenseits des Standardmodells, wie etwa Dunkler Materie.\n\nBachelor- und Masterstudierende werden bei uns und in ATLAS in ein internationales Team eingebunden und arbeiten an Aufgaben wie Datenanalysen, Simulationsstudien oder Software- und Hardware-Entwicklung. Dabei kommen je nach Thema moderne Technologien von Machine Learning bis FPGA-Programmierung zum Einsatz.\n"
+            },
+            "image": "./images/17SBK1W2fDxogtLCdoLJ0w8rh0ISMFW_3.jpg",
+            "link": "https://www.kip.uni-heidelberg.de/atlas/"
+        },
+        "Heavy-ion physics with ALICE and ISOQUANT": {
+            "name": "Heavy-ion physics with ALICE and ISOQUANT",
+            "field": "NUC",
+            "profs": "Prof. Dr. Silvia Masciocchi",
+            "text": {
+                "de": "Our international group, part of the ALICE collaboration, is dedicated to exploring the physics of high-energy heavy-ion collisions. ALICE is one of the four major experiments at CERN's Large Hadron Collider (LHC) that investigates the physics of strongly interacting matter at extreme temperatures and energy densities, where the formation of a new phase of matter, the quark-gluon plasma, is expected.\n\nIn close collaboration with the ALICE group at GSI in Darmstadt, we analyze data from nucleus-nucleus collisions, calibrate existing detectors and drive the development of cutting-edge silicon detectors for particle tracking.\n\nComplementing our data analysis and hardware efforts, we work together with the Theoretical Institute (ITP) as part of the Collaborative Research Center ISOQUANT, focusing on a phenomenological description of hot QCD matter. Our work uses fluid dynamics to model the evolution of strongly interacting matter produced in ultra-relativistic collisions."
+            },
+            "image": "./images/19dn3qtLM9mi56kKqrskHLZsybDwoKvVa.jpg",
+            "link": "https://www.physi.uni-heidelberg.de/~sma/"
+        },
+        "LSym": {
+            "name": "LSym",
+            "field": "AMO",
+            "profs": "Prof. Dr. Sven Sturm",
+            "text": {
+                "de": "Wir leben in einem Universum aus Materie, allerdings erwarten wir unter Annahme einer erhaltenen CPT-Symmetrie (Charge, Parity, Time) eine gleiche Verteilung von Materie und Antimaterie. Dies widerspricht unseren aktuellen Beobachtungen und deutet auf neue spannende Physik hin. Hier am LSym-Experiment wollen wir Eigenschaften wie Ladung und Masse des Elektrons und seines Antiteilchens dem Positron auf bisher beispiellose Genauigkeit vergleichen. Für solch eine Vergleichsmessung wird eine Penningfalle verwendet, die uns ermöglicht diese Teilchen einzufangen und sie bis auf 300mK abzukühlen. Hier werden wir untersuchen ob die Spins des Elektrons und Positrons genau gleich schnell präzedieren. Wird CPT unserem hochpräzisen Test standhalten?"
+            },
+            "image": "./images/1Ox_sXnstG7JmMlC2Rz3xozNPGE33yJol.jpg",
+            "link": "www.lsym.de"
+        },
+        "HiCell - High Content Analysis of the Cell": {
+            "name": "HiCell - High Content Analysis of the Cell",
+            "field": "BIO",
+            "profs": "Dr. Holger Erfle",
+            "text": {
+                "de": "Wir beschäftigen uns mit der Transfektion verschiedener Stoffe (Cargos) ins Innere von Zellen und mit der mikroskopischen Analyse der dadurch induzierten Prozesse innerhalb der Zelle.\nMögliche Cargos sind beispielsweise RNA Oligonukleotide oder Proteine.\nDie Mikroskopie reicht von einfachen Analysen der Zellmorphologie im Weitfeldverfahren bis zur Bildgebung subzellulärer Strukturen mittels Konfokal- oder Superresolution Mikroskopie."
+            },
+            "image": null,
+            "link": "https://www.bioquant.uni-heidelberg.de/groups/erfle"
+        },
+        "GRK 2948": {
+            "name": "GRK 2948",
+            "field": "CM",
+            "profs": "Prof. Jana Zaumseil",
+            "text": {
+                "de": "The Research Training Group “Mixed Ionic-Electronic Transport” (GRK 2948) is a structured doctoral programme at Heidelberg University and the University of Stuttgart.\n\nWe explore how ions and electrons interact with each other in organic, hybrid and nanoscale materials with the aim to create mixed ionic-electronic conductors with new functionalities for sensors, soft actuators and bioelectronics. We investigate the fundamental nature of ionic-electronic interactions in relation to electronic, optical and mechanical properties with a wide range of modern experimental techniques on different time and length scales, which are accompanied by modelling from the atomistic level to the macroscale.\n\nIn addition to exciting research topics, the GRK 2948 also provides additional training in science communication, transferable skills and teaching to prepare all doctoral researcher for successful careers in research and industry. "
+            },
+            "image": "./images/1P-8Vdr0Akvk-Z1nvVYce8HfgylIGTBew.jpg",
+            "link": "https://www.grk2948.uni-heidelberg.de/en"
+        },
+        "Nanomaterials for Optoelectronics Group": {
+            "name": "Nanomaterials for Optoelectronics Group",
+            "field": "CM",
+            "profs": "Prof. Jana Zaumseil",
+            "text": {
+                "de": "The “Nanomaterials for Optoelectronics Group” (AK Zaumseil) at the Institute for Physical Chemistry focuses on interdisciplinary research with the goal to fundamentally understand and apply charge transport and light-matter interactions (weak an strong) in carbon-based/solution-processable semiconductors for optoelectronics & biosensors. We are especially interested in the physical properties of carbon nanotubes as one-dimensional semiconductors and near-infrared emitters. "
+            },
+            "image": "./images/1QBE3VrkFZH1U-tOHPq0v79TS553g1DnM.jpg",
+            "link": "https://www.pci.uni-heidelberg.de/apc/"
+        },
+        "Department of Radiation Oncology": {
+            "name": "Department of Radiation Oncology",
+            "field": "MED",
+            "profs": "Sebastian Klüter",
+            "text": {
+                "de": "Successful radiation therapy is characterized by optimal tumor control with minimal side effects. This is achieved by irradiating the tumor as precisely as possible while protecting normal tissue and organs at risk. From this perspective, particle therapy with heavy ions and protons, as offered at the HIT in Heidelberg since 2009, represents a promising treatment modality for many indications.\n\nOur research focuses on the individualization of particle therapy (PT) from a physical perspective. In innovative and interdisciplinary cross-sectional projects, we develop current clinical treatment concepts with the aim of converting the advantageous physical beam properties of PT into an optimal treatment result for our patients."
+            },
+            "image": "./images/1G1d2jvAA5Ku7DEexSMzWPgDV93aq-FTB.jpg",
+            "link": "https://www.klinikum.uni-heidelberg.de/radiologische-klinik/radioonkologie-und-strahlentherapie/lehre/abschlussarbeiten-medizinphysik"
+        },
+        " Biostatistics for Omics Data": {
+            "name": " Biostatistics for Omics Data",
+            "field": "COM",
+            "profs": "Simon Anders",
+            "text": {
+                "de": "Computational biology: Using methods from physics, mathematics and computer science to understand biological systems and to analyze molecular-biological data\nWe develop methods to work with omics data, i.e., gene expression and other high-dimensional data characterizing the internal state of cells"
+            },
+            "image": null,
+            "link": "https://www.bioquant.uni-heidelberg.de/groups/anders"
+        },
+        "Search for new physics with highly charged ions": {
+            "name": "Search for new physics with highly charged ions",
+            "field": "AMO",
+            "profs": "Vera Schäfer",
+            "text": {
+                "de": "Kaum eine Größe in der Physik können wir so genau messen wie atomare Übergangsfrequenzen. Da sie direkt von fundamentalen Kräften und Effekten abhängen, sind sie ideale Systeme, um unser Verständnis fundamentaler Physik zu testen. Hochgeladene Ionen sind besonders interessant, da ihre verbleibenden Elektronen sehr eng an den Kern gebunden sind und sie dadurch sensitiver für relativistische Effekte sind. Hochgeladene Ionen lassen sich zwar nur schwer direkt kontrollieren, aber mit Hilfe der Quantenlogikspektroskopie, einer von der Quanteninformation inspirierten Technik, können hochpräzise Messungen indirekt über ein gut kontrollierbares, einfach geladenes Ion durchgeführt werden.\n\nWir werden Quantenlogikspektroskopie nutzen, um Übergangsfrequenzen hochgeladener Ionen sehr präzise zu messen. Eine Frage, die uns besonders interessiert, ist, ob Naturkonstanten wirklich konstant sind oder ob sie sich zeitlich oder räumlich verändern können.  Wenn ihr Lust habt mit Lasern, Ionen, Rf Fallen und Präzisionsmessungen zu arbeiten, dann kommt bei uns vorbei!"
+            },
+            "image": "./images/11yWtj8yIVzBFAXHqZVdrxih64hsMI5Lk.jpg",
+            "link": "https://www.mpi-hd.mpg.de/mpi/de/forschung/abteilungen-und-gruppen/quantendynamik-und-kontrolle/forschung/search-for-new-physics-with-trapped-ions-nwg-schaefer"
+        },
+        "AG Blaum": {
+            "name": "AG Blaum",
+            "field": "NUC",
+            "profs": "Klaus Blaum",
+            "text": {
+                "de": "Die experimentelle Arbeitsgruppe befasst sich mit Präzisionsexperimenten zur Bestimmung von atomaren und nuklearen Grundzustandseigenschaften gespeicherter Ionen für Tests fundamentaler Wechselwirkungen und ihren Symmetrien sowie mit der Erforschung elementarer Prozesse molekularer Ionen. Auch die Entwicklung neuer Speicher-, Kühl- und Nachweistechniken für zukünftige Experimente ist ein wichtiger Forschungsschwerpunkt."
+            },
+            "image": "./images/1gguim2H1nUv8_jEajAM7rkfrJGDvn01p.jpg",
+            "link": "https://www.mpi-hd.mpg.de/mpi/de/forschung/abteilungen-und-gruppen/gespeicherte-und-gekuehlte-ionen"
+        },
+        "Stachel/ALICE": {
+            "name": "Stachel/ALICE",
+            "field": "NUC",
+            "profs": "Prof. Johanna Stachel",
+            "text": {
+                "de": "Die internationale ALICE Arbeitsgruppe am Physikalischen Institut Heidelberg untersucht Kernmaterie bei extremen Temperaturen und Dichten. Dazu werden Schwerionen oder Protonen bei nahezu Lichtgeschwindigkeit am Large Hadron Collider des CERN zur Kollision gebracht. In diesen Kollisionen wird das sogenannte Quark-Gluon-Plasma produziert. Unsere Gruppe ist an mehreren der Hauptdetektorsysteme des ALICE Experiments beteiligt. Modernste Datenanalysemethoden, wie z.B. machine learning, werden eingesetzt, um die produzierten Teilchen zu studieren. Aus diesen Untersuchungen wollen wir auf die Eigenschaften des Quark-Gluon-Plasmas schließen. Du kannst bei uns eine Bachelor- oder Masterarbeit in den Bereichen Datenanalyse, Phänomenologie (im Rahmen des SFB ISOQUANT) oder Detektorphysik schreiben. Wir freuen uns darauf Dich kennenzulernen!"
+            },
+            "image": "./images/1ro5nZx-s0_VMVXuOh-Cr9GRWv5Es3Yzy.jpg",
+            "link": "https://www.physi.uni-heidelberg.de/~fschney/stachel.html"
+        },
+        "Detektorentwicklung": {
+            "name": "Detektorentwicklung",
+            "field": "PP",
+            "profs": "Prof. Hans-Christian Schultz-Coulon",
+            "text": {
+                "de": "In unserer Arbeitsgruppe beschäftigen wir uns mit der Entwicklung von Detektoren für die Hochenergiephysik, die mithilfe von sogenannten Silizium-Photomultipliern ausgelesen werden. Für diese entwickeln wir Detektorkonzepte (z.B. Kalorimeter oder Detektoren zur Zeitmessung für FCC ; Mu3e), und bauen Detektorsysteme auf. Wir designen Ausleseelektronik in Form von speziell auf die Experimente zugeschnittener Mikrochips (ASICs), die nötige Soft- und Firmware zum Betrieb der Detektoren und die Verarbeitung der Messdaten und entwickeln auch eigene Silizium Photomultiplier.\nHauptprojekt ist der Kacheldetektor des Mu3e-Experiments, der sich aktuell im Bau befindet. Alle Komponenten des Detektors – von den Szintillierenden Kacheln über die Auslesechips bis zum kompletten Detektor - werden in unserer Arbeitsgruppe entworfen und gebaut, entsprechend vielfältig ist die Arbeit, die wir euch im Rahmen von Bachelor- und Masterarbeiten anbieten können.\nIhr seid in ein internationales Team eingebunden und arbeitet an Aufgaben wie der Simulation und Optimierung der Detektoren, Datenanalyse und Entwicklung von Kalibrationsalgorithmen, Charakterisierung von Sensoren und Elektronik, sowie Software- und Hardwareentwicklung.\n"
+            },
+            "image": null,
+            "link": "https://www.kip.uni-heidelberg.de/hep-detektoren"
+        },
+        " Nichtthermische Astrophysik": {
+            "name": " Nichtthermische Astrophysik",
+            "field": "AST",
+            "profs": "Prof. Dr. Jim Hinton",
+            "text": {
+                "de": "Unsere Forschung in der Hochenergie-Astrophysik basiert hauptsächlich auf bodengebundener Gammastrahlenastronomie, bei der Tscherenkow-Teleskope und dichte Teilchendetektorfelder genutzt werden, um Gammastrahlung zu messen, die von hochenergetischen Teilchen in unserer Galaxie und darüber hinaus ausgestrahlt werden. Die Abteilung hat wesentliche Teile zum Bau der H.E.S.S.-Tscherenkow-Teleskope und zur Hochenergie-Erweiterung der HAWC-Detektoren beigetragen und spielt eine bedeutende Rolle bei der Planung und Realisierung des Cherenkov Telescope Array (CTA) der nächsten Generation. Die Gruppe ist zudem intensiv in die Forschung und Entwicklung des Southern Wide-field-of-view Gamma-ray Observatory (SWGO) involviert."
+            },
+            "image": "./images/1jEy3epzUitw3BOX4df-dQYYBn-4CRO7c.jpg",
+            "link": "https://www.mpi-hd.mpg.de/mpi/de/forschung/abteilungen-und-gruppen/nichtthermische-astrophysik"
+        },
+        "JuHeart": {
+            "name": "JuHeart",
+            "field": "AST",
+            "profs": "Dr. Joerg-Uwe Pott",
+            "text": {
+                "de": "Instrumentation and black hole research"
+            },
+            "image": null,
+            "link": ""
+        },
+        "Computational Patient Models (@MedPhysDKFZ))": {
+            "name": "Computational Patient Models (@MedPhysDKFZ))",
+            "field": "MED",
+            "profs": "Dr. Kristina Giske",
+            "text": {
+                "de": "Wir sind Physiker, Medizin-Informatiker, Datenwissenschaftler, Mathematiker und Radioonkologen, die gemeinsam zum Wohle der Patienten arbeiten.\nUnsere Forschung widmet sich der in-silico Simulation der Strahlentherapie bei Krebspatienten, die kurativ bestrahlt werden.\n#Krebsforschung #Medizinische Physik # InformatikoPhysiker #InterDisziplinär\n\nDie erste Herausforderung für eine technisch präzise Strahlentherapie besteht darin, die Dosisabgabe an anatomische Deformationen des Patienten anzupassen, die durch Bewegung und physiologische Veränderungen verursacht werden .\nDie zweite Herausforderung liegt in der Erkennung subtiler Veränderungen in Längsschnittbildgebungen, die es ermöglichen, Modelle zur Vorhersage des Behandlungsergebnisses zu testen.\n#MedicalComputationalPhysics #ImageAnalysis #MachineLearning #BioMechanicalModeling\n\nUnsere Vision ist die Schaffung eines virtuellen Patientenmodells, das als Stellvertreter für die Behandlungssimulation dient, indem es die physikalische Dosis akkumuliert und die therapeutische Wirkung der geplanten Behandlung vorhersagt.\nDies ermöglicht behandelnden Ärzten, die Therapie vor der Bestrahlung und während des Behandlungsverlaufs an die spezifischen Bedürfnisse des Patienten anzupassen.\n#DigitalPatientTwin #SoftwareEngineering #CloudTechnology\n\nDie Entwicklung von in-silico Modellen, Fortschritte in der Bildgebung und Computertechnologie sowie unsere Leidenschaft für ungewöhnliche Lösungen sind unsere Werkzeuge im Kampf gegen Krebs."
+            },
+            "image": "./images/1mjMH4mnXRrfZz2Ary0fvGlDHxvP8CucR.jpg",
+            "link": "https://www.dkfz.de/en/medphys/computational-patient-models/mainpage.html"
+        },
+        "Quantum Fluids/Far-from-equilibrium Quantum Dynamics": {
+            "name": "Quantum Fluids/Far-from-equilibrium Quantum Dynamics",
+            "field": "AMO",
+            "profs": "Chomaz/Gasenzer",
+            "text": {
+                "de": "Our group theoretically explores the behaviour of quantum gases and fluids, with particular focus on dynamics and exotic phases formed using highly-magnetic ultracold atoms."
+            },
+            "image": null,
+            "link": ""
+        },
+        "AstroAI lab": {
+            "name": "AstroAI lab",
+            "field": "AST",
+            "profs": "Tobias Buck",
+            "text": {
+                "de": "AstroAI-Lab is a research group led by Dr. Tobias Buck that combines computational astrophysics and machine learning to study the formation and evolution of galaxies. AstroAI-Lab is jointly located at the interdisciplinary center for scientific computing (IWR) and the institute for theoretical astrophysics of the university Heidelberg (ITA). Our research is funded by the Carl-Zeiss-foundation within their Nexus program."
+            },
+            "image": "./images/1RCLKpgualBZsQcb49KUKXY7D5DzNKTaR.jpg",
+            "link": "https://astroai-lab.de"
+        },
+        "AG Dahint": {
+            "name": "AG Dahint",
+            "field": "BIO",
+            "profs": "Prof. (apl.) Dr. Reiner Dahint",
+            "text": {
+                "de": "\nSupported Lipid Layers – Lubrication in Natural Joints\n\nIn the last decade, the search for biocompatible materials has become a major topic in medical research. In addition to biocompatibility aspects, the development of movable and mechanically stressed implants, such as artificial joints, requires optimization of lubrication under shearing forces and pressure. As in state-of-the-art artificial joints the movable parts directly touch each other, resulting in high friction and potential damage of the contacting parts, researchers nowadays try to copy the principles of lubrication observed in natural joints. Here, the two opposing components are coated by cartilage and surface-active lipids, and separated by a liquid film, the so-called the synovial fluid. All three compounds are expected to play an important role in the reduction of friction.\n\nUsing model systems consisting of a solid support, coated with a lipid layer and exposed to hyaluronic acid solutions - the main component of the joint fluid, we work on an improved molecular understanding of the effects of pressure and shear on such soft solid/liquid interfaces. In particular, neutron reflectometry and surface sensitive infrared spectroscopy (ATR-IR) are employed to reveal associated structural changes, investigate film stability and detachment under external stimuli, and work out structure/function relationships.\n"
+            },
+            "image": null,
+            "link": "https://www.pci.uni-heidelberg.de/apc/dahint/index.html"
+        },
+        "Department of Optical Nanoscopy": {
+            "name": "Department of Optical Nanoscopy",
+            "field": "BIO",
+            "profs": "Prof. Stefan W. Hell",
+            "text": {
+                "de": "The department is developing light microscopes with a spatial resolution down to a few nanometers, particularly, but not exclusively, for imaging living cells and tissues. To surpass the diffraction barrier, all these methods utilize a reversible transition or switch of fluorescent labels between a bright and a dark state. Since these super-resolution concepts fundamentally rely on transitions between molecular states, novel labels are required that can be optically prepared in at least two different states. Consequently, the group also pioneers the chemical synthesis and application of new labeling methods and techniques to improve the performance of the labels’ switching behavior to separate close-by molecules.\n\nCurrent efforts of this interdisciplinary group of physicists, chemists and biologists aim to improve resolution, contrast, speed and versatility of optical nanoscopy. The outstanding biomedical research environment in Heidelberg and beyond allows for excellent collaborations.\n\nMINFLUX, a recent breakthrough concept, has closed the gap to molecular (~1 nm) resolution. A major thrust of work in the department is now to explore this new frontier of ultimate resolution and unlock the potential for scientific discovery."
+            },
+            "image": "./images/12_xUM6Y0V59HyPvd2BnkO0GhDMq-ANEm.jpg",
+            "link": "https://nanobiophotonics.mpibpc.mpg.de/"
+        },
+        "HAWAII Lab": {
+            "name": "HAWAII Lab",
+            "field": "TI",
+            "profs": "Holger Fröning",
+            "text": {
+                "de": "The Hardware and Artificial Intelligence (HAWAII) Lab (previously: Computing Systems Lab) at the Institute of Computer Engineering at Ruprecht-Karls University of Heidelberg is focusing on vertically integrated research (thus considering the complete computing system) that bridges demanding applications such as machine learning (ML), artificial intelligence (AI), high-performance computing (HPC) and data analytics (HPDA) with various forms of specialized computer hardware."
+            },
+            "image": "./images/1qEW4b2mCe7gvRoL9ey57xjexY_L3_1DN.jpg",
+            "link": "https://hawaii.ziti.uni-heidelberg.de/"
+        },
+        "Ultracold": {
+            "name": "Ultracold",
+            "field": "AMO",
+            "profs": "Selim Jochim",
+            "text": {
+                "de": "We are interested in understanding the quantum physics of many particles, similar to that of atoms ore nuclei. We are exploring this type of physics with a highly tunable system of ultracold atoms. Think of being able to adjust the Coulomb force and the number of electrons at will, and seeing each and every electron."
+            },
+            "image": "./images/1yRDbkcJ7J0SW1LyFLs2weXvorcCjHYcO.jpg",
+            "link": "ultracold.physi.uni-heidelberg.de"
+        },
+        "ATLAS, Mu3e & HV-MAPS Schöning": {
+            "name": "ATLAS, Mu3e & HV-MAPS Schöning",
+            "field": "PP",
+            "profs": "Prof. Dr. André Schöning",
+            "text": {
+                "de": "Wir arbeiten an 2 Experimenten in der Teilchenphysik – ATLAS und Mu3e.\n\nFür das ATLAS Experiment arbeiten wir an einem Upgrade des Trigger- und Datenerfassungssystems (TDAQ) am High-Luminosity Large Hadron Collider (HL-LHC). Dazu untersuchen wir Implementierung neuartiger Spurrekonstruktionsalgorithmen und moderner Spurfindungsmethoden mit Hardware-Beschleunigern (GPUs, FPGAs) für den Eventfilter des TDAQ-Systems.\nWir arbeiten an der Spurensuche mit Graph Neural Networks(GNN) auf FPGAs und neuartigen Algorithmen zur Spurrekonstruktion und deren Beschleunigung auf GPUs (und FPGAs).\n\nFür Mu3e bauen wir einen ultra-dünnen Pixeldetektor aus hochspannungsbetriebenen monolithischen aktiven Pixelsensoren (HV-MAPS). Wir sind an der Entwicklung dieser Sensoren beteiligt und charakterisieren diese in unserem Labor sowie auf Teststrahlkampagnen. Außerdem fügen wir die Sensoren zu Detektormodulen zusammen und kümmern uns um deren Integration in das Experiment.\nAktuell läuft die erste Inbetriebnahme des Inneren Pixel Detektors. Die Erforschung neuer Technologien und Sensor-Prototypen für die zweite Phase des Experiments hat begonnen."
+            },
+            "image": "./images/1ItQteWgRGq3z1taw-v63HGZ70pWurrgd.jpg",
+            "link": "https://www.physi.uni-heidelberg.de/~schoning/HE/HE.php"
+        },
+        "Low temperature detectors for Astroparticle Physics": {
+            "name": "Low temperature detectors for Astroparticle Physics",
+            "field": "PP",
+            "profs": "Loredana Gastaldo",
+            "text": {
+                "de": "The focus of the research group \"Low temperature detectors for Astroparticle Physics\" is the optimization of detectors operated at very low temperatures, in the mK range, to be used in key experiments in the field of astroparticle Physics. In particulars, metallic magnetic calorimeters are developed for experiments such as ECHo, for the determination of the neutrino mass scale, AMoRE for the search of neutrinoless double beta decay in Mo-100 amd IAXO for demonstrating the existence of axion-like particles. In addition, we recently started an experiment for the search of Physics beyond the Standard Model by high precision spectroscopy of muonic atoms. Topics for Bachelor and Master thesis are available both related to hardware and data analysis. Depending on the particular topic, students will have to face challenges related to Particle Physics issues and/or also challenges related to the intrinsic detector properties, which required sometimes also a good basis of Solid State Physics. "
+            },
+            "image": "./images/1O92wtMfnbvBBWuSZVZkBmShNazsLoIqk.jpg",
+            "link": ""
+        },
+        "Radiotherapy Optimization @ DKFZ": {
+            "name": "Radiotherapy Optimization @ DKFZ",
+            "field": "MED",
+            "profs": "Dr. Niklas Wahl",
+            "text": {
+                "de": "Radiotherapy Treatment Planning relies on numerical dose calculation and optimization techniques. The available strategies and algorithms limit the potential treatment outcome. Our group researches new approaches going beyond the conventional dose paradigm, application of novel optimization methods, and integration of AI into the treatment planning workflow."
+            },
+            "image": "./images/1zpnqBKYU_CMFxEz2gdgZc9-6DTpv7BO4.jpg",
+            "link": "https://www.dkfz.de/radopt"
+        }
+    }
+}

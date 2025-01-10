@@ -25,9 +25,8 @@
             if (obj.field == fieldID) {
                 // image
                 var img = "";
-                if (obj.hasOwnProperty("image")){
-                    img = "<a href='https://aim.mathphys.info/" + obj.image + "' data-fancybox><img class='group-img' src='https://aim.mathphys.info/" + obj.image + "' /></a>";
-                }
+                if (obj.hasOwnProperty("image") && obj.image){
+                    img = "<a href='" + obj.image + "' data-fancybox><img class='group-img' src='" + obj.image + "' /></a>";                }
                 var vid = "";
                 if (obj.hasOwnProperty("video")){
                     vid = "<video class='group-video' controls><source src='" + obj.video + "' type='video/mp4'><a href='" + obj.video_url + "'>Video ansehen</a></video> ";
@@ -45,14 +44,14 @@
                     text = text[DEFAULT_LANG]; // set to default language
                 }
                 // url to group website
-                var link = obj.profs;
+                var link = obj.name;
                 if (obj.hasOwnProperty("link")){
-                    link = "<a href='" + obj.link + "' target='_" + key + "'>" + obj.profs + "</a>";
+                    link = "<a href='" + obj.link + "' target='_" + key + "'>" + obj.name + "</a>";
                 }
                 items.push( "<div class='group-item' id='" + key + "'>"
-                + "<div class='group-title'><h3>" + obj.name + "</h3></div>"
+                + "<div class='group-title'><h3>" + link + "</h3></div>"
                 + "<div class='columns is-desktop'>"
-                + "<div class='column is-two-thirds-desktop text'><div class='group-name'>" + link + "</div><p>" + text + "</p></div>"
+                + "<div class='column is-two-thirds-desktop text'><div class='group-name'>" + obj.profs+ "</div><p>" + text + "</p></div>"
                 + "<div class='column img-container'>" + img + vid + "</div>"
                 + "</div></div>" );
             }
@@ -107,14 +106,15 @@
 
     $( document ).ready(function() {
         var ilen;
-        $.getJSON( "groups2021.json", function( datag ) {
+        $.getJSON( "groups2025.json", function( datag ) {
+            console.log(datag);
             $.getJSON( "fields.json", function( data ) {
                 setIcons(data);
                 setIconLabels(data, DEFAULT_LANG);
                 setLanguage(DEFAULT_LANG);
                 $.each( data.fields, function( key, obj ) {
                     fieldHeader(data,key,DEFAULT_LANG);
-                    ilen = getGroupsFromField(datag,key,DEFAULT_LANG);
+                    ilen = getGroupsFromField(datag,key,DEFAULT_LANG)
                     if (ilen==0) {
                         var nogr = noGroupsMessage(DEFAULT_LANG);
                         $( "#groups" ).append('<div class="group-item"><p><i>' + nogr + '</i></p></div>')
@@ -140,7 +140,7 @@
         $.getJSON( "fields.json", function( data ) {
             setIconLabels(data, lang);
             $( '#groups' ).html('');
-            $.getJSON( "groups2021.json", function( datag ) {
+            $.getJSON( "groups2025.json", function( datag ) {
                 $.each( data.fields, function( key, obj ) {
                     fieldHeader(data,key,lang);
                     ilen = getGroupsFromField(datag,key,lang);
@@ -174,8 +174,8 @@
         <a class="navbar-item is-secondary" href="index.html">
             Übersicht
         </a>
-        <a class="navbar-item is-secondary" href="zeitplan.html">
-            Zeitplan
+        <a class="navbar-item is-secondary" href="raumplan.html">
+            Raumplan
         </a>
         </div>
     
@@ -213,15 +213,15 @@
 <!-- Header -->
 <div id="header">
     <div id="aim-title-de" class="aim-title">
-        <h1>Herzlich Willkommen bei der fAIM!</h1>
-        <h3>fern-Arbeitsgruppen&shy;Inspitations&shy;Messe</h3>
+        <h1>Herzlich Willkommen bei der AIM!</h1>
+        <h3>Arbeitsgruppen&shy;Inspitations&shy;Messe</h3>
     </div>
     <div id="aim-title-en" class="aim-title">
-        <h1>Welcome to fAIM!</h1>
-        <h3>Online Working Group Fair</h3>
+        <h1>Welcome to AIM!</h1>
+        <h3>Working Group Inspiration Fair</h3>
     </div>
     <div id="aim-welcome-de">
-        <p>Wir, die <a href="https://mathphys.info">Fachschaft MathPhysInfo</a>, möchten euch herzlich auf der Website der fern-Arbeitsgruppen&shy;Inspitations&shy;Messe (fAIM) begrüßen.</p>
+        <p>Wir, die <a href="https://mathphys.info">Fachschaft MathPhysInfo</a>, möchten euch herzlich auf der Website der Arbeitsgruppen&shy;Inspirations&shy;Messe (AIM) begrüßen.</p>
         <div class="faq-divs">
             <div class="field is-horizontal field-cont">
                 <div class="field-label is-normal">
@@ -229,7 +229,7 @@
                 </div>
                 <div class="field-body">
                     <div class="field">
-                        <p>Donnerstag, 28. Januar 2021, ab 14:00 Uhr</p>
+                        <p>Mittwoch, 15. Januar 2025, ab 15:00 Uhr</p>
                     </div>
                 </div>
             </div>
@@ -239,7 +239,7 @@
                 </div>
                 <div class="field-body">
                     <div class="field">
-                        <p>Online auf <strong>Discord</strong></p>
+                        <p>Im Hörsaalfoyer des Kirchoff-Instituts für Physik und dem geteilten Nordfoyer des Kirchoff-Instituts und Physikalischen Instituts.</p>
                     </div>
                 </div>
             </div>
@@ -249,26 +249,18 @@
                 </div>
                 <div class="field-body">
                     <div class="field">
-                        <p>Für <b>alle</b> Studierenden der Fächer Physik und Technische Informatik,<br />egal ob im 1. Semester oder kurz vor der Masterarbeit!</p>
-                    </div>
-                </div>
-            </div>
-            <div class="field is-horizontal field-cont">
-                <div class="field-label is-normal">
-                    <label class="label">Anmeldung?</label>
-                </div>
-                <div class="field-body">
-                    <div class="field">
-                        <p>Für Studierende nicht notwendig!</p>
+                        <p>Für <b>alle</b> Studierenden der Fächer Physik,<br />egal ob im 1. Semester oder kurz vor der Masterarbeit!</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="has-text-centered"><p><a href="zeitplan.html">&rarr; zum Zeitplan &larr;</a></p></div>
         <p>Hier findet ihr einen Überblick über die Arbeitsgruppen, die sich für die Messe angemeldet haben:</p>
+        <div id="group-count-container">
+            <p id="group-count"></p> <!-- This will display the count of participating groups -->
+        </div>
     </div>
     <div id="aim-welcome-en">
-        <p>We, the student representatives (<a href="https://mathphys.info">Fachschaft MathPhysInfo</a>) would like to welcome you on the website of this year's working group fair, which will take place online.</p>
+        <p>We, the physics student council (<a href="https://mathphys.info">Fachschaft MathPhysInfo</a>) would like to welcome you on the website of this year's working group inspiration fair.</p>
         <div class="faq-divs">
             <div class="field is-horizontal field-cont">
                 <div class="field-label is-normal">
@@ -276,7 +268,7 @@
                 </div>
                 <div class="field-body">
                     <div class="field">
-                        <p>Thursday, January 28, 2021, starting at 2&nbsp;p.m.</p>
+                        <p>Wednsday, January 15, 2025, starting at 3&nbsp;p.m.</p>
                     </div>
                 </div>
             </div>
@@ -286,7 +278,7 @@
                 </div>
                 <div class="field-body">
                     <div class="field">
-                        <p>Online via <strong>Discord</strong></p>
+                        <p>In the lecture hall foyer of the Kirchhoff-Institute for Physics and the shared north foyer of the Kirchhoff-Institute and the Physical Institute</p>
                     </div>
                 </div>
             </div>
@@ -296,23 +288,13 @@
                 </div>
                 <div class="field-body">
                     <div class="field">
-                        <p>All students from Physics and Computer Engineering are welcome!</p>
+                        <p>All physics students are welcome!</p>
                     </div>
                 </div>
             </div>
-            <div class="field is-horizontal field-cont">
-                <div class="field-label is-normal">
-                    <label class="label">Registration?</label>
-                </div>
-                <div class="field-body">
-                    <div class="field">
-                        <p>Not necessary! (for students)</p>
-                    </div>
-                </div>
-            </div>
+            
         </div>
-        <div class="has-text-centered"><p><a href="zeitplan.html">&rarr; Schedule &larr;</a></p></div>
-        <p>Below, you can find an overview of all working groups which have announced their participation so far.</p>
+        <p>Below, you can find an overview of all working groups which have announced their participation so far:</p>
     </div>
 </div>
 <!-- Overview of reasearch fields -->
@@ -323,7 +305,7 @@
 <div id="groups">
 </div> 
 <div class="is-full" id="textfoot">
-    <p>&copy; Fachschaft MathPhysInfo 2021 &middot; <a href="impressum.html">Impressum</a> &middot; <a href="kontakt.html">Kontakt</a></p>
+    <p>&copy; Fachschaft MathPhysInfo 2025 &middot; <a href="impressum.html">Impressum</a> &middot; <a href="kontakt.html">Kontakt</a></p>
 </div>
 </div>
 </body>
