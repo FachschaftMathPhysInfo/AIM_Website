@@ -120,7 +120,7 @@
             "text": {
                 "de": "Our group has broad interests in the interaction of acoustic, optical, electric, and magnetic fields with matter at small length scales. We work on new 3-D fabrication methods, self-assembly, actuation, and propulsion. We have observed a number of fundamental effects and are developing new experimental techniques and instruments."
             },
-            "image": null,
+            "image": "./images/1m1ZhXEbBQG4fdZqDZHzVfDDI1RoKdiIu.jpg",
             "link": "https://www.imseam.uni-heidelberg.de/en/fischer"
         },
         "Computational Galaxy Formation and Evolution": {
@@ -420,7 +420,7 @@
             "text": {
                 "de": "In unserer Arbeitsgruppe beschäftigen wir uns mit der Entwicklung von Detektoren für die Hochenergiephysik, die mithilfe von sogenannten Silizium-Photomultipliern ausgelesen werden. Für diese entwickeln wir Detektorkonzepte (z.B. Kalorimeter oder Detektoren zur Zeitmessung für FCC ; Mu3e), und bauen Detektorsysteme auf. Wir designen Ausleseelektronik in Form von speziell auf die Experimente zugeschnittener Mikrochips (ASICs), die nötige Soft- und Firmware zum Betrieb der Detektoren und die Verarbeitung der Messdaten und entwickeln auch eigene Silizium Photomultiplier.\nHauptprojekt ist der Kacheldetektor des Mu3e-Experiments, der sich aktuell im Bau befindet. Alle Komponenten des Detektors – von den Szintillierenden Kacheln über die Auslesechips bis zum kompletten Detektor - werden in unserer Arbeitsgruppe entworfen und gebaut, entsprechend vielfältig ist die Arbeit, die wir euch im Rahmen von Bachelor- und Masterarbeiten anbieten können.\nIhr seid in ein internationales Team eingebunden und arbeitet an Aufgaben wie der Simulation und Optimierung der Detektoren, Datenanalyse und Entwicklung von Kalibrationsalgorithmen, Charakterisierung von Sensoren und Elektronik, sowie Software- und Hardwareentwicklung.\n"
             },
-            "image": null,
+            "image": "./images/16pGAtMlW2GUPgfk7Efj5oi2aW9kft9ge.jpg",
             "link": "https://www.kip.uni-heidelberg.de/hep-detektoren"
         },
         " Nichtthermische Astrophysik": {
@@ -542,6 +542,46 @@
             },
             "image": "./images/1zpnqBKYU_CMFxEz2gdgZc9-6DTpv7BO4.jpg",
             "link": "https://www.dkfz.de/radopt"
+        },
+        "Medizinische Physik in der Radiologie, DKFZ": {
+            "name": "Medizinische Physik in der Radiologie, DKFZ",
+            "field": "MED",
+            "profs": "Prof. Dr. Mark E. Ladd",
+            "text": {
+                "de": "Fortschrittliche radiologische Bildgebung nimmt eine zentrale Rolle ein bei der Versorgung von Krebspatienten im Rahmen der Früherkennung, der Bestimmung des Krankheitsstadiums sowie der Therapieplanung und –überwachung. In den letzten Jahren hat die Magnetresonanz-Tomographie (MRT) in diesem Zusammenhang zunehmend an Bedeutung gewonnen. Daher ist die Entwicklung neuer MRT-Methoden der Hauptfokus der Abteilung Medizinische Physik in der Radiologie am Deutschen Krebsforschungszentrum (DKFZ). Die umfasst Hardwareentwicklung für Ganzkörper-7T-MR-Bildgebung, X-Kern-Bildgebung, die Erforschung molekularer Eigenschaften von Gewebe mittels Spektroskopie und der Messung chemischen Austauschs von Protonen zwischen Molekülen (CEST), der Bestimmung von magnetischen Eigenschaften von Gewebe mittels quantitativer Suszeptibilitätsbildgebung, der Untersuchung von Zellmembranen in vivo mittels diffusionsgewichteter Bildgebung sowie der Erzeugung hyperpolarisierter MR-Kontrastmittel. Weitere Themen sind die optische Bildgebung, die MR-geführte Strahlentherapie und die Kombination von Positronen-Emissions-Tomographie und MRT."
+            },
+            "image": "./images/1e9Tl75c2ksbnXRMK5axRZsZJaxPmt-rT.jpg",
+            "link": "https://www.dkfz.de/de/medphysrad/"
+        },
+        "Novel Detection Techniques for Ion Beams, DKFZ ": {
+            "name": "Novel Detection Techniques for Ion Beams, DKFZ ",
+            "field": "MED",
+            "profs": "Maria Martisikova",
+            "text": {
+                "de": "Our research is located on the border of medical physics and particle physics. We focus on ion beam radiotherapy and work closely with the Heidelberg Ion Beam Therapy Center (HIT). This highly precise radiotherapy is very sensitive to variations which can occur in the patient during the therapy - like tumor shrinkage, swelling or movement. We develop new methods to detect such variations within a millimeter, using single particle tracking and identification. For that we exploit unique pixelated particle detectors from the Timepix detector family. These detectors were originally developed for the LHC experiments at CERN, which is also one of our cooperation partners."
+            },
+            "image": "./images/1GufJz4n9J8olczV9mQcjp8zX_BVBYRrE.jpg",
+            "link": "https://www.dkfz.de/en/medphys/novel_detectors_ionbeams/E0406.html"
+        },
+        "Synthetic Quantum Systems ": {
+            "name": "Synthetic Quantum Systems ",
+            "field": "AMO",
+            "profs": "Prof. Dr. Markus Oberthaler ",
+            "text": {
+                "de": "Within the Synthetic Quantum Systems group, we are developing experimental and theoretical methods for quantum many-body systems in and out of equilibrium. We focus, in particular, on ultracold atomic quantum gases, universal dynamics, long-time evolution and thermalisation, quantum field simulation as well as strong correlations and entanglement We also employ our experimental expertise to advance environmental physics with quantum-limited trace analysis and remote sensing with dual-frequency comb spectroscopy."
+            },
+            "image": "./images/1LyPqI50WYktesdhg4m9XSEgq8odFoaR0.jpg",
+            "link": "synqs.de "
+        },
+        "Complex adaptive traits (CATs)": {
+            "name": "Complex adaptive traits (CATs)",
+            "field": "BIO",
+            "profs": "Bischofs",
+            "text": {
+                "de": "Our work focuses on the fascinating biology and biophysics of dormant and very resistant endospores, which serve in a wide range of spore-based applications ranging from green agriculture, health & material science to astro-biotechnology. To address fundamental questions in the field, we combine microscopy, image analysis and theoretical modeling approaches (in addition to a range of biological methods)."
+            },
+            "image": null,
+            "link": "https://www.bioquant.uni-heidelberg.de/groups/bischofs"
         }
     }
 }
