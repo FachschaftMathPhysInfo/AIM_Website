@@ -553,6 +553,16 @@
             "image": "./images/1e9Tl75c2ksbnXRMK5axRZsZJaxPmt-rT.jpg",
             "link": "https://www.dkfz.de/de/medphysrad/"
         },
+        "Application Specific Computing": {
+            "name": "Application Specific Computing",
+            "field": "TI",
+            "profs": "Prof. Dr. Robert Strzodka",
+            "text": {
+                "de": "Our research focuses on significant improvements of performance and accuracy in physical simulations through a global optimization across the entire spectrum of numerical methods, algorithm design, software implementation and hardware acceleration. The potential is enormous, as typical scientific applications utilize only 0.1% of the peak performance of today's computers."
+            },
+            "image": "./images/1UEpRsSuE8V8hZrawweLm6Pprr_Tvk-C-.jpg",
+            "link": "https://asc.ziti.uni-heidelberg.de/"
+        },
         "Novel Detection Techniques for Ion Beams, DKFZ ": {
             "name": "Novel Detection Techniques for Ion Beams, DKFZ ",
             "field": "MED",
