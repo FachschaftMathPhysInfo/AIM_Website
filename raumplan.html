@@ -8,112 +8,39 @@
     <link rel="icon" type="image/png" href="favicon.png" />
     <link rel="stylesheet" href="bulma-0.9.1.min.css">
     <link rel="stylesheet" href="styles.css">
-    <script>
-    var DEFAULT_LANG = "de";
-    var PAGE_LANG = DEFAULT_LANG;
-
-    function fillSchedule(data,fieldID,fieldname,lang) {
-        var items = [];
-        items.push( "<tr><th colspan='6' class='schedule-head " + fieldID + "'>" + fieldname[lang] + "</th></tr>" );
-        $.each( data, function( key, obj ) {
-            if (obj.field == fieldID) {
-                var tname;
-                var tstatus;
-                var td = '';
-                for (var i=1; i<=5; i++) {
-                    tname = 'time' + i;
-                    tstatus = obj[tname];
-                    td = td + "<td class='schedule-" + tstatus + " " + obj.field +  "'>&nbsp;&nbsp;</td>";
-                }
-                items.push( "<tr><td class='schedule-name'><a href='index.html#" + obj.id + "'>" + obj.name + "</a></td>" + td + "</tr>");
-            }
-        });
-        $( '#schedule' ).append(items.join(""));
-    }
-
-
-    $( document ).ready(function() {
-        $.getJSON( "gruppen-zeitslots.json", function( dataz ) {
-            $.getJSON( "fields.json", function( data ) {
-                $.each( data.fields, function( key, obj ) {
-                    fillSchedule(dataz,key,obj.name,DEFAULT_LANG);
-                });
-            });
-        });
-        setTextLanguage(DEFAULT_LANG);
-    });
-
-    function setTextLanguage(lang) {
-        if (lang == "de") {
-            $( "#aim-welcome-en" ).css('display','none');
-            $( "#aim-title-en" ).css('display','none');
-            $( "#aim-welcome-de" ).css('display','block');
-            $( "#aim-title-de" ).css('display','block');            
-        } else if (lang == "en") {
-            $( "#aim-welcome-de" ).css('display','none');
-            $( "#aim-title-de" ).css('display','none');
-            $( "#aim-welcome-en" ).css('display','block');
-            $( "#aim-title-en" ).css('display','block');
-        }
-    }
-
-    function setLanguage(lang) {
-        setTextLanguage(lang);
-        if (lang == "de") {
-            $('.table-ag-label').text('Arbeitsgruppe');
-        } else if (lang == "en") {
-            $('.table-ag-label').text('Group name');
-        }
-        $.getJSON( "fields.json", function( data ) {
-            $.each( data.fields, function( key, obj ) {
-                $('.schedule-head.'+key).text(obj.name[lang]);
-            });
-        });
-    }
-    </script>
 </head>
 <body>
 <!-- Navigation bar -->
 <nav class="navbar has-shadow" role="navigation" aria-label="main navigation" id="navb">
     <div class="navbar-brand">
         <a class="navbar-item" href="https://aim.mathphys.info/">
-        <img src="weblogo.png">
+            <img src="weblogo.png" alt="Logo">
         </a>
-    
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="faim-navbar-menu">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
         </a>
     </div>
-    
     <div id="faim-navbar-menu" class="navbar-menu is-fixed">
         <div class="navbar-start">
-        <a class="navbar-item is-secondary" href="index.html">
-            Übersicht
-        </a>
-        <a class="navbar-item is-secondary" href="Raumplan.html">
-            Raumplan
-        </a>
+            <a class="navbar-item is-secondary" href="index.html">Übersicht</a>
+            <a class="navbar-item is-secondary" href="Raumplan.html">Raumplan</a>
         </div>
-    
         <div class="navbar-end">
-        <a class="navbar-item is-secondary" href="impressum.html">
-            Impressum
-        </a>
-        <a class="navbar-item is-secondary" href="kontakt.html">
-            Kontakt
-        </a>
-        <a class="navbar-item is-secondary" id="lang-de">
-            <img src="de.svg" width="18px" /> &nbsp; Deutsch
-        </a>
-        <a class="navbar-item is-secondary" id="lang-en">
-            <img src="en.svg" width="18px" /> &nbsp; English
-        </a>
+            <a class="navbar-item is-secondary" href="impressum.html">Impressum</a>
+            <a class="navbar-item is-secondary" href="kontakt.html">Kontakt</a>
+            <a class="navbar-item is-secondary" id="lang-de">
+                <img src="de.svg" width="18px" alt="Deutsch" /> &nbsp; Deutsch
+            </a>
+            <a class="navbar-item is-secondary" id="lang-en">
+                <img src="en.svg" width="18px" alt="English" /> &nbsp; English
+            </a>
         </div>
     </div>
 </nav>
 
+<!-- Script for Navbar -->
 <script>
     $('.navbar-burger').click(function() {
         $('#faim-navbar-menu, .navbar-burger').toggleClass('is-active');
@@ -127,24 +54,37 @@
     });
 </script>
 
+<!-- Content Section -->
 <div id="page-content">
-<!-- Header -->
-<div id="header">
-    <div id="aim-title-de" class="aim-title">
-        <h1>Raumplan</h1>
+    <div id="header">
+        <div id="aim-title-de" class="aim-title">
+            <h1>Raumplan</h1>
+        </div>
+        <div id="aim-title-en" class="aim-title">
+            <h1>Floor plan</h1>
+        </div>
     </div>
-    <div id="aim-title-en" class="aim-title">
-        <h1>Floor plan</h1>
+    
+    <!-- Embed PDF -->
+    <div style="text-align:center; margin: 20px 0;">
+        <iframe 
+            src="RaumplanPoster.pdf" 
+            width="100%" 
+            height="600px" 
+            style="border: none;"
+            title="Raumplan PDF"
+        ></iframe>
+    </div>
+
+    <!-- Download Link -->
+    <div style="text-align:center; margin: 20px 0;">
+        <a href="RaumplanPoster.pdf" class="button is-link" download>Download Raumplan (PDF)</a>
     </div>
 </div>
-<!-- Schedule table -->
-Coming soon!
-</a><div id="aim-welcome-de"></div>
-<div id="aim-welcome-en"></div>
-<div style="margin-top:2em;"></div>
+
+<!-- Footer -->
 <div class="is-full" id="textfoot">
     <p>&copy; Fachschaft MathPhysInfo 2025 &middot; <a href="impressum.html">Impressum</a> &middot; <a href="kontakt.html">Kontakt</a></p>
-</div>
 </div>
 </body>
 </html>
