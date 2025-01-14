@@ -250,7 +250,7 @@
             "text": {
                 "de": "Our research and teaching activities focus on the challenges of software development and maintenance, in particular efficient programming and software reliability. We apply methods from Artificial Intelligence and Machine Learning and combine them with classical software engineering techniques including static and dynamic code analysis, code transformations and code generation.\n\nOur research interests and currently active projects are described by the following topics: AI-Supported Programming, Knowledge Editing for LLMs, Code Generation and DSLs, and Software reliability. Check out our group's website for more information."
             },
-            "image": null,
+            "image": "./images/AIP.png",
             "link": "https://aip.ifi.uni-heidelberg.de/home"
         },
         "Machine learning & observational cosmology": {
